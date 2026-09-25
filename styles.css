@@ -125,3 +125,6 @@ main { flex: 1; padding: 0 16px 24px; }
 .dots i.on { background: var(--y); }
 .ups { list-style: none; padding: 0; margin: 6px 0 10px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
 .ups li { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+/* level dots: 4 grey slots, green when earned */
+.dots i { width: 11px; height: 11px; background: #cfd8dc; box-shadow: 0 0 0 2px #fff; }
+.dots i.on { background: var(--ok); }
