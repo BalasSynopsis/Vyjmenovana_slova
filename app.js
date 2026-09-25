@@ -60,9 +60,16 @@ async function loadIsland(letter) {
 
 /* ---------- progress + simple Leitner (boxes 1–4) ---------- */
 const DAY = 86400000;
-const INTERVAL = { 1: 0, 2: 1, 3: 3, 4: 7 };            // days until due again
+const INTERVAL = { 0: 0, 1: 0, 2: 1, 3: 3, 4: 7 };            // days until due again
 const today = () => { const d = new Date(Date.now()); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
-async function getProgress() { return (await Store.get('progress')) || { seen: {}, words: {} }; }
+async function getProgress() {
+  const p = (await Store.get('progress')) || { seen: {}, words: {}, v: 2 };
+  if (p.v !== 2) { // v1 started words at level 1: shift everything down one level
+    for (const k in p.words) p.words[k].box = Math.max(0, (p.words[k].box || 1) - 1);
+    p.v = 2; await Store.set('progress', p);
+  }
+  return p;
+}
 async function saveProgress(p) { await Store.set('progress', p); }
 
 // Leitner state is kept per WORD (items of a word rotate); contrast items per item.
@@ -71,15 +78,15 @@ const srsKey = item => item.word_id === '_contrast' ? item.id : item.word_id;
 function applyAnswer(p, item, correct) {
   // promote at most once per day, so a word can't jump 1→4 in one sitting
   const k = srsKey(item);
-  const s = p.words[k] || { box: 1, last: 0, days: [] };
+  const s = p.words[k] || { box: 0, last: 0, days: [] };
   if (correct) {
     if (isDue(s) && s.lastPromo !== today()) { s.box = Math.min(4, s.box + 1); s.lastPromo = today(); s.last = Date.now(); }
     if (!s.days.includes(today())) s.days.push(today());
-  } else { s.box = 1; s.days = []; s.last = Date.now(); s.lastPromo = null; }
+  } else { s.box = Math.max(0, s.box - 1); s.days = []; s.last = Date.now(); } // gentle: a mistake costs one dot
   p.words[k] = s;
   return s;
 }
-function isDue(s, now = Date.now()) { return !s || s.box === 1 || now - s.last >= INTERVAL[s.box] * DAY; }
+function isDue(s, now = Date.now()) { return !s || s.box <= 1 || now - s.last >= INTERVAL[s.box] * DAY; }
 function wordMastered(p, c, wordId) { const s = p.words[wordId]; return !!s && s.box === 4 && s.days.length >= 2; }
 
 /* ---------- assets ---------- */
@@ -251,7 +258,7 @@ async function runRound(L, c, list, mode, logIt) {
   if (mode === 'swipe') {
     const p = await getProgress();
     const allDone = c.words.every(w => wordMastered(p, c, w.id));
-    const ups = c.words.filter(w => { const a = (p.words[w.id] || {}).box || 0; return a > 1 && a > ((before[w.id] || {}).box || 0) && !newlyMastered.includes(w.id); })
+    const ups = c.words.filter(w => { const a = (p.words[w.id] || {}).box || 0; return a > ((before[w.id] || {}).box || 0) && !newlyMastered.includes(w.id); })
       .map(w => `<li>${esc(w.word)} ${levelDots(p, w.id)}</li>`).join('');
     const got = newlyMastered.map(id => `<li><img src="assets/img/${L}/collectible.webp" alt=""> ${esc(c.byId[id].word)}</li>`).join('');
     $app.innerHTML = `<div class="done"><h2>Hotovo!</h2><p class="big">${score} / ${list.length}</p>
