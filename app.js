@@ -124,7 +124,7 @@ async function viewIsland(L) {
   const spots = c.words.map((w, n) => {
     const seen = !!p.seen[w.id], done = wordMastered(p, c, w.id);
     return `<button class="spot ${done ? '' : 'fog'} ${seen ? 'seen' : ''}" data-go="#/card/${L}/${w.id}">
-      ${done ? `<img class="badge" src="assets/img/${L}/collectible.webp" alt="">` : ''}${imgTag(L, w.id, n)}<span class="w">${esc(w.word)}</span>${seen ? levelDots(p, w.id) : ''}</button>`;
+      ${done ? `<img class="badge" src="assets/img/${L}/collectible.webp" alt="">` : ''}${imgTag(L, w.id, n)}<span class="w">${esc(w.word)}</span>${levelDots(p, w.id)}</button>`;
   }).join('');
   const seenCount = c.words.filter(w => p.seen[w.id]).length;
   const doneCount = c.words.filter(w => wordMastered(p, c, w.id)).length;
