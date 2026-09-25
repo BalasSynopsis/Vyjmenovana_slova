@@ -120,3 +120,8 @@ main { flex: 1; padding: 0 16px 24px; }
 .game > .back { align-self: flex-start; }
 .qtext { word-spacing: normal; }
 .slot { min-width: .62em; padding: 0; margin: 0; border-bottom-width: 3px; }
+.dots { display: flex; gap: 4px; position: relative; z-index: 1; }
+.dots i { width: 9px; height: 9px; border-radius: 50%; background: rgba(0,0,0,.18); }
+.dots i.on { background: var(--y); }
+.ups { list-style: none; padding: 0; margin: 6px 0 10px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.ups li { display: flex; align-items: center; gap: 10px; font-weight: 700; }

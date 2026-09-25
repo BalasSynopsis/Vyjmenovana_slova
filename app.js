@@ -124,7 +124,7 @@ async function viewIsland(L) {
   const spots = c.words.map((w, n) => {
     const seen = !!p.seen[w.id], done = wordMastered(p, c, w.id);
     return `<button class="spot ${done ? '' : 'fog'} ${seen ? 'seen' : ''}" data-go="#/card/${L}/${w.id}">
-      ${done ? `<img class="badge" src="assets/img/${L}/collectible.webp" alt="">` : ''}${imgTag(L, w.id, n)}<span class="w">${esc(w.word)}</span></button>`;
+      ${done ? `<img class="badge" src="assets/img/${L}/collectible.webp" alt="">` : ''}${imgTag(L, w.id, n)}<span class="w">${esc(w.word)}</span>${seen ? levelDots(p, w.id) : ''}</button>`;
   }).join('');
   const seenCount = c.words.filter(w => p.seen[w.id]).length;
   const doneCount = c.words.filter(w => wordMastered(p, c, w.id)).length;
@@ -157,8 +157,14 @@ async function viewCard(L, id) {
       ${w.related && w.related.length ? `<p class="rel">Rodina: <b>${w.related.map(esc).join(', ')}</b></p>` : ''}
     </article>`;
   const btn = document.getElementById('play');
-  btn.onclick = () => play(`assets/audio/${L}/${id}.mp3`, btn);
-  play(`assets/audio/${L}/${id}.mp3`);
+  const src = `assets/audio/${L}/${id}-card.mp3`;
+  btn.onclick = () => play(src, btn);
+  play(src);
+}
+
+function levelDots(p, id) {
+  const box = (p.words[id] && p.words[id].box) || 0;
+  return `<span class="dots" aria-label="úroveň ${box} ze 4">${[1, 2, 3, 4].map(k => `<i class="${k <= box ? 'on' : ''}"></i>`).join('')}</span>`;
 }
 
 /* ---------- session builder ---------- */
@@ -226,6 +232,7 @@ function interstitial(title, sub, btn) {
 
 async function runRound(L, c, list, mode, logIt) {
   let score = 0; const newlyMastered = [];
+  const before = JSON.parse(JSON.stringify((await getProgress()).words));
   for (let n = 0; n < list.length; n++) {
     const item = list[n];
     const correct = await askItem(L, c, item, n, list.length);
@@ -244,9 +251,12 @@ async function runRound(L, c, list, mode, logIt) {
   if (mode === 'swipe') {
     const p = await getProgress();
     const allDone = c.words.every(w => wordMastered(p, c, w.id));
+    const ups = c.words.filter(w => { const a = (p.words[w.id] || {}).box || 0; return a > 1 && a > ((before[w.id] || {}).box || 0) && !newlyMastered.includes(w.id); })
+      .map(w => `<li>${esc(w.word)} ${levelDots(p, w.id)}</li>`).join('');
     const got = newlyMastered.map(id => `<li><img src="assets/img/${L}/collectible.webp" alt=""> ${esc(c.byId[id].word)}</li>`).join('');
     $app.innerHTML = `<div class="done"><h2>Hotovo!</h2><p class="big">${score} / ${list.length}</p>
-      ${got ? `<p>Nové fosilie:</p><ul class="got">${got}</ul>` : '<p>Fosilie získáš, když slovo umíš víc dní po sobě.</p>'}
+      ${ups ? `<p>Slova o úroveň výš:</p><ul class="ups">${ups}</ul>` : ''}
+      ${got ? `<p>Nové fosilie:</p><ul class="got">${got}</ul>` : '<p>Fosilii získáš, když má slovo 4 tečky a umíš ho víc dní po sobě.</p>'}
       ${allDone ? `<p><b>Ostrov je hotový! Strážce se připojil do sbírky.</b></p>` : ''}
       <div class="actions"><button class="btn" data-go="#/play/${L}">Ještě jednou</button><button class="btn ghost" data-go="#/island/${L}">Ostrov</button></div></div>`;
   }
