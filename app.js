@@ -3,6 +3,7 @@
    Content lives in content/<letter>.json; nothing here hard-codes a word. */
 'use strict';
 
+const APP_VERSION = '2026-09-25 v4';
 const ISLANDS = ['b', 'l', 'm', 'p', 's', 'v', 'z'];
 const ACTIVE = ['b'];               // v0.1: only B is playable
 const $app = document.getElementById('app');
@@ -380,7 +381,7 @@ async function viewParent() {
       <p>Nové příklady (první pokus): <b>${pct(firsts)}</b> · opakované: <b>${pct(repeats)}</b></p>
       <p>Se zvukem: <b>${pct(sw.filter(r => r.presented !== 'text'))}</b> · bez zvuku: <b>${pct(sw.filter(r => r.presented === 'text'))}</b></p>
       <div class="actions"><button class="btn" id="csv" ${log.length ? '' : 'disabled'}>Export CSV</button></div>
-      <p class="gloss">Data zůstávají jen v tomto telefonu.</p></div>`;
+      <p class="gloss">Data zůstávají jen v tomto telefonu. Verze ${APP_VERSION}</p></div>`;
   document.getElementById('csv').onclick = async () => {
     const name = `expedice-log-${today()}.csv`;
     const blob = new Blob([toCsv(log)], { type: 'text/csv;charset=utf-8' });
