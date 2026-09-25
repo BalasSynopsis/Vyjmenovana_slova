@@ -1,0 +1,852 @@
+{
+  "letter": "B",
+  "island": {
+    "name": "Bystrý ostrov",
+    "biome": "rolling hills with farms, wooden cabins and grassy meadows",
+    "guardian": "Bystrý raptor"
+  },
+  "words": [
+    {
+      "id": "b01",
+      "word": "být",
+      "meaning_cs": "Existovat, žít, nacházet se někde.",
+      "gloss_en": "to be, to exist",
+      "hook_cs": "Y zvedá obě ruce nahoru a volá: Já chci být!",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small happy blocky dinosaur simply sitting and smiling in a sunny meadow, relaxed, just being.",
+      "related": [
+        "bytost",
+        "zbytek",
+        "zbytečný",
+        "pobyt",
+        "přibývat"
+      ],
+      "trap": {
+        "word": "bít",
+        "meaning_cs": "tlouct, udeřit (třeba na buben)"
+      }
+    },
+    {
+      "id": "b02",
+      "word": "bydlit",
+      "meaning_cs": "Mít domov a žít na nějakém místě.",
+      "gloss_en": "to live, to reside",
+      "hook_cs": "Ypsilon je větev stromu – na ní bydlí ptáček.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly blocky dinosaur waving from the door of its cozy little wooden house.",
+      "related": [
+        "bydlení",
+        "bydliště",
+        "obydlí",
+        "spolubydlící"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b03",
+      "word": "obyvatel",
+      "meaning_cs": "Člověk, který bydlí na nějakém místě.",
+      "gloss_en": "inhabitant, resident",
+      "hook_cs": "Obyvatelé ostrova mávají rukama nahoru jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small voxel town with friendly dinosaur and shark inhabitants standing outside their houses.",
+      "related": [
+        "obyvatelstvo",
+        "obyvatelka",
+        "obydlí",
+        "obývat"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b04",
+      "word": "byt",
+      "meaning_cs": "Prostory v domě, kde rodina bydlí.",
+      "gloss_en": "apartment, flat",
+      "hook_cs": "Na střeše našeho bytu je anténa ve tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cozy blocky apartment room with a bed, small table and window.",
+      "related": [
+        "bytový",
+        "bytovka",
+        "byteček"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b05",
+      "word": "příbytek",
+      "meaning_cs": "Starší slovo pro dům nebo obydlí.",
+      "gloss_en": "dwelling, abode",
+      "hook_cs": "Příbytek je zvířecí byt – a byt se píše s Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cozy little voxel fox den dug under tree roots, with a small fox peeking out.",
+      "related": [
+        "příbytky"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b06",
+      "word": "nábytek",
+      "meaning_cs": "Věci v pokoji, jako stůl nebo židle.",
+      "gloss_en": "furniture",
+      "hook_cs": "Židle vzhůru nohama vypadá jako velké Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky room filled with wooden furniture like a table, chair and cupboard.",
+      "related": [
+        "nábytkový"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b07",
+      "word": "dobytek",
+      "meaning_cs": "Zvířata jako krávy, chovaná na farmě.",
+      "gloss_en": "cattle, livestock",
+      "hook_cs": "Dobytek bydlí ve chlévě – a bydlet se píše s Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small herd of blocky voxel cows grazing in a green field.",
+      "related": [
+        "dobytčí"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b08",
+      "word": "obyčej",
+      "meaning_cs": "Starý zvyk, který lidé dodržují.",
+      "gloss_en": "custom, tradition",
+      "hook_cs": "Obyčej se dělá pořád stejně – vždycky s Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small voxel town square with friendly figures celebrating an old folk tradition with lanterns.",
+      "related": [
+        "obyčejný",
+        "obyčejně",
+        "neobyčejný"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b09",
+      "word": "bystrý",
+      "meaning_cs": "Chytrý a rychlý v přemýšlení.",
+      "gloss_en": "clever, quick-witted",
+      "hook_cs": "Bystrý raptor má ocas rozdvojený jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A clever blocky shark solving a puzzle, with a small lightbulb glowing above its head.",
+      "related": [
+        "bystrost",
+        "bystřina",
+        "Bystřice"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b10",
+      "word": "bylina",
+      "meaning_cs": "Malá rostlina, dělá se z ní třeba čaj.",
+      "gloss_en": "herb",
+      "hook_cs": "Bylinka roste nahoru a rozvětví se do Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A bunch of fresh green blocky herbs with small flowers next to a steaming cup of herbal tea.",
+      "related": [
+        "bylinka",
+        "bylinkový"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b11",
+      "word": "kobyla",
+      "meaning_cs": "Dospělá samice koně.",
+      "gloss_en": "mare (female horse)",
+      "hook_cs": "Kobyla vykopne zadníma nohama – přesně do tvaru Y!",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel mare standing in a grassy meadow next to her small foal.",
+      "related": [
+        "kobylka",
+        "kobylí"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b12",
+      "word": "býk",
+      "meaning_cs": "Velké silné zvíře, samec krávy.",
+      "gloss_en": "bull",
+      "hook_cs": "Y je hlava býka se dvěma rohy.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A strong blocky voxel bull standing in a green pasture.",
+      "related": [
+        "býček",
+        "býčí"
+      ],
+      "trap": null
+    },
+    {
+      "id": "b13",
+      "word": "Přibyslav",
+      "meaning_cs": "Město na Vysočině.",
+      "gloss_en": "town in Vysočina",
+      "hook_cs": "Hasiči v Přibyslavi mají hadici, co se dělí do Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small friendly voxel town square with a church tower, a red fire engine and green hills behind.",
+      "related": [],
+      "trap": null
+    }
+  ],
+  "items": [
+    {
+      "id": "b01-s1",
+      "word_id": "b01",
+      "text": "b_tost",
+      "full": "bytost",
+      "answer": "y",
+      "audio": "b01-s1.mp3"
+    },
+    {
+      "id": "b01-s2",
+      "word_id": "b01",
+      "text": "zb_tek",
+      "full": "zbytek",
+      "answer": "y",
+      "audio": "b01-s2.mp3"
+    },
+    {
+      "id": "b01-s3",
+      "word_id": "b01",
+      "text": "Chci b_t doma.",
+      "full": "Chci být doma.",
+      "answer": "y",
+      "audio": "b01-s3.mp3"
+    },
+    {
+      "id": "b01-s4",
+      "word_id": "b01",
+      "text": "Pes chce b_t venku.",
+      "full": "Pes chce být venku.",
+      "answer": "y",
+      "audio": "b01-s4.mp3"
+    },
+    {
+      "id": "b01-s5",
+      "word_id": "b01",
+      "text": "Bubeník b_je na buben.",
+      "full": "Bubeník bije na buben.",
+      "answer": "i",
+      "audio": "b01-s5.mp3"
+    },
+    {
+      "id": "b01-s6",
+      "word_id": "b01",
+      "text": "Hodiny b_jí poledne.",
+      "full": "Hodiny bijí poledne.",
+      "answer": "i",
+      "audio": "b01-s6.mp3"
+    },
+    {
+      "id": "b01-s7",
+      "word_id": "b01",
+      "text": "Včera jsem b_l u babičky.",
+      "full": "Včera jsem byl u babičky.",
+      "answer": "y",
+      "audio": "b01-s7.mp3"
+    },
+    {
+      "id": "b01-s8",
+      "word_id": "b01",
+      "text": "Srdce mi rychle b_lo.",
+      "full": "Srdce mi rychle bilo.",
+      "answer": "i",
+      "audio": "b01-s8.mp3"
+    },
+    {
+      "id": "b01-s9",
+      "word_id": "b01",
+      "text": "Kovář b_je kladivem do železa.",
+      "full": "Kovář bije kladivem do železa.",
+      "answer": "i",
+      "audio": "b01-s9.mp3"
+    },
+    {
+      "id": "b01-s10",
+      "word_id": "b01",
+      "text": "Zvon b_l každou hodinu.",
+      "full": "Zvon bil každou hodinu.",
+      "answer": "i",
+      "audio": "b01-s10.mp3"
+    },
+    {
+      "id": "b01-s11",
+      "word_id": "b01",
+      "text": "Dinosaurus b_l ocasem o zem.",
+      "full": "Dinosaurus bil ocasem o zem.",
+      "answer": "i",
+      "audio": "b01-s11.mp3"
+    },
+    {
+      "id": "b01-s12",
+      "word_id": "b01",
+      "text": "Musím nab_t baterku.",
+      "full": "Musím nabít baterku.",
+      "answer": "i",
+      "audio": "b01-s12.mp3"
+    },
+    {
+      "id": "b01-s13",
+      "word_id": "b01",
+      "text": "Hodiny odb_ly půlnoc.",
+      "full": "Hodiny odbily půlnoc.",
+      "answer": "i",
+      "audio": "b01-s13.mp3"
+    },
+    {
+      "id": "b01-s14",
+      "word_id": "b01",
+      "text": "Zb_lo mi jedno jablko.",
+      "full": "Zbylo mi jedno jablko.",
+      "answer": "y",
+      "audio": "b01-s14.mp3"
+    },
+    {
+      "id": "b01-s15",
+      "word_id": "b01",
+      "text": "Rytíři dob_li hrad.",
+      "full": "Rytíři dobyli hrad.",
+      "answer": "y",
+      "audio": "b01-s15.mp3"
+    },
+    {
+      "id": "b02-s1",
+      "word_id": "b02",
+      "text": "b_dlení",
+      "full": "bydlení",
+      "answer": "y",
+      "audio": "b02-s1.mp3"
+    },
+    {
+      "id": "b02-s2",
+      "word_id": "b02",
+      "text": "b_dliště",
+      "full": "bydliště",
+      "answer": "y",
+      "audio": "b02-s2.mp3"
+    },
+    {
+      "id": "b02-s3",
+      "word_id": "b02",
+      "text": "Kde b_dlíš ty?",
+      "full": "Kde bydlíš ty?",
+      "answer": "y",
+      "audio": "b02-s3.mp3"
+    },
+    {
+      "id": "b02-s4",
+      "word_id": "b02",
+      "text": "Žralok b_dlí v moři.",
+      "full": "Žralok bydlí v moři.",
+      "answer": "y",
+      "audio": "b02-s4.mp3"
+    },
+    {
+      "id": "b02-s5",
+      "word_id": "b02",
+      "text": "Krtek b_dlí pod zemí.",
+      "full": "Krtek bydlí pod zemí.",
+      "answer": "y",
+      "audio": "b02-s5.mp3"
+    },
+    {
+      "id": "b03-s1",
+      "word_id": "b03",
+      "text": "ob_vatelstvo",
+      "full": "obyvatelstvo",
+      "answer": "y",
+      "audio": "b03-s1.mp3"
+    },
+    {
+      "id": "b03-s2",
+      "word_id": "b03",
+      "text": "ob_vatelka",
+      "full": "obyvatelka",
+      "answer": "y",
+      "audio": "b03-s2.mp3"
+    },
+    {
+      "id": "b03-s3",
+      "word_id": "b03",
+      "text": "Ostrov má mnoho ob_vatel.",
+      "full": "Ostrov má mnoho obyvatel.",
+      "answer": "y",
+      "audio": "b03-s3.mp3"
+    },
+    {
+      "id": "b03-s4",
+      "word_id": "b03",
+      "text": "Ob_vatelé rádi loví ryby.",
+      "full": "Obyvatelé rádi loví ryby.",
+      "answer": "y",
+      "audio": "b03-s4.mp3"
+    },
+    {
+      "id": "b03-s5",
+      "word_id": "b03",
+      "text": "Jdi do ob_váku.",
+      "full": "Jdi do obýváku.",
+      "answer": "y",
+      "audio": "b03-s5.mp3"
+    },
+    {
+      "id": "b04-s1",
+      "word_id": "b04",
+      "text": "b_t",
+      "full": "byt",
+      "answer": "y",
+      "audio": "b04-s1.mp3"
+    },
+    {
+      "id": "b04-s2",
+      "word_id": "b04",
+      "text": "b_tovka",
+      "full": "bytovka",
+      "answer": "y",
+      "audio": "b04-s2.mp3"
+    },
+    {
+      "id": "b04-s3",
+      "word_id": "b04",
+      "text": "Máme nový b_t v Praze.",
+      "full": "Máme nový byt v Praze.",
+      "answer": "y",
+      "audio": "b04-s3.mp3"
+    },
+    {
+      "id": "b04-s4",
+      "word_id": "b04",
+      "text": "B_tovka má šest pater.",
+      "full": "Bytovka má šest pater.",
+      "answer": "y",
+      "audio": "b04-s4.mp3"
+    },
+    {
+      "id": "b05-s1",
+      "word_id": "b05",
+      "text": "příb_tek",
+      "full": "příbytek",
+      "answer": "y",
+      "audio": "b05-s1.mp3"
+    },
+    {
+      "id": "b05-s2",
+      "word_id": "b05",
+      "text": "Liška má příb_tek v noře.",
+      "full": "Liška má příbytek v noře.",
+      "answer": "y",
+      "audio": "b05-s2.mp3"
+    },
+    {
+      "id": "b05-s3",
+      "word_id": "b05",
+      "text": "Jeskyně je náš příb_tek.",
+      "full": "Jeskyně je náš příbytek.",
+      "answer": "y",
+      "audio": "b05-s3.mp3"
+    },
+    {
+      "id": "b05-s4",
+      "word_id": "b05",
+      "text": "Býk má teplý příb_tek.",
+      "full": "Býk má teplý příbytek.",
+      "answer": "y",
+      "audio": "b05-s4.mp3"
+    },
+    {
+      "id": "b06-s1",
+      "word_id": "b06",
+      "text": "náb_tek",
+      "full": "nábytek",
+      "answer": "y",
+      "audio": "b06-s1.mp3"
+    },
+    {
+      "id": "b06-s2",
+      "word_id": "b06",
+      "text": "náb_tkář",
+      "full": "nábytkář",
+      "answer": "y",
+      "audio": "b06-s2.mp3"
+    },
+    {
+      "id": "b06-s3",
+      "word_id": "b06",
+      "text": "náb_tkový",
+      "full": "nábytkový",
+      "answer": "y",
+      "audio": "b06-s3.mp3"
+    },
+    {
+      "id": "b06-s4",
+      "word_id": "b06",
+      "text": "Máme doma dřevěný náb_tek.",
+      "full": "Máme doma dřevěný nábytek.",
+      "answer": "y",
+      "audio": "b06-s4.mp3"
+    },
+    {
+      "id": "b06-s5",
+      "word_id": "b06",
+      "text": "Žralok rozbil starý náb_tek.",
+      "full": "Žralok rozbil starý nábytek.",
+      "answer": "y",
+      "audio": "b06-s5.mp3"
+    },
+    {
+      "id": "b07-s1",
+      "word_id": "b07",
+      "text": "dob_tek",
+      "full": "dobytek",
+      "answer": "y",
+      "audio": "b07-s1.mp3"
+    },
+    {
+      "id": "b07-s2",
+      "word_id": "b07",
+      "text": "dob_tčí",
+      "full": "dobytčí",
+      "answer": "y",
+      "audio": "b07-s2.mp3"
+    },
+    {
+      "id": "b07-s3",
+      "word_id": "b07",
+      "text": "Na farmě je hodně dob_tka.",
+      "full": "Na farmě je hodně dobytka.",
+      "answer": "y",
+      "audio": "b07-s3.mp3"
+    },
+    {
+      "id": "b07-s4",
+      "word_id": "b07",
+      "text": "Dob_tek pije vodu z řeky.",
+      "full": "Dobytek pije vodu z řeky.",
+      "answer": "y",
+      "audio": "b07-s4.mp3"
+    },
+    {
+      "id": "b08-s1",
+      "word_id": "b08",
+      "text": "ob_čejný",
+      "full": "obyčejný",
+      "answer": "y",
+      "audio": "b08-s1.mp3"
+    },
+    {
+      "id": "b08-s2",
+      "word_id": "b08",
+      "text": "ob_čejně",
+      "full": "obyčejně",
+      "answer": "y",
+      "audio": "b08-s2.mp3"
+    },
+    {
+      "id": "b08-s3",
+      "word_id": "b08",
+      "text": "Mají tu starý ob_čej.",
+      "full": "Mají tu starý obyčej.",
+      "answer": "y",
+      "audio": "b08-s3.mp3"
+    },
+    {
+      "id": "b08-s4",
+      "word_id": "b08",
+      "text": "Je to jen ob_čejný den.",
+      "full": "Je to jen obyčejný den.",
+      "answer": "y",
+      "audio": "b08-s4.mp3"
+    },
+    {
+      "id": "b09-s1",
+      "word_id": "b09",
+      "text": "b_strost",
+      "full": "bystrost",
+      "answer": "y",
+      "audio": "b09-s1.mp3"
+    },
+    {
+      "id": "b09-s2",
+      "word_id": "b09",
+      "text": "b_střina",
+      "full": "bystřina",
+      "answer": "y",
+      "audio": "b09-s2.mp3"
+    },
+    {
+      "id": "b09-s3",
+      "word_id": "b09",
+      "text": "Ten kluk je velmi b_strý.",
+      "full": "Ten kluk je velmi bystrý.",
+      "answer": "y",
+      "audio": "b09-s3.mp3"
+    },
+    {
+      "id": "b09-s4",
+      "word_id": "b09",
+      "text": "Žralok má b_strý zrak.",
+      "full": "Žralok má bystrý zrak.",
+      "answer": "y",
+      "audio": "b09-s4.mp3"
+    },
+    {
+      "id": "b10-s1",
+      "word_id": "b10",
+      "text": "b_linka",
+      "full": "bylinka",
+      "answer": "y",
+      "audio": "b10-s1.mp3"
+    },
+    {
+      "id": "b10-s2",
+      "word_id": "b10",
+      "text": "b_linkový",
+      "full": "bylinkový",
+      "answer": "y",
+      "audio": "b10-s2.mp3"
+    },
+    {
+      "id": "b10-s3",
+      "word_id": "b10",
+      "text": "Tahle b_lina léčí kašel.",
+      "full": "Tahle bylina léčí kašel.",
+      "answer": "y",
+      "audio": "b10-s3.mp3"
+    },
+    {
+      "id": "b10-s4",
+      "word_id": "b10",
+      "text": "Sbíráme b_linky na louce.",
+      "full": "Sbíráme bylinky na louce.",
+      "answer": "y",
+      "audio": "b10-s4.mp3"
+    },
+    {
+      "id": "b11-s1",
+      "word_id": "b11",
+      "text": "kob_la",
+      "full": "kobyla",
+      "answer": "y",
+      "audio": "b11-s1.mp3"
+    },
+    {
+      "id": "b11-s2",
+      "word_id": "b11",
+      "text": "kob_lka",
+      "full": "kobylka",
+      "answer": "y",
+      "audio": "b11-s2.mp3"
+    },
+    {
+      "id": "b11-s3",
+      "word_id": "b11",
+      "text": "Kob_la běží přes louku.",
+      "full": "Kobyla běží přes louku.",
+      "answer": "y",
+      "audio": "b11-s3.mp3"
+    },
+    {
+      "id": "b11-s4",
+      "word_id": "b11",
+      "text": "Malá kob_lka skáče v trávě.",
+      "full": "Malá kobylka skáče v trávě.",
+      "answer": "y",
+      "audio": "b11-s4.mp3"
+    },
+    {
+      "id": "b12-s1",
+      "word_id": "b12",
+      "text": "b_k",
+      "full": "býk",
+      "answer": "y",
+      "audio": "b12-s1.mp3"
+    },
+    {
+      "id": "b12-s2",
+      "word_id": "b12",
+      "text": "b_ček",
+      "full": "býček",
+      "answer": "y",
+      "audio": "b12-s2.mp3"
+    },
+    {
+      "id": "b12-s3",
+      "word_id": "b12",
+      "text": "B_k stojí na louce.",
+      "full": "Býk stojí na louce.",
+      "answer": "y",
+      "audio": "b12-s3.mp3"
+    },
+    {
+      "id": "b12-s4",
+      "word_id": "b12",
+      "text": "B_ček běhá za maminkou.",
+      "full": "Býček běhá za maminkou.",
+      "answer": "y",
+      "audio": "b12-s4.mp3"
+    },
+    {
+      "id": "b13-s1",
+      "word_id": "b13",
+      "text": "Přib_slav",
+      "full": "Přibyslav",
+      "answer": "y",
+      "audio": "b13-s1.mp3"
+    },
+    {
+      "id": "b13-s2",
+      "word_id": "b13",
+      "text": "Jedeme do Přib_slavi.",
+      "full": "Jedeme do Přibyslavi.",
+      "answer": "y",
+      "audio": "b13-s2.mp3"
+    },
+    {
+      "id": "b13-s3",
+      "word_id": "b13",
+      "text": "Přib_slav leží na Vysočině.",
+      "full": "Přibyslav leží na Vysočině.",
+      "answer": "y",
+      "audio": "b13-s3.mp3"
+    },
+    {
+      "id": "b13-s4",
+      "word_id": "b13",
+      "text": "V Přib_slavi je hasičské muzeum.",
+      "full": "V Přibyslavi je hasičské muzeum.",
+      "answer": "y",
+      "audio": "b13-s4.mp3"
+    },
+    {
+      "id": "bc-s1",
+      "word_id": "_contrast",
+      "text": "b_lý",
+      "full": "bílý",
+      "answer": "i",
+      "audio": "bc-s1.mp3"
+    },
+    {
+      "id": "bc-s2",
+      "word_id": "_contrast",
+      "text": "Žralok má b_lé zuby.",
+      "full": "Žralok má bílé zuby.",
+      "answer": "i",
+      "audio": "bc-s2.mp3"
+    },
+    {
+      "id": "bc-s3",
+      "word_id": "_contrast",
+      "text": "B_zon je velký a silný.",
+      "full": "Bizon je velký a silný.",
+      "answer": "i",
+      "audio": "bc-s3.mp3"
+    },
+    {
+      "id": "bc-s4",
+      "word_id": "_contrast",
+      "text": "ob_lí",
+      "full": "obilí",
+      "answer": "i",
+      "audio": "bc-s4.mp3"
+    },
+    {
+      "id": "bc-s5",
+      "word_id": "_contrast",
+      "text": "Na poli roste ob_lí.",
+      "full": "Na poli roste obilí.",
+      "answer": "i",
+      "audio": "bc-s5.mp3"
+    },
+    {
+      "id": "bc-s6",
+      "word_id": "_contrast",
+      "text": "Jedu k bab_čce.",
+      "full": "Jedu k babičce.",
+      "answer": "i",
+      "audio": "bc-s6.mp3"
+    },
+    {
+      "id": "bc-s7",
+      "word_id": "_contrast",
+      "text": "Sb_rám zuby žraloků.",
+      "full": "Sbírám zuby žraloků.",
+      "answer": "i",
+      "audio": "bc-s7.mp3"
+    },
+    {
+      "id": "bc-s8",
+      "word_id": "_contrast",
+      "text": "Mám sb_rku fosilií.",
+      "full": "Mám sbírku fosilií.",
+      "answer": "i",
+      "audio": "bc-s8.mp3"
+    },
+    {
+      "id": "bc-s9",
+      "word_id": "_contrast",
+      "text": "Slepice sedí na b_dle.",
+      "full": "Slepice sedí na bidle.",
+      "answer": "i",
+      "audio": "bc-s9.mp3"
+    },
+    {
+      "id": "bc-s10",
+      "word_id": "_contrast",
+      "text": "Mobil se dob_jí.",
+      "full": "Mobil se dobíjí.",
+      "answer": "i",
+      "audio": "bc-s10.mp3"
+    },
+    {
+      "id": "bc-s11",
+      "word_id": "_contrast",
+      "text": "Nab_l jsem si mobil.",
+      "full": "Nabil jsem si mobil.",
+      "answer": "i",
+      "audio": "bc-s11.mp3"
+    },
+    {
+      "id": "bc-s12",
+      "word_id": "_contrast",
+      "text": "Žralok žije v hlub_ně.",
+      "full": "Žralok žije v hlubině.",
+      "answer": "i",
+      "audio": "bc-s12.mp3"
+    },
+    {
+      "id": "bc-s13",
+      "word_id": "_contrast",
+      "text": "Pes má b_lou packu.",
+      "full": "Pes má bílou packu.",
+      "answer": "i",
+      "audio": "bc-s13.mp3"
+    },
+    {
+      "id": "bc-s14",
+      "word_id": "_contrast",
+      "text": "Sb_rám mušle na pláži.",
+      "full": "Sbírám mušle na pláži.",
+      "answer": "i",
+      "audio": "bc-s14.mp3"
+    },
+    {
+      "id": "bc-s15",
+      "word_id": "_contrast",
+      "text": "B_lá kobyla běží.",
+      "full": "Bílá kobyla běží.",
+      "answer": "i",
+      "audio": "bc-s15.mp3"
+    },
+    {
+      "id": "bc-s16",
+      "word_id": "_contrast",
+      "text": "Kovboj práskl b_čem.",
+      "full": "Kovboj práskl bičem.",
+      "answer": "i",
+      "audio": "bc-s16.mp3"
+    },
+    {
+      "id": "bc-s17",
+      "word_id": "_contrast",
+      "text": "Dělník drží sb_ječku.",
+      "full": "Dělník drží sbíječku.",
+      "answer": "i",
+      "audio": "bc-s17.mp3"
+    }
+  ]
+}
