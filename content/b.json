@@ -847,6 +847,750 @@
       "full": "Dělník drží sbíječku.",
       "answer": "i",
       "audio": "bc-s17.mp3"
+    },
+    {
+      "id": "b01-n1",
+      "word_id": "b01",
+      "text": "přib_vat",
+      "full": "přibývat",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b01-n2",
+      "word_id": "b01",
+      "text": "zb_tečný",
+      "full": "zbytečný",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b01-n3",
+      "word_id": "b01",
+      "text": "Rytíř nab_l velkého bohatství.",
+      "full": "Rytíř nabyl velkého bohatství.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b01-n4",
+      "word_id": "b01",
+      "text": "Chci b_t slavný fotbalista.",
+      "full": "Chci být slavný fotbalista.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b01-n5",
+      "word_id": "b01",
+      "text": "Srdce dinosaura rychle b_je.",
+      "full": "Srdce dinosaura rychle bije.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "b01-n6",
+      "word_id": "b01",
+      "text": "Zvon na věži b_je poledne.",
+      "full": "Zvon na věži bije poledne.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "b02-n1",
+      "word_id": "b02",
+      "text": "ob_dlí",
+      "full": "obydlí",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b02-n2",
+      "word_id": "b02",
+      "text": "spolub_dlící",
+      "full": "spolubydlící",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b02-n3",
+      "word_id": "b02",
+      "text": "B_dlíme v malém domě.",
+      "full": "Bydlíme v malém domě.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b02-n4",
+      "word_id": "b02",
+      "text": "Dinosauři b_dleli v lese.",
+      "full": "Dinosauři bydleli v lese.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b02-n5",
+      "word_id": "b02",
+      "text": "Rybička b_dlí v akváriu.",
+      "full": "Rybička bydlí v akváriu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b02-n6",
+      "word_id": "b02",
+      "text": "Kde b_dlí tvoje babička?",
+      "full": "Kde bydlí tvoje babička?",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b03-n1",
+      "word_id": "b03",
+      "text": "ob_vat",
+      "full": "obývat",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b03-n2",
+      "word_id": "b03",
+      "text": "ob_vatelný",
+      "full": "obyvatelný",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b03-n3",
+      "word_id": "b03",
+      "text": "Ostrov ob_vají žraloci a dinosauři.",
+      "full": "Ostrov obývají žraloci a dinosauři.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b03-n4",
+      "word_id": "b03",
+      "text": "Kolik ob_vatel má tvoje město?",
+      "full": "Kolik obyvatel má tvoje město?",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b03-n5",
+      "word_id": "b03",
+      "text": "Ob_vatelé staví nový dům.",
+      "full": "Obyvatelé staví nový dům.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b03-n6",
+      "word_id": "b03",
+      "text": "V jeskyni žijí staří ob_vatelé.",
+      "full": "V jeskyni žijí staří obyvatelé.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b04-n1",
+      "word_id": "b04",
+      "text": "b_teček",
+      "full": "byteček",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b04-n2",
+      "word_id": "b04",
+      "text": "b_ty",
+      "full": "byty",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b04-n3",
+      "word_id": "b04",
+      "text": "B_tový dům stojí ve městě.",
+      "full": "Bytový dům stojí ve městě.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b04-n4",
+      "word_id": "b04",
+      "text": "Náš b_t má velký balkon.",
+      "full": "Náš byt má velký balkon.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b04-n5",
+      "word_id": "b04",
+      "text": "B_t má okno do zahrady.",
+      "full": "Byt má okno do zahrady.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b04-n6",
+      "word_id": "b04",
+      "text": "V b_tě bydlí naše rodina.",
+      "full": "V bytě bydlí naše rodina.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b05-n1",
+      "word_id": "b05",
+      "text": "příb_tky",
+      "full": "příbytky",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b05-n2",
+      "word_id": "b05",
+      "text": "příb_tku",
+      "full": "příbytku",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b05-n3",
+      "word_id": "b05",
+      "text": "Dinosaurus si staví příb_tek.",
+      "full": "Dinosaurus si staví příbytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b05-n4",
+      "word_id": "b05",
+      "text": "Žralok nemá žádný příb_tek.",
+      "full": "Žralok nemá žádný příbytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b05-n5",
+      "word_id": "b05",
+      "text": "Najdi zvířeti teplý příb_tek.",
+      "full": "Najdi zvířeti teplý příbytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b05-n6",
+      "word_id": "b05",
+      "text": "Medvěd bydlí v teplém příb_tku.",
+      "full": "Medvěd bydlí v teplém příbytku.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b06-n1",
+      "word_id": "b06",
+      "text": "náb_tku",
+      "full": "nábytku",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b06-n2",
+      "word_id": "b06",
+      "text": "náb_tkem",
+      "full": "nábytkem",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b06-n3",
+      "word_id": "b06",
+      "text": "Pokoj je plný starého náb_tku.",
+      "full": "Pokoj je plný starého nábytku.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b06-n4",
+      "word_id": "b06",
+      "text": "Koupili jsme nový náb_tek.",
+      "full": "Koupili jsme nový nábytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b06-n5",
+      "word_id": "b06",
+      "text": "Dinosaurus posunul těžký náb_tek.",
+      "full": "Dinosaurus posunul těžký nábytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b06-n6",
+      "word_id": "b06",
+      "text": "Škola má nový školní náb_tek.",
+      "full": "Škola má nový školní nábytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b07-n1",
+      "word_id": "b07",
+      "text": "dob_tku",
+      "full": "dobytku",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b07-n2",
+      "word_id": "b07",
+      "text": "dob_tkem",
+      "full": "dobytkem",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b07-n3",
+      "word_id": "b07",
+      "text": "Farmář krmí svůj dob_tek.",
+      "full": "Farmář krmí svůj dobytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b07-n4",
+      "word_id": "b07",
+      "text": "Dob_tek spí ve stáji.",
+      "full": "Dobytek spí ve stáji.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b07-n5",
+      "word_id": "b07",
+      "text": "Na louce se pase dob_tek.",
+      "full": "Na louce se pase dobytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b07-n6",
+      "word_id": "b07",
+      "text": "Staral se o nemocný dob_tek.",
+      "full": "Staral se o nemocný dobytek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b08-n1",
+      "word_id": "b08",
+      "text": "neob_čejný",
+      "full": "neobyčejný",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b08-n2",
+      "word_id": "b08",
+      "text": "ob_čeje",
+      "full": "obyčeje",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b08-n3",
+      "word_id": "b08",
+      "text": "To je zvláštní starý ob_čej.",
+      "full": "To je zvláštní starý obyčej.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b08-n4",
+      "word_id": "b08",
+      "text": "Vesnice má svůj vlastní ob_čej.",
+      "full": "Vesnice má svůj vlastní obyčej.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b08-n5",
+      "word_id": "b08",
+      "text": "Byl to úplně ob_čejný týden.",
+      "full": "Byl to úplně obyčejný týden.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b08-n6",
+      "word_id": "b08",
+      "text": "Sněz si ob_čejný rohlík.",
+      "full": "Sněz si obyčejný rohlík.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b09-n1",
+      "word_id": "b09",
+      "text": "B_střice",
+      "full": "Bystřice",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b09-n2",
+      "word_id": "b09",
+      "text": "b_stře",
+      "full": "bystře",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b09-n3",
+      "word_id": "b09",
+      "text": "Dinosaurus byl velmi b_strý.",
+      "full": "Dinosaurus byl velmi bystrý.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b09-n4",
+      "word_id": "b09",
+      "text": "Máš b_stré oči jako sokol.",
+      "full": "Máš bystré oči jako sokol.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b09-n5",
+      "word_id": "b09",
+      "text": "B_strý žák rychle počítá.",
+      "full": "Bystrý žák rychle počítá.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b09-n6",
+      "word_id": "b09",
+      "text": "Liška je b_stré zvíře.",
+      "full": "Liška je bystré zvíře.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b10-n1",
+      "word_id": "b10",
+      "text": "b_liny",
+      "full": "byliny",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b10-n2",
+      "word_id": "b10",
+      "text": "b_linář",
+      "full": "bylinář",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b10-n3",
+      "word_id": "b10",
+      "text": "Babička suší léčivé b_liny.",
+      "full": "Babička suší léčivé byliny.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b10-n4",
+      "word_id": "b10",
+      "text": "V lese roste vzácná b_lina.",
+      "full": "V lese roste vzácná bylina.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b10-n5",
+      "word_id": "b10",
+      "text": "Čaj z b_linek chutná dobře.",
+      "full": "Čaj z bylinek chutná dobře.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b10-n6",
+      "word_id": "b10",
+      "text": "Sbíral jsem b_liny na zahradě.",
+      "full": "Sbíral jsem byliny na zahradě.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b11-n1",
+      "word_id": "b11",
+      "text": "kob_lí",
+      "full": "kobylí",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b11-n2",
+      "word_id": "b11",
+      "text": "kob_lky",
+      "full": "kobylky",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b11-n3",
+      "word_id": "b11",
+      "text": "Kob_la má hnědou hřívu.",
+      "full": "Kobyla má hnědou hřívu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b11-n4",
+      "word_id": "b11",
+      "text": "Farmář krmí starou kob_lu.",
+      "full": "Farmář krmí starou kobylu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b11-n5",
+      "word_id": "b11",
+      "text": "Kob_lky skáčou po louce.",
+      "full": "Kobylky skáčou po louce.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b11-n6",
+      "word_id": "b11",
+      "text": "Malá kob_la pije vodu.",
+      "full": "Malá kobyla pije vodu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b12-n1",
+      "word_id": "b12",
+      "text": "b_čí",
+      "full": "býčí",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b12-n2",
+      "word_id": "b12",
+      "text": "b_kovi",
+      "full": "býkovi",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b12-n3",
+      "word_id": "b12",
+      "text": "B_k má velké ostré rohy.",
+      "full": "Býk má velké ostré rohy.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b12-n4",
+      "word_id": "b12",
+      "text": "Rudá barva dráždí b_ka.",
+      "full": "Rudá barva dráždí býka.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b12-n5",
+      "word_id": "b12",
+      "text": "Malý b_ček pije mléko.",
+      "full": "Malý býček pije mléko.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b12-n6",
+      "word_id": "b12",
+      "text": "Byl to statečný silný b_k.",
+      "full": "Byl to statečný silný býk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b13-n1",
+      "word_id": "b13",
+      "text": "přib_slavský",
+      "full": "přibyslavský",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b13-n2",
+      "word_id": "b13",
+      "text": "Pozdrav z Přib_slavi.",
+      "full": "Pozdrav z Přibyslavi.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b13-n3",
+      "word_id": "b13",
+      "text": "Přib_slav má krásné náměstí.",
+      "full": "Přibyslav má krásné náměstí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b13-n4",
+      "word_id": "b13",
+      "text": "Byli jsme na výletě v Přib_slavi.",
+      "full": "Byli jsme na výletě v Přibyslavi.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b13-n5",
+      "word_id": "b13",
+      "text": "Přib_slav leží u lesa.",
+      "full": "Přibyslav leží u lesa.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "b13-n6",
+      "word_id": "b13",
+      "text": "V Přib_slavi žijí naši příbuzní.",
+      "full": "V Přibyslavi žijí naši příbuzní.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "bc-n1",
+      "word_id": "_contrast",
+      "text": "b_cykl",
+      "full": "bicykl",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n2",
+      "word_id": "_contrast",
+      "text": "b_dýlko",
+      "full": "bidýlko",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n3",
+      "word_id": "_contrast",
+      "text": "ob_lné pole",
+      "full": "obilné pole",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n4",
+      "word_id": "_contrast",
+      "text": "Hraju na b_cí.",
+      "full": "Hraju na bicí.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n5",
+      "word_id": "_contrast",
+      "text": "sb_rka",
+      "full": "sbírka",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n6",
+      "word_id": "_contrast",
+      "text": "b_č",
+      "full": "bič",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n7",
+      "word_id": "_contrast",
+      "text": "b_dlo",
+      "full": "bidlo",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n8",
+      "word_id": "_contrast",
+      "text": "Bab_čka peče voňavý koláč.",
+      "full": "Babička peče voňavý koláč.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n9",
+      "word_id": "_contrast",
+      "text": "Vidíme b_zona v zoo.",
+      "full": "Vidíme bizona v zoo.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n10",
+      "word_id": "_contrast",
+      "text": "Ponorka klesá do hlub_ny.",
+      "full": "Ponorka klesá do hlubiny.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n11",
+      "word_id": "_contrast",
+      "text": "Dob_jím baterku do telefonu.",
+      "full": "Dobíjím baterku do telefonu.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n12",
+      "word_id": "_contrast",
+      "text": "Sb_ráme kaštany v parku.",
+      "full": "Sbíráme kaštany v parku.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n13",
+      "word_id": "_contrast",
+      "text": "Máme doma b_lého králíka.",
+      "full": "Máme doma bílého králíka.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n14",
+      "word_id": "_contrast",
+      "text": "Papoušek sedí na b_dýlku.",
+      "full": "Papoušek sedí na bidýlku.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "bc-n15",
+      "word_id": "_contrast",
+      "text": "b_ologie",
+      "full": "biologie",
+      "answer": "i",
+      "audio": null
     }
   ]
 }
