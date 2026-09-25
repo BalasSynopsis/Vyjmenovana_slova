@@ -128,3 +128,8 @@ main { flex: 1; padding: 0 16px 24px; }
 /* level dots: 4 grey slots, green when earned */
 .dots i { width: 11px; height: 11px; background: #cfd8dc; box-shadow: 0 0 0 2px #fff; }
 .dots i.on { background: var(--ok); }
+/* silent + check tasks */
+.qcard .task { margin: 0; font-size: 18px; color: var(--muted); }
+.hl { background: #fff3d6; border-radius: 8px; padding: 0 .15em; box-shadow: inset 0 -3px 0 var(--y); }
+.ans.bad { background: #8c9aa0; box-shadow: 0 7px 0 #5f6d73; }
+.ans.good { background: var(--ok); box-shadow: 0 7px 0 #1f6e3f; }

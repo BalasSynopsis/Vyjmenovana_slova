@@ -180,9 +180,26 @@ const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.f
 const pick = (arr, n) => shuffle(arr.slice()).slice(0, n);
 function maxRun(list) { let m = 0, r = 0, prev = null; for (const it of list) { r = it.answer === prev ? r + 1 : 1; prev = it.answer; m = Math.max(m, r); } return m; }
 
+const levelOf = (p, item) => (p.words[srsKey(item)] || {}).box || 0;
+// least-recently-seen first, random among equals
+function pickLRU(p, list, n) {
+  const seen = p.itemSeen || {};
+  return shuffle(list.slice()).sort((a, b) => (seen[a.id] || 0) - (seen[b.id] || 0)).slice(0, n);
+}
+// task per item: level 0–1 → read aloud; level 2+ → silent; level 3+ → sometimes "is it spelled right?"
+function taskFor(p, item, useSrs) {
+  if (!useSrs) return 'audio';
+  const lvl = levelOf(p, item);
+  if (lvl <= 1 && item.audio) return 'audio';
+  if (lvl >= 3 && Math.random() < 0.35) return 'check';
+  return 'silent';
+}
+
 function buildSession(c, p, n = SESSION, useSrs = true) {
   const seenWords = new Set(Object.keys(p.seen).filter(id => c.byId[id]));
-  const pool = c.items.filter(i => seenWords.has(i.word_id) || (i.word_id === '_contrast' && seenWords.size > 0));
+  const eligible = i => (seenWords.has(i.word_id) || (i.word_id === '_contrast' && seenWords.size > 0))
+    && (i.audio ? true : useSrs && levelOf(p, i) >= 2);          // silent-only items unlock at 2 dots
+  const pool = c.items.filter(eligible);
   const due = i => !useSrs || isDue(p.words[srsKey(i)]);
   const pref = list => { const d = list.filter(due); return d.length >= 2 ? d : list; };
   const iItems = pref(pool.filter(i => i.answer === 'i'));
@@ -194,15 +211,15 @@ function buildSession(c, p, n = SESSION, useSrs = true) {
   // traps (homophone sentences) are worth more than plain contrast words
   const traps = iItems.filter(i => i.word_id !== '_contrast'), plain = iItems.filter(i => i.word_id === '_contrast');
   const nTrap = Math.min(traps.length, Math.ceil(nI * 0.6));
-  const chosenI = pick(traps, nTrap).concat(pick(plain, nI - nTrap));
-  // one y item per word first, spread across words
+  const chosenI = pickLRU(p, traps, nTrap).concat(pickLRU(p, plain, nI - nTrap));
+  // one y item per word first, spread across words, least recently seen first
   const byWord = {}; yItems.forEach(i => (byWord[i.word_id] = byWord[i.word_id] || []).push(i));
   const chosenY = []; let rounds = 0;
   while (chosenY.length < nY && rounds++ < 20) for (const w of shuffle(Object.keys(byWord))) {
-    const left = byWord[w].filter(i => !chosenY.includes(i)); if (left.length && chosenY.length < nY) chosenY.push(pick(left, 1)[0]);
+    const left = byWord[w].filter(i => !chosenY.includes(i)); if (left.length && chosenY.length < nY) chosenY.push(pickLRU(p, left, 1)[0]);
   }
-  let list = chosenI.concat(chosenY);
-  for (let t = 0; t < 50 && (t === 0 || maxRun(list) > 4); t++) shuffle(list);
+  let list = chosenI.concat(chosenY).map(item => ({ item, task: taskFor(p, item, useSrs), shownOk: Math.random() < 0.5 }));
+  for (let t = 0; t < 50 && (t === 0 || maxRun(list.map(q => q.item)) > 4); t++) shuffle(list);
   return list;
 }
 
@@ -241,15 +258,18 @@ async function runRound(L, c, list, mode, logIt) {
   let score = 0; const newlyMastered = [];
   const before = JSON.parse(JSON.stringify((await getProgress()).words));
   for (let n = 0; n < list.length; n++) {
-    const item = list[n];
-    const correct = await askItem(L, c, item, n, list.length);
+    const q = list[n], item = q.item;
+    const res = await askItem(L, c, q, n, list.length);
+    const correct = res.ok;
     if (correct) score++;
     if (logIt) {
       const p = await getProgress();
       const wasMastered = item.word_id !== '_contrast' && wordMastered(p, c, item.word_id);
       await Store.log({ timestamp: new Date().toISOString(), item_id: item.id, word_id: item.word_id, mode,
-        presented: 'both', card_seen_before: p.seen[item.word_id] ? 'y' : 'n', answer: item._given, correct: correct ? 'y' : 'n', response_ms: item._ms });
+        task: q.task === 'check' ? 'check' : 'choose', presented: q.task === 'audio' ? 'both' : 'text',
+        card_seen_before: p.seen[item.word_id] ? 'y' : 'n', answer: res.given, correct: correct ? 'y' : 'n', response_ms: res.ms });
       if (mode === 'swipe') {
+        p.itemSeen = p.itemSeen || {}; p.itemSeen[item.id] = Date.now();
         applyAnswer(p, item, correct); await saveProgress(p);
         if (!wasMastered && item.word_id !== '_contrast' && wordMastered(p, c, item.word_id)) newlyMastered.push(item.word_id);
       }
@@ -270,43 +290,59 @@ async function runRound(L, c, list, mode, logIt) {
   return score;
 }
 
-function askItem(L, c, item, n, total) {
+const SWAP = { y: 'i', 'ý': 'í', i: 'y', 'í': 'ý', Y: 'I', 'Ý': 'Í', I: 'Y', 'Í': 'Ý' };
+// sentence with the tested word highlighted; letter = what to show in the slot
+function renderCheck(item, letter) {
+  const k = item.text.indexOf('_');
+  const a = item.text.lastIndexOf(' ', k) + 1, bIdx = item.text.indexOf(' ', k), b = bIdx < 0 ? item.text.length : bIdx;
+  const word = (item.text.slice(a, k) + letter + item.text.slice(k + 1, b)).replace(/[.!?,]$/, m => '\u0000' + m);
+  const [w, punct = ''] = word.split('\u0000');
+  return esc(item.text.slice(0, a)) + `<span class="hl">${esc(w)}</span>` + esc(punct + item.text.slice(b));
+}
+
+function askItem(L, c, q, n, total) {
+  const { item, task } = q;
+  const k = item.text.indexOf('_'), right = item.full.charAt(k);
+  const shown = task === 'check' ? (q.shownOk ? right : SWAP[right] || right) : null;
   return new Promise(resolve => {
+    const isCheck = task === 'check';
     $app.innerHTML = `<div class="game"><button class="back" data-go="#/island/${L}">← konec</button>
       <div class="progress"><i style="width:${Math.round(100 * n / total)}%"></i></div>
       <div class="qcard" id="qcard">
-        <button class="play" id="replay" aria-label="Přehrát znovu">▶</button>
-        <p class="qtext" id="qtext">${renderText(item, false)}</p>
+        ${task === 'audio' ? '<button class="play" id="replay" aria-label="Přehrát znovu">▶</button>' : ''}
+        ${isCheck ? '<p class="task">Je to napsané správně?</p>' : ''}
+        <p class="qtext" id="qtext">${isCheck ? renderCheck(item, shown) : renderText(item, false)}</p>
       </div>
       <div class="answers">
-        <button class="ans i" id="ai">i / í</button>
-        <button class="ans y" id="ay">y / ý</button>
+        ${isCheck ? '<button class="ans bad" id="ai">✗ chyba</button><button class="ans good" id="ay">✓ dobře</button>'
+                  : '<button class="ans i" id="ai">i / í</button><button class="ans y" id="ay">y / ý</button>'}
       </div>
-      <p class="hint">Přejeď prstem doleva (i) nebo doprava (y).</p>
+      <p class="hint">${isCheck ? 'Přejeď doleva (chyba) nebo doprava (dobře).' : 'Přejeď prstem doleva (i) nebo doprava (y).'}</p>
     </div>`;
-    const src = `assets/audio/${L}/${item.audio}`;
-    const btn = document.getElementById('replay'); btn.onclick = () => play(src, btn);
-    play(src);
+    const src = item.audio ? `assets/audio/${L}/${item.audio}` : null;
+    if (task === 'audio') { const btn = document.getElementById('replay'); btn.onclick = () => play(src, btn); play(src); }
     const t0 = performance.now(); let done = false;
-    const answer = given => {
+    const answer = side => {               // side: 'left' | 'right'
       if (done) return; done = true;
-      item._given = given; item._ms = Math.round(performance.now() - t0);
-      const ok = given === item.answer;
+      const ms = Math.round(performance.now() - t0);
+      let ok, given;
+      if (isCheck) { given = side === 'right' ? 'ok' : 'bad'; ok = (given === 'ok') === q.shownOk; }
+      else { given = side === 'left' ? 'i' : 'y'; ok = given === item.answer; }
       const card = document.getElementById('qcard');
-      card.classList.add(ok ? 'ok' : 'bad', given === 'i' ? 'went-left' : 'went-right');
-      document.getElementById('qtext').innerHTML = renderText(item, true);
-      document.querySelector('.answers').innerHTML = `<p class="fb">${ok ? 'Správně!' : 'Tady je správně: ' + esc(item.full)}</p>
-        <button class="btn" id="next">Dál</button>`;
-      document.getElementById('next').onclick = () => resolve(ok);
+      card.classList.add(ok ? 'ok' : 'bad', side === 'left' ? 'went-left' : 'went-right');
+      document.getElementById('qtext').innerHTML = isCheck ? renderCheck(item, right) : renderText(item, true);
+      const msg = ok ? 'Správně!' : (isCheck ? (q.shownOk ? 'Bylo to dobře: ' : 'Byla tam chyba. Správně je: ') + esc(item.full) : 'Tady je správně: ' + esc(item.full));
+      document.querySelector('.answers').innerHTML = `<p class="fb">${msg}</p><button class="btn" id="next">Dál</button>`;
+      if (task !== 'audio' && src) play(src);   // hear it after answering
+      document.getElementById('next').onclick = () => resolve({ ok, given, ms });
     };
-    document.getElementById('ai').onclick = () => answer('i');
-    document.getElementById('ay').onclick = () => answer('y');
-    // swipe
+    document.getElementById('ai').onclick = () => answer('left');
+    document.getElementById('ay').onclick = () => answer('right');
     const card = document.getElementById('qcard'); let x0 = null;
     card.addEventListener('pointerdown', e => { x0 = e.clientX; card.setPointerCapture(e.pointerId); });
     card.addEventListener('pointermove', e => { if (x0 !== null && !done) card.style.transform = `translateX(${(e.clientX - x0) * 0.6}px) rotate(${(e.clientX - x0) * 0.03}deg)`; });
     const end = e => { if (x0 === null) return; const dx = e.clientX - x0; x0 = null; card.style.transform = '';
-      if (!done && Math.abs(dx) > 70) answer(dx < 0 ? 'i' : 'y'); };
+      if (!done && Math.abs(dx) > 70) answer(dx < 0 ? 'left' : 'right'); };
     card.addEventListener('pointerup', end); card.addEventListener('pointercancel', () => { x0 = null; card.style.transform = ''; });
   });
 }
@@ -325,7 +361,7 @@ async function viewCollection(L) {
 }
 
 /* ---------- parent screen + CSV ---------- */
-const CSV_COLS = ['timestamp', 'item_id', 'word_id', 'mode', 'presented', 'card_seen_before', 'answer', 'correct', 'response_ms'];
+const CSV_COLS = ['timestamp', 'item_id', 'word_id', 'mode', 'task', 'presented', 'card_seen_before', 'answer', 'correct', 'response_ms'];
 function toCsv(rows) {
   const q = v => { const s = String(v ?? ''); return /[",\n;]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
   return '﻿' + [CSV_COLS.join(',')].concat(rows.map(r => CSV_COLS.map(k => q(r[k])).join(','))).join('\r\n') + '\r\n';
@@ -334,10 +370,15 @@ async function viewParent() {
   $crumb.textContent = 'rodič';
   const log = await Store.allLog();
   const sw = log.filter(r => r.mode === 'swipe'), ok = sw.filter(r => r.correct === 'y').length;
+  const pct = rows => rows.length ? Math.round(100 * rows.filter(r => r.correct === 'y').length / rows.length) + ' % (' + rows.length + ')' : '–';
+  const firstSeen = new Set(), firsts = [], repeats = [];
+  sw.forEach(r => { const key = r.item_id + '|' + (r.task || 'choose'); (firstSeen.has(key) ? repeats : firsts).push(r); firstSeen.add(key); });
   $app.innerHTML = `<button class="back" data-go="#/map">← mapa</button>
     <div class="parent"><h2>Rodičovská sekce</h2>
       <p>Odpovědí celkem: <b>${log.length}</b> (hra ${sw.length}, souboj ${log.length - sw.length})</p>
       <p>Úspěšnost ve hře: <b>${sw.length ? Math.round(100 * ok / sw.length) : 0} %</b></p>
+      <p>Nové příklady (první pokus): <b>${pct(firsts)}</b> · opakované: <b>${pct(repeats)}</b></p>
+      <p>Se zvukem: <b>${pct(sw.filter(r => r.presented !== 'text'))}</b> · bez zvuku: <b>${pct(sw.filter(r => r.presented === 'text'))}</b></p>
       <div class="actions"><button class="btn" id="csv" ${log.length ? '' : 'disabled'}>Export CSV</button></div>
       <p class="gloss">Data zůstávají jen v tomto telefonu.</p></div>`;
   document.getElementById('csv').onclick = async () => {
