@@ -1,5 +1,5 @@
 self.PRECACHE = {
- "version": "624f787cd1",
+ "version": "0ca7c096f4",
  "files": [
   "./",
   "index.html",
@@ -7,7 +7,9 @@ self.PRECACHE = {
   "styles.css",
   "manifest.webmanifest",
   "content/b.json",
+  "assets/audio/b/b01-bit.mp3",
   "assets/audio/b/b01-card.mp3",
+  "assets/audio/b/b01-dobyt.mp3",
   "assets/audio/b/b01-s1.mp3",
   "assets/audio/b/b01-s10.mp3",
   "assets/audio/b/b01-s11.mp3",
@@ -122,6 +124,8 @@ self.PRECACHE = {
   "assets/fonts/lexend-latin-ext-700-normal.woff2",
   "assets/icons/icon-192.png",
   "assets/icons/icon-512.png",
+  "assets/img/b/b01-bit.webp",
+  "assets/img/b/b01-dobyt.webp",
   "assets/img/b/b01.webp",
   "assets/img/b/b02.webp",
   "assets/img/b/b03.webp",

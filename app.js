@@ -3,7 +3,7 @@
    Content lives in content/<letter>.json; nothing here hard-codes a word. */
 'use strict';
 
-const APP_VERSION = '2026-09-25 v4';
+const APP_VERSION = '2026-10-04 v5';
 const ISLANDS = ['b', 'l', 'm', 'p', 's', 'v', 'z'];
 const ACTIVE = ['b'];               // v0.1: only B is playable
 const $app = document.getElementById('app');
@@ -65,6 +65,11 @@ const INTERVAL = { 0: 0, 1: 0, 2: 1, 3: 3, 4: 7 };            // days until due 
 const today = () => { const d = new Date(Date.now()); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
 async function getProgress() {
   const p = (await Store.get('progress')) || { seen: {}, words: {}, v: 2 };
+  if (!p.playDays) { // backfill from the answer log (local dates)
+    const log = await Store.allLog();
+    p.playDays = [...new Set(log.filter(r => r.mode === 'swipe').map(r => { const d = new Date(r.timestamp); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; }))];
+    await Store.set('progress', p);
+  }
   if (p.v !== 2) { // v1 started words at level 1: shift everything down one level
     for (const k in p.words) p.words[k].box = Math.max(0, (p.words[k].box || 1) - 1);
     p.v = 2; await Store.set('progress', p);
@@ -89,6 +94,17 @@ function applyAnswer(p, item, correct) {
 }
 function isDue(s, now = Date.now()) { return !s || s.box <= 1 || now - s.last >= INTERVAL[s.box] * DAY; }
 function wordMastered(p, c, wordId) { const s = p.words[wordId]; return !!s && s.box === 4 && s.days.length >= 2; }
+
+// play-day streak: consecutive days with at least one game answer
+function streakInfo(p) {
+  const days = new Set(p.playDays || []);
+  const d = new Date(Date.now()); const key = x => `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`;
+  const playedToday = days.has(key(d));
+  if (!playedToday) d.setDate(d.getDate() - 1);
+  let n = 0; while (days.has(key(d))) { n++; d.setDate(d.getDate() - 1); }
+  return { n, playedToday };
+}
+const dnu = n => n === 1 ? 'den' : (n >= 2 && n <= 4 ? 'dny' : 'dní');
 
 /* ---------- assets ---------- */
 function placeholderImg(label, hue) {
@@ -140,6 +156,7 @@ async function viewIsland(L) {
     <div class="island-head" style="background-image:url(assets/img/${L}/map.webp)">
       <p class="island-title">${esc(c.island.name)}</p>
       <p class="island-sub">${doneCount} / ${c.words.length} fosilií</p>
+      <p class="island-sub streak">${(() => { const st = streakInfo(p); return st.n ? `🔥 ${st.n} ${dnu(st.n)} v řadě${st.playedToday ? '' : ' – zahraj si i dnes!'}` : '🔥 Zahraj si dnes a začni sérii!'; })()}</p>
     </div>
     <div class="spots">${spots}</div>
     ${seenCount ? '' : '<p class="note">Otevři aspoň jednu kartičku – pak můžeš hrát.</p>'}
@@ -163,6 +180,7 @@ async function viewCard(L, id) {
       <p class="gloss">${esc(w.gloss_en)}</p>
       <p class="hook">${esc(w.hook_cs)}</p>
       ${w.related && w.related.length ? `<p class="rel">Rodina: <b>${w.related.map(esc).join(', ')}</b></p>` : ''}
+      ${(c.extra_cards || []).filter(x => x.for === id).map(x => `<button class="btn trap" data-go="#/xcard/${L}/${x.id}">⚠ ${esc(x.label)}</button>`).join('')}
     </article>`;
   const btn = document.getElementById('play');
   const src = `assets/audio/${L}/${id}-card.mp3`;
@@ -173,6 +191,23 @@ async function viewCard(L, id) {
 function levelDots(p, id) {
   const box = (p.words[id] && p.words[id].box) || 0;
   return `<span class="dots" aria-label="úroveň ${box} ze 4">${[1, 2, 3, 4].map(k => `<i class="${k <= box ? 'on' : ''}"></i>`).join('')}</span>`;
+}
+
+async function viewExtraCard(L, xid) {
+  const c = await loadIsland(L); const x = (c.extra_cards || []).find(e => e.id === xid);
+  if (!x) return go('#/island/' + L);
+  $crumb.textContent = c.island.name;
+  $app.innerHTML = `<button class="back" data-go="#/card/${L}/${x.for}">← zpět</button>
+    <article class="card">
+      <div class="pic"><img src="assets/img/${L}/${x.id}.webp" alt="" data-ph="${x.id}|20" onerror="phImg(this)"></div>
+      <h1><button class="play" id="play" aria-label="Přehrát">▶</button>${esc(x.word)}</h1>
+      <p class="meaning">${esc(x.meaning_cs)}</p>
+      <p class="hook">${esc(x.hook_cs)}</p>
+      <ul class="ex">${x.examples.map(e => `<li>${esc(e)}</li>`).join('')}</ul>
+      <p class="hook tip">${esc(x.tip_cs)}</p>
+    </article>`;
+  const src = `assets/audio/${L}/${x.audio}`, btn = document.getElementById('play');
+  btn.onclick = () => play(src, btn); play(src);
 }
 
 /* ---------- session builder ---------- */
@@ -271,6 +306,7 @@ async function runRound(L, c, list, mode, logIt) {
         card_seen_before: p.seen[item.word_id] ? 'y' : 'n', answer: res.given, correct: correct ? 'y' : 'n', response_ms: res.ms });
       if (mode === 'swipe') {
         p.itemSeen = p.itemSeen || {}; p.itemSeen[item.id] = Date.now();
+        p.playDays = p.playDays || []; if (!p.playDays.includes(today())) p.playDays.push(today());
         applyAnswer(p, item, correct); await saveProgress(p);
         if (!wasMastered && item.word_id !== '_contrast' && wordMastered(p, c, item.word_id)) newlyMastered.push(item.word_id);
       }
@@ -401,6 +437,7 @@ async function route() {
     if (parts[0] === 'island' && ACTIVE.includes(parts[1])) await viewIsland(parts[1]);
     else if (parts[0] === 'card' && ACTIVE.includes(parts[1])) await viewCard(parts[1], parts[2]);
     else if (parts[0] === 'parent') await viewParent();
+    else if (parts[0] === 'xcard' && ACTIVE.includes(parts[1])) await viewExtraCard(parts[1], parts[2]);
     else if (parts[0] === 'play' && ACTIVE.includes(parts[1])) await viewPlay(parts[1], 'swipe');
     else if (parts[0] === 'duel' && ACTIVE.includes(parts[1])) await viewPlay(parts[1], 'duel');
     else if (parts[0] === 'collection' && ACTIVE.includes(parts[1])) await viewCollection(parts[1]);
