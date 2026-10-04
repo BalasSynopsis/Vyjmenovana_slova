@@ -1,0 +1,1536 @@
+{
+  "letter": "M",
+  "island": {
+    "name": "Myší ostrov",
+    "biome": "misty green hills with a castle town, forest clearings and a snail garden",
+    "guardian": "Mocný megalodon"
+  },
+  "words": [
+    {
+      "id": "m01",
+      "word": "my",
+      "meaning_cs": "Já a další lidé dohromady.",
+      "gloss_en": "we, us",
+      "hook_cs": "My všichni zvedáme ruce nahoru jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A group of friendly blocky dinosaur and shark kids standing close together, all waving, showing a team.",
+      "related": [],
+      "trap": {
+        "word": "mi",
+        "meaning_cs": "mně, pro mě"
+      }
+    },
+    {
+      "id": "m02",
+      "word": "mýt",
+      "meaning_cs": "Čistit něco vodou, třeba ruce.",
+      "gloss_en": "to wash",
+      "hook_cs": "Y je kohoutek, ze kterého teče voda.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cheerful blocky dinosaur washing its hands at a sink with soap bubbles and running water.",
+      "related": [
+        "mýdlo",
+        "umýt",
+        "umyvadlo",
+        "myčka",
+        "mytí"
+      ],
+      "trap": {
+        "word": "mít",
+        "meaning_cs": "vlastnit něco nebo něco dostat"
+      }
+    },
+    {
+      "id": "m03",
+      "word": "myslit",
+      "meaning_cs": "Uvažovat o něčem ve své hlavě.",
+      "gloss_en": "to think",
+      "hook_cs": "Y vypadá jako hlava s anténami na nápady.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A thoughtful blocky shark with a fin on its chin and a thought bubble showing a small glowing lightbulb.",
+      "related": [
+        "myšlenka",
+        "mysl",
+        "přemýšlet",
+        "vymyslet",
+        "smysl"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m04",
+      "word": "mýlit se",
+      "meaning_cs": "Vědět něco špatně a udělat chybu.",
+      "gloss_en": "to be mistaken",
+      "hook_cs": "Kdo se mýlí, nakreslí Y úplně křivě.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A puzzled blocky dinosaur holding a puzzle piece that does not fit, scratching its head, a few pieces scattered around.",
+      "related": [
+        "omyl",
+        "omylem",
+        "mylný"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m05",
+      "word": "hmyz",
+      "meaning_cs": "Malí tvorové se šesti nohama, třeba moucha.",
+      "gloss_en": "insects",
+      "hook_cs": "Brouk se dvěma tykadly vypadá jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A sunny voxel meadow with a ladybird, a butterfly and a bee on green leaves.",
+      "related": [
+        "hmyzí",
+        "hmyzožravý",
+        "hmyzožravec"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m06",
+      "word": "myš",
+      "meaning_cs": "Malý hlodavec s dlouhým ocasem.",
+      "gloss_en": "mouse",
+      "hook_cs": "Myš zvedla dvě tlapky nahoru jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small friendly blocky grey mouse holding a piece of apple in its paws.",
+      "related": [
+        "myška",
+        "myší",
+        "myšák"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m07",
+      "word": "hlemýžď",
+      "meaning_cs": "Pomalý tvor s domečkem na zádech.",
+      "gloss_en": "snail",
+      "hook_cs": "Dva růžky na hlavě hlemýždě tvoří Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly blocky snail with a spiral shell and two little horns crawling on a green leaf.",
+      "related": [
+        "hlemýždi",
+        "hlemýždí"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m08",
+      "word": "mýtit",
+      "meaning_cs": "Pokácet stromy, aby tam byla louka.",
+      "gloss_en": "to clear a forest",
+      "hook_cs": "Po mýcení lesa zbyl pařez ve tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. The edge of a blocky voxel forest with a few tree stumps, a neat cleared meadow and a small wooden cart with logs.",
+      "related": [
+        "mýtina",
+        "mýcení",
+        "vymýtit"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m09",
+      "word": "zamykat",
+      "meaning_cs": "Zavírat dveře klíčem.",
+      "gloss_en": "to lock",
+      "hook_cs": "Klíč s vidličkou nahoře vypadá jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly blocky dinosaur turning a big golden key in the lock of a wooden door.",
+      "related": [
+        "odemykat",
+        "uzamykat",
+        "zamykání",
+        "odemykání"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m10",
+      "word": "smýkat",
+      "meaning_cs": "Silou táhnout něco po zemi.",
+      "gloss_en": "to drag, to yank",
+      "hook_cs": "Smýkaný pytel nechá v prachu stopu jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A strong blocky dinosaur dragging a heavy sack behind it across a sandy path, leaving a long trail.",
+      "related": [
+        "smýkání"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m11",
+      "word": "dmýchat",
+      "meaning_cs": "Foukat vzduch do ohně nebo do balónku.",
+      "gloss_en": "to blow air into",
+      "hook_cs": "Y vypadá jako pumpa, která dmýchá vzduch.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky dinosaur using a small hand bellows to blow air into a campfire, small sparks flying up.",
+      "related": [
+        "nadmýchat",
+        "nadmýchaný",
+        "dmýchání"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m12",
+      "word": "chmýří",
+      "meaning_cs": "Jemné měkké chloupky, třeba na kuřátku.",
+      "gloss_en": "fluff, down",
+      "hook_cs": "Každé chmýří na semínku vypadá jako malé Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A round fluffy blocky yellow chick sitting in the grass, covered in soft downy fluff.",
+      "related": [
+        "chmýřitý"
+      ],
+      "trap": null
+    },
+    {
+      "id": "m13",
+      "word": "nachomýtnout se",
+      "meaning_cs": "Náhodou se ocitnout tam, kde se něco děje.",
+      "gloss_en": "to turn up by chance",
+      "hook_cs": "Náhodou ses ocitl na rozcestí tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A surprised small blocky dinosaur standing right in the middle of a football game, the ball flying past its head.",
+      "related": [],
+      "trap": null
+    },
+    {
+      "id": "m14",
+      "word": "Litomyšl",
+      "meaning_cs": "Město se zámkem v Pardubickém kraji.",
+      "gloss_en": "town with a castle",
+      "hook_cs": "Na zámku v Litomyšli vlaje vlajka ve tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small friendly voxel town square with a big pale renaissance castle, a church tower and green hills behind.",
+      "related": [],
+      "trap": null
+    }
+  ],
+  "items": [
+    {
+      "id": "m01-s1",
+      "word_id": "m01",
+      "text": "M_ jdeme do lesa.",
+      "full": "My jdeme do lesa.",
+      "answer": "y",
+      "audio": "m01-s1.mp3"
+    },
+    {
+      "id": "m01-s2",
+      "word_id": "m01",
+      "text": "M_ hrajeme fotbal.",
+      "full": "My hrajeme fotbal.",
+      "answer": "y",
+      "audio": "m01-s2.mp3"
+    },
+    {
+      "id": "m01-s3",
+      "word_id": "m01",
+      "text": "M_ dva jsme kamarádi.",
+      "full": "My dva jsme kamarádi.",
+      "answer": "y",
+      "audio": "m01-s3.mp3"
+    },
+    {
+      "id": "m01-s4",
+      "word_id": "m01",
+      "text": "Dej m_ vodu.",
+      "full": "Dej mi vodu.",
+      "answer": "i",
+      "audio": "m01-s4.mp3"
+    },
+    {
+      "id": "m01-s5",
+      "word_id": "m01",
+      "text": "Zavolej m_ večer.",
+      "full": "Zavolej mi večer.",
+      "answer": "i",
+      "audio": "m01-s5.mp3"
+    },
+    {
+      "id": "m02-s1",
+      "word_id": "m02",
+      "text": "m_dlo",
+      "full": "mýdlo",
+      "answer": "y",
+      "audio": "m02-s1.mp3"
+    },
+    {
+      "id": "m02-s2",
+      "word_id": "m02",
+      "text": "um_vadlo",
+      "full": "umyvadlo",
+      "answer": "y",
+      "audio": "m02-s2.mp3"
+    },
+    {
+      "id": "m02-s3",
+      "word_id": "m02",
+      "text": "Táta m_je auto.",
+      "full": "Táta myje auto.",
+      "answer": "y",
+      "audio": "m02-s3.mp3"
+    },
+    {
+      "id": "m02-s4",
+      "word_id": "m02",
+      "text": "Půjdu si m_t ruce.",
+      "full": "Půjdu si mýt ruce.",
+      "answer": "y",
+      "audio": "m02-s4.mp3"
+    },
+    {
+      "id": "m02-s5",
+      "word_id": "m02",
+      "text": "Chci m_t hodně kamarádů.",
+      "full": "Chci mít hodně kamarádů.",
+      "answer": "i",
+      "audio": "m02-s5.mp3"
+    },
+    {
+      "id": "m02-s6",
+      "word_id": "m02",
+      "text": "Dnes budu m_t oslavu.",
+      "full": "Dnes budu mít oslavu.",
+      "answer": "i",
+      "audio": "m02-s6.mp3"
+    },
+    {
+      "id": "m02-s7",
+      "word_id": "m02",
+      "text": "Můžu m_t jeden bonbon?",
+      "full": "Můžu mít jeden bonbon?",
+      "answer": "i",
+      "audio": "m02-s7.mp3"
+    },
+    {
+      "id": "m03-s1",
+      "word_id": "m03",
+      "text": "m_sl",
+      "full": "mysl",
+      "answer": "y",
+      "audio": "m03-s1.mp3"
+    },
+    {
+      "id": "m03-s2",
+      "word_id": "m03",
+      "text": "m_šlenka",
+      "full": "myšlenka",
+      "answer": "y",
+      "audio": "m03-s2.mp3"
+    },
+    {
+      "id": "m03-s3",
+      "word_id": "m03",
+      "text": "Na co m_slíš?",
+      "full": "Na co myslíš?",
+      "answer": "y",
+      "audio": "m03-s3.mp3"
+    },
+    {
+      "id": "m03-s4",
+      "word_id": "m03",
+      "text": "Já m_slím na fotbal.",
+      "full": "Já myslím na fotbal.",
+      "answer": "y",
+      "audio": "m03-s4.mp3"
+    },
+    {
+      "id": "m03-s5",
+      "word_id": "m03",
+      "text": "Dinosaurus přem_šlí o jídle.",
+      "full": "Dinosaurus přemýšlí o jídle.",
+      "answer": "y",
+      "audio": "m03-s5.mp3"
+    },
+    {
+      "id": "m04-s1",
+      "word_id": "m04",
+      "text": "om_l",
+      "full": "omyl",
+      "answer": "y",
+      "audio": "m04-s1.mp3"
+    },
+    {
+      "id": "m04-s2",
+      "word_id": "m04",
+      "text": "om_lem",
+      "full": "omylem",
+      "answer": "y",
+      "audio": "m04-s2.mp3"
+    },
+    {
+      "id": "m04-s3",
+      "word_id": "m04",
+      "text": "m_lný",
+      "full": "mylný",
+      "answer": "y",
+      "audio": "m04-s3.mp3"
+    },
+    {
+      "id": "m04-s4",
+      "word_id": "m04",
+      "text": "Ty se m_líš, kamaráde.",
+      "full": "Ty se mýlíš, kamaráde.",
+      "answer": "y",
+      "audio": "m04-s4.mp3"
+    },
+    {
+      "id": "m04-s5",
+      "word_id": "m04",
+      "text": "Dinosaurus se m_lil.",
+      "full": "Dinosaurus se mýlil.",
+      "answer": "y",
+      "audio": "m04-s5.mp3"
+    },
+    {
+      "id": "m05-s1",
+      "word_id": "m05",
+      "text": "hm_zožravec",
+      "full": "hmyzožravec",
+      "answer": "y",
+      "audio": "m05-s1.mp3"
+    },
+    {
+      "id": "m05-s2",
+      "word_id": "m05",
+      "text": "Moucha je hm_z.",
+      "full": "Moucha je hmyz.",
+      "answer": "y",
+      "audio": "m05-s2.mp3"
+    },
+    {
+      "id": "m05-s3",
+      "word_id": "m05",
+      "text": "Hm_z má šest nohou.",
+      "full": "Hmyz má šest nohou.",
+      "answer": "y",
+      "audio": "m05-s3.mp3"
+    },
+    {
+      "id": "m05-s4",
+      "word_id": "m05",
+      "text": "Pavouk není hm_z.",
+      "full": "Pavouk není hmyz.",
+      "answer": "y",
+      "audio": "m05-s4.mp3"
+    },
+    {
+      "id": "m05-s5",
+      "word_id": "m05",
+      "text": "Žába rychle chytá hm_z.",
+      "full": "Žába rychle chytá hmyz.",
+      "answer": "y",
+      "audio": "m05-s5.mp3"
+    },
+    {
+      "id": "m06-s1",
+      "word_id": "m06",
+      "text": "m_ška",
+      "full": "myška",
+      "answer": "y",
+      "audio": "m06-s1.mp3"
+    },
+    {
+      "id": "m06-s2",
+      "word_id": "m06",
+      "text": "m_ší",
+      "full": "myší",
+      "answer": "y",
+      "audio": "m06-s2.mp3"
+    },
+    {
+      "id": "m06-s3",
+      "word_id": "m06",
+      "text": "M_š jí jablko.",
+      "full": "Myš jí jablko.",
+      "answer": "y",
+      "audio": "m06-s3.mp3"
+    },
+    {
+      "id": "m06-s4",
+      "word_id": "m06",
+      "text": "Kočka chytá m_š.",
+      "full": "Kočka chytá myš.",
+      "answer": "y",
+      "audio": "m06-s4.mp3"
+    },
+    {
+      "id": "m06-s5",
+      "word_id": "m06",
+      "text": "Malá m_ška se schovala.",
+      "full": "Malá myška se schovala.",
+      "answer": "y",
+      "audio": "m06-s5.mp3"
+    },
+    {
+      "id": "m07-s1",
+      "word_id": "m07",
+      "text": "hlem_ždi",
+      "full": "hlemýždi",
+      "answer": "y",
+      "audio": "m07-s1.mp3"
+    },
+    {
+      "id": "m07-s2",
+      "word_id": "m07",
+      "text": "hlem_ždí",
+      "full": "hlemýždí",
+      "answer": "y",
+      "audio": "m07-s2.mp3"
+    },
+    {
+      "id": "m07-s3",
+      "word_id": "m07",
+      "text": "Hlem_žď leze po zdi.",
+      "full": "Hlemýžď leze po zdi.",
+      "answer": "y",
+      "audio": "m07-s3.mp3"
+    },
+    {
+      "id": "m07-s4",
+      "word_id": "m07",
+      "text": "Hlem_žď má domek na zádech.",
+      "full": "Hlemýžď má domek na zádech.",
+      "answer": "y",
+      "audio": "m07-s4.mp3"
+    },
+    {
+      "id": "m07-s5",
+      "word_id": "m07",
+      "text": "Hlem_žď se schoval do domku.",
+      "full": "Hlemýžď se schoval do domku.",
+      "answer": "y",
+      "audio": "m07-s5.mp3"
+    },
+    {
+      "id": "m08-s1",
+      "word_id": "m08",
+      "text": "m_tina",
+      "full": "mýtina",
+      "answer": "y",
+      "audio": "m08-s1.mp3"
+    },
+    {
+      "id": "m08-s2",
+      "word_id": "m08",
+      "text": "m_cení",
+      "full": "mýcení",
+      "answer": "y",
+      "audio": "m08-s2.mp3"
+    },
+    {
+      "id": "m08-s3",
+      "word_id": "m08",
+      "text": "V lese je velká m_tina.",
+      "full": "V lese je velká mýtina.",
+      "answer": "y",
+      "audio": "m08-s3.mp3"
+    },
+    {
+      "id": "m08-s4",
+      "word_id": "m08",
+      "text": "Dřevorubci m_tí les.",
+      "full": "Dřevorubci mýtí les.",
+      "answer": "y",
+      "audio": "m08-s4.mp3"
+    },
+    {
+      "id": "m08-s5",
+      "word_id": "m08",
+      "text": "Na m_tině roste tráva.",
+      "full": "Na mýtině roste tráva.",
+      "answer": "y",
+      "audio": "m08-s5.mp3"
+    },
+    {
+      "id": "m09-s1",
+      "word_id": "m09",
+      "text": "odem_kat",
+      "full": "odemykat",
+      "answer": "y",
+      "audio": "m09-s1.mp3"
+    },
+    {
+      "id": "m09-s2",
+      "word_id": "m09",
+      "text": "zam_kání",
+      "full": "zamykání",
+      "answer": "y",
+      "audio": "m09-s2.mp3"
+    },
+    {
+      "id": "m09-s3",
+      "word_id": "m09",
+      "text": "Večer zam_kám dveře.",
+      "full": "Večer zamykám dveře.",
+      "answer": "y",
+      "audio": "m09-s3.mp3"
+    },
+    {
+      "id": "m09-s4",
+      "word_id": "m09",
+      "text": "Zam_kej vždy dveře!",
+      "full": "Zamykej vždy dveře!",
+      "answer": "y",
+      "audio": "m09-s4.mp3"
+    },
+    {
+      "id": "m09-s5",
+      "word_id": "m09",
+      "text": "Táta zam_ká auto.",
+      "full": "Táta zamyká auto.",
+      "answer": "y",
+      "audio": "m09-s5.mp3"
+    },
+    {
+      "id": "m10-s1",
+      "word_id": "m10",
+      "text": "sm_kání",
+      "full": "smýkání",
+      "answer": "y",
+      "audio": "m10-s1.mp3"
+    },
+    {
+      "id": "m10-s2",
+      "word_id": "m10",
+      "text": "Sm_kat kufrem je hloupost.",
+      "full": "Smýkat kufrem je hloupost.",
+      "answer": "y",
+      "audio": "m10-s2.mp3"
+    },
+    {
+      "id": "m10-s3",
+      "word_id": "m10",
+      "text": "Nesm_kej s batohem po podlaze.",
+      "full": "Nesmýkej s batohem po podlaze.",
+      "answer": "y",
+      "audio": "m10-s3.mp3"
+    },
+    {
+      "id": "m10-s4",
+      "word_id": "m10",
+      "text": "Dinosaurus sm_kal ocasem po trávě.",
+      "full": "Dinosaurus smýkal ocasem po trávě.",
+      "answer": "y",
+      "audio": "m10-s4.mp3"
+    },
+    {
+      "id": "m10-s5",
+      "word_id": "m10",
+      "text": "Kluk sm_kal taškou po chodníku.",
+      "full": "Kluk smýkal taškou po chodníku.",
+      "answer": "y",
+      "audio": "m10-s5.mp3"
+    },
+    {
+      "id": "m11-s1",
+      "word_id": "m11",
+      "text": "dm_chání",
+      "full": "dmýchání",
+      "answer": "y",
+      "audio": "m11-s1.mp3"
+    },
+    {
+      "id": "m11-s2",
+      "word_id": "m11",
+      "text": "nadm_chat",
+      "full": "nadmýchat",
+      "answer": "y",
+      "audio": "m11-s2.mp3"
+    },
+    {
+      "id": "m11-s3",
+      "word_id": "m11",
+      "text": "Dm_chej do balónku.",
+      "full": "Dmýchej do balónku.",
+      "answer": "y",
+      "audio": "m11-s3.mp3"
+    },
+    {
+      "id": "m11-s4",
+      "word_id": "m11",
+      "text": "Táta dm_chá do ohně.",
+      "full": "Táta dmýchá do ohně.",
+      "answer": "y",
+      "audio": "m11-s4.mp3"
+    },
+    {
+      "id": "m11-s5",
+      "word_id": "m11",
+      "text": "Pumpa dm_chá vzduch do kola.",
+      "full": "Pumpa dmýchá vzduch do kola.",
+      "answer": "y",
+      "audio": "m11-s5.mp3"
+    },
+    {
+      "id": "m12-s1",
+      "word_id": "m12",
+      "text": "chm_ří",
+      "full": "chmýří",
+      "answer": "y",
+      "audio": "m12-s1.mp3"
+    },
+    {
+      "id": "m12-s2",
+      "word_id": "m12",
+      "text": "chm_řitý",
+      "full": "chmýřitý",
+      "answer": "y",
+      "audio": "m12-s2.mp3"
+    },
+    {
+      "id": "m12-s3",
+      "word_id": "m12",
+      "text": "Kuře má žluté chm_ří.",
+      "full": "Kuře má žluté chmýří.",
+      "answer": "y",
+      "audio": "m12-s3.mp3"
+    },
+    {
+      "id": "m12-s4",
+      "word_id": "m12",
+      "text": "Měkké chm_ří létá vzduchem.",
+      "full": "Měkké chmýří létá vzduchem.",
+      "answer": "y",
+      "audio": "m12-s4.mp3"
+    },
+    {
+      "id": "m12-s5",
+      "word_id": "m12",
+      "text": "Mládě má jemné chm_ří.",
+      "full": "Mládě má jemné chmýří.",
+      "answer": "y",
+      "audio": "m12-s5.mp3"
+    },
+    {
+      "id": "m13-s1",
+      "word_id": "m13",
+      "text": "nachom_tnout se",
+      "full": "nachomýtnout se",
+      "answer": "y",
+      "audio": "m13-s1.mp3"
+    },
+    {
+      "id": "m13-s2",
+      "word_id": "m13",
+      "text": "Nachom_tl jsem se tam náhodou.",
+      "full": "Nachomýtl jsem se tam náhodou.",
+      "answer": "y",
+      "audio": "m13-s2.mp3"
+    },
+    {
+      "id": "m13-s3",
+      "word_id": "m13",
+      "text": "Nachom_tla se k nám sousedka.",
+      "full": "Nachomýtla se k nám sousedka.",
+      "answer": "y",
+      "audio": "m13-s3.mp3"
+    },
+    {
+      "id": "m13-s4",
+      "word_id": "m13",
+      "text": "Kdo se tam nachom_tl?",
+      "full": "Kdo se tam nachomýtl?",
+      "answer": "y",
+      "audio": "m13-s4.mp3"
+    },
+    {
+      "id": "m13-s5",
+      "word_id": "m13",
+      "text": "Žralok se nachom_tl k rybám.",
+      "full": "Žralok se nachomýtl k rybám.",
+      "answer": "y",
+      "audio": "m13-s5.mp3"
+    },
+    {
+      "id": "m14-s1",
+      "word_id": "m14",
+      "text": "Litom_šl",
+      "full": "Litomyšl",
+      "answer": "y",
+      "audio": "m14-s1.mp3"
+    },
+    {
+      "id": "m14-s2",
+      "word_id": "m14",
+      "text": "Jedeme do Litom_šle.",
+      "full": "Jedeme do Litomyšle.",
+      "answer": "y",
+      "audio": "m14-s2.mp3"
+    },
+    {
+      "id": "m14-s3",
+      "word_id": "m14",
+      "text": "Litom_šl leží v Čechách.",
+      "full": "Litomyšl leží v Čechách.",
+      "answer": "y",
+      "audio": "m14-s3.mp3"
+    },
+    {
+      "id": "m14-s4",
+      "word_id": "m14",
+      "text": "V Litom_šli je zámek.",
+      "full": "V Litomyšli je zámek.",
+      "answer": "y",
+      "audio": "m14-s4.mp3"
+    },
+    {
+      "id": "m14-s5",
+      "word_id": "m14",
+      "text": "Litom_šl je hezké město.",
+      "full": "Litomyšl je hezké město.",
+      "answer": "y",
+      "audio": "m14-s5.mp3"
+    },
+    {
+      "id": "mc-s1",
+      "word_id": "_contrast",
+      "text": "m_lý",
+      "full": "milý",
+      "answer": "i",
+      "audio": "mc-s1.mp3"
+    },
+    {
+      "id": "mc-s2",
+      "word_id": "_contrast",
+      "text": "m_nuta",
+      "full": "minuta",
+      "answer": "i",
+      "audio": "mc-s2.mp3"
+    },
+    {
+      "id": "mc-s3",
+      "word_id": "_contrast",
+      "text": "m_nce",
+      "full": "mince",
+      "answer": "i",
+      "audio": "mc-s3.mp3"
+    },
+    {
+      "id": "mc-s4",
+      "word_id": "_contrast",
+      "text": "m_str",
+      "full": "mistr",
+      "answer": "i",
+      "audio": "mc-s4.mp3"
+    },
+    {
+      "id": "mc-s5",
+      "word_id": "_contrast",
+      "text": "sm_ch",
+      "full": "smích",
+      "answer": "i",
+      "audio": "mc-s5.mp3"
+    },
+    {
+      "id": "mc-s6",
+      "word_id": "_contrast",
+      "text": "m_kina",
+      "full": "mikina",
+      "answer": "i",
+      "audio": "mc-s6.mp3"
+    },
+    {
+      "id": "mc-s7",
+      "word_id": "_contrast",
+      "text": "m_sa",
+      "full": "mísa",
+      "answer": "i",
+      "audio": "mc-s7.mp3"
+    },
+    {
+      "id": "mc-s8",
+      "word_id": "_contrast",
+      "text": "m_č",
+      "full": "míč",
+      "answer": "i",
+      "audio": "mc-s8.mp3"
+    },
+    {
+      "id": "mc-s9",
+      "word_id": "_contrast",
+      "text": "Počkej jednu m_nutu.",
+      "full": "Počkej jednu minutu.",
+      "answer": "i",
+      "audio": "mc-s9.mp3"
+    },
+    {
+      "id": "mc-s10",
+      "word_id": "_contrast",
+      "text": "Našel jsem m_nci na cestě.",
+      "full": "Našel jsem minci na cestě.",
+      "answer": "i",
+      "audio": "mc-s10.mp3"
+    },
+    {
+      "id": "mc-s11",
+      "word_id": "_contrast",
+      "text": "Hrajeme fotbal s m_čem.",
+      "full": "Hrajeme fotbal s míčem.",
+      "answer": "i",
+      "audio": "mc-s11.mp3"
+    },
+    {
+      "id": "mc-s12",
+      "word_id": "_contrast",
+      "text": "To je můj m_lý pes.",
+      "full": "To je můj milý pes.",
+      "answer": "i",
+      "audio": "mc-s12.mp3"
+    },
+    {
+      "id": "mc-s13",
+      "word_id": "_contrast",
+      "text": "Zpěvák drží m_krofon.",
+      "full": "Zpěvák drží mikrofon.",
+      "answer": "i",
+      "audio": "mc-s13.mp3"
+    },
+    {
+      "id": "mc-s14",
+      "word_id": "_contrast",
+      "text": "Pes běží m_mo plot.",
+      "full": "Pes běží mimo plot.",
+      "answer": "i",
+      "audio": "mc-s14.mp3"
+    },
+    {
+      "id": "mc-s15",
+      "word_id": "_contrast",
+      "text": "Z kom_na se kouří.",
+      "full": "Z komína se kouří.",
+      "answer": "i",
+      "audio": "mc-s15.mp3"
+    },
+    {
+      "id": "mc-s16",
+      "word_id": "_contrast",
+      "text": "V botě je kam_nek.",
+      "full": "V botě je kamínek.",
+      "answer": "i",
+      "audio": "mc-s16.mp3"
+    },
+    {
+      "id": "mc-s17",
+      "word_id": "_contrast",
+      "text": "Čtu rád kom_ks.",
+      "full": "Čtu rád komiks.",
+      "answer": "i",
+      "audio": "mc-s17.mp3"
+    },
+    {
+      "id": "mc-s18",
+      "word_id": "_contrast",
+      "text": "Hrajeme dom_no.",
+      "full": "Hrajeme domino.",
+      "answer": "i",
+      "audio": "mc-s18.mp3"
+    },
+    {
+      "id": "mc-s19",
+      "word_id": "_contrast",
+      "text": "Pod m_kroskopem je mravenec.",
+      "full": "Pod mikroskopem je mravenec.",
+      "answer": "i",
+      "audio": "mc-s19.mp3"
+    },
+    {
+      "id": "mc-s20",
+      "word_id": "_contrast",
+      "text": "Autobus m_ne naši školu.",
+      "full": "Autobus mine naši školu.",
+      "answer": "i",
+      "audio": "mc-s20.mp3"
+    },
+    {
+      "id": "mc-s21",
+      "word_id": "_contrast",
+      "text": "Chceme m_r na světě.",
+      "full": "Chceme mír na světě.",
+      "answer": "i",
+      "audio": "mc-s21.mp3"
+    },
+    {
+      "id": "mc-s22",
+      "word_id": "_contrast",
+      "text": "Ve třídě zní sm_ch.",
+      "full": "Ve třídě zní smích.",
+      "answer": "i",
+      "audio": "mc-s22.mp3"
+    },
+    {
+      "id": "mc-s23",
+      "word_id": "_contrast",
+      "text": "M_str světa hraje fotbal.",
+      "full": "Mistr světa hraje fotbal.",
+      "answer": "i",
+      "audio": "mc-s23.mp3"
+    },
+    {
+      "id": "mc-s24",
+      "word_id": "_contrast",
+      "text": "M_nce zvoní v kapse.",
+      "full": "Mince zvoní v kapse.",
+      "answer": "i",
+      "audio": "mc-s24.mp3"
+    },
+    {
+      "id": "mc-s25",
+      "word_id": "_contrast",
+      "text": "M_luji dinosaury.",
+      "full": "Miluji dinosaury.",
+      "answer": "i",
+      "audio": "mc-s25.mp3"
+    },
+    {
+      "id": "mc-s26",
+      "word_id": "_contrast",
+      "text": "Přijdu za m_nutu.",
+      "full": "Přijdu za minutu.",
+      "answer": "i",
+      "audio": "mc-s26.mp3"
+    },
+    {
+      "id": "m01-n1",
+      "word_id": "m01",
+      "text": "M_ máme rádi dinosaury.",
+      "full": "My máme rádi dinosaury.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m01-n2",
+      "word_id": "m01",
+      "text": "M_ děláme domácí úkol.",
+      "full": "My děláme domácí úkol.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m01-n3",
+      "word_id": "m01",
+      "text": "Řekni m_ pravdu.",
+      "full": "Řekni mi pravdu.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "m01-n4",
+      "word_id": "m01",
+      "text": "Přines m_ jablko.",
+      "full": "Přines mi jablko.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "m02-n1",
+      "word_id": "m02",
+      "text": "m_čka",
+      "full": "myčka",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m02-n2",
+      "word_id": "m02",
+      "text": "m_tí",
+      "full": "mytí",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m02-n3",
+      "word_id": "m02",
+      "text": "Po fotbale si m_je ruce.",
+      "full": "Po fotbale si myje ruce.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m02-n4",
+      "word_id": "m02",
+      "text": "Chceme m_t hodně sněhu.",
+      "full": "Chceme mít hodně sněhu.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "m03-n1",
+      "word_id": "m03",
+      "text": "zam_slet se",
+      "full": "zamyslet se",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m03-n2",
+      "word_id": "m03",
+      "text": "sm_sl",
+      "full": "smysl",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m03-n3",
+      "word_id": "m03",
+      "text": "Žralok m_slí jen na jídlo.",
+      "full": "Žralok myslí jen na jídlo.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m03-n4",
+      "word_id": "m03",
+      "text": "Co si o tom m_slíš?",
+      "full": "Co si o tom myslíš?",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m04-n1",
+      "word_id": "m04",
+      "text": "m_lně",
+      "full": "mylně",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m04-n2",
+      "word_id": "m04",
+      "text": "Poslal jsem to om_lem.",
+      "full": "Poslal jsem to omylem.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m04-n3",
+      "word_id": "m04",
+      "text": "To je m_lná odpověď.",
+      "full": "To je mylná odpověď.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m04-n4",
+      "word_id": "m04",
+      "text": "Učitelka se nem_lila.",
+      "full": "Učitelka se nemýlila.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m05-n1",
+      "word_id": "m05",
+      "text": "hm_zu",
+      "full": "hmyzu",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m05-n2",
+      "word_id": "m05",
+      "text": "V trávě žije spousta hm_zu.",
+      "full": "V trávě žije spousta hmyzu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m05-n3",
+      "word_id": "m05",
+      "text": "Ptáci jedí hm_z.",
+      "full": "Ptáci jedí hmyz.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m05-n4",
+      "word_id": "m05",
+      "text": "Včela je hm_z a ráda létá.",
+      "full": "Včela je hmyz a ráda létá.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m06-n1",
+      "word_id": "m06",
+      "text": "m_šky",
+      "full": "myšky",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m06-n2",
+      "word_id": "m06",
+      "text": "Klepnu m_ší na ikonu.",
+      "full": "Klepnu myší na ikonu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m06-n3",
+      "word_id": "m06",
+      "text": "M_š má malé uši.",
+      "full": "Myš má malé uši.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m06-n4",
+      "word_id": "m06",
+      "text": "V díře sedí malá m_š.",
+      "full": "V díře sedí malá myš.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m07-n1",
+      "word_id": "m07",
+      "text": "hlem_ždům",
+      "full": "hlemýždům",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m07-n2",
+      "word_id": "m07",
+      "text": "Po dešti jsou venku hlem_ždi.",
+      "full": "Po dešti jsou venku hlemýždi.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m07-n3",
+      "word_id": "m07",
+      "text": "Na zahradě sedí hlem_žď.",
+      "full": "Na zahradě sedí hlemýžď.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m07-n4",
+      "word_id": "m07",
+      "text": "Hlem_žď má dva růžky.",
+      "full": "Hlemýžď má dva růžky.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m08-n1",
+      "word_id": "m08",
+      "text": "m_tit",
+      "full": "mýtit",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m08-n2",
+      "word_id": "m08",
+      "text": "m_tinou",
+      "full": "mýtinou",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m08-n3",
+      "word_id": "m08",
+      "text": "Za lesem je nová m_tina.",
+      "full": "Za lesem je nová mýtina.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m08-n4",
+      "word_id": "m08",
+      "text": "Dřevorubec m_til les.",
+      "full": "Dřevorubec mýtil les.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m09-n1",
+      "word_id": "m09",
+      "text": "uzam_kat",
+      "full": "uzamykat",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m09-n2",
+      "word_id": "m09",
+      "text": "Nezapomeň zam_kat bránu.",
+      "full": "Nezapomeň zamykat bránu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m09-n3",
+      "word_id": "m09",
+      "text": "Ráno odem_kám skříňku.",
+      "full": "Ráno odemykám skříňku.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m09-n4",
+      "word_id": "m09",
+      "text": "Pan školník zam_ká školu.",
+      "full": "Pan školník zamyká školu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m10-n1",
+      "word_id": "m10",
+      "text": "sm_kal",
+      "full": "smýkal",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m10-n2",
+      "word_id": "m10",
+      "text": "sm_kala",
+      "full": "smýkala",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m10-n3",
+      "word_id": "m10",
+      "text": "Nesm_kej s kufrem po schodech.",
+      "full": "Nesmýkej s kufrem po schodech.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m10-n4",
+      "word_id": "m10",
+      "text": "Starý pes sm_kal dekou po podlaze.",
+      "full": "Starý pes smýkal dekou po podlaze.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m11-n1",
+      "word_id": "m11",
+      "text": "nadm_chaný",
+      "full": "nadmýchaný",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m11-n2",
+      "word_id": "m11",
+      "text": "Nadm_chej ten balónek.",
+      "full": "Nadmýchej ten balónek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m11-n3",
+      "word_id": "m11",
+      "text": "Dinosaurus dm_chal do ohně.",
+      "full": "Dinosaurus dmýchal do ohně.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m11-n4",
+      "word_id": "m11",
+      "text": "Kluk nadm_chl velký balonek.",
+      "full": "Kluk nadmýchl velký balonek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m12-n1",
+      "word_id": "m12",
+      "text": "chm_řím",
+      "full": "chmýřím",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m12-n2",
+      "word_id": "m12",
+      "text": "Pohladil jsem měkké chm_ří.",
+      "full": "Pohladil jsem měkké chmýří.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m12-n3",
+      "word_id": "m12",
+      "text": "Malé kuře je samé chm_ří.",
+      "full": "Malé kuře je samé chmýří.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m12-n4",
+      "word_id": "m12",
+      "text": "Ve vzduchu plave chm_ří.",
+      "full": "Ve vzduchu plave chmýří.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m13-n1",
+      "word_id": "m13",
+      "text": "nachom_tl se",
+      "full": "nachomýtl se",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m13-n2",
+      "word_id": "m13",
+      "text": "Na hřiště se nachom_tl pes.",
+      "full": "Na hřiště se nachomýtl pes.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m13-n3",
+      "word_id": "m13",
+      "text": "Nachom_tla se tam učitelka.",
+      "full": "Nachomýtla se tam učitelka.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m13-n4",
+      "word_id": "m13",
+      "text": "Kuře se nachom_tlo na dvorek.",
+      "full": "Kuře se nachomýtlo na dvorek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m14-n1",
+      "word_id": "m14",
+      "text": "litom_šlský",
+      "full": "litomyšlský",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m14-n2",
+      "word_id": "m14",
+      "text": "Pozdrav z Litom_šle.",
+      "full": "Pozdrav z Litomyšle.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m14-n3",
+      "word_id": "m14",
+      "text": "Litom_šl má krásné náměstí.",
+      "full": "Litomyšl má krásné náměstí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "m14-n4",
+      "word_id": "m14",
+      "text": "Zámek v Litom_šli je velký.",
+      "full": "Zámek v Litomyšli je velký.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "mc-n1",
+      "word_id": "_contrast",
+      "text": "m_kroskop",
+      "full": "mikroskop",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "mc-n2",
+      "word_id": "_contrast",
+      "text": "kom_n",
+      "full": "komín",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "mc-n3",
+      "word_id": "_contrast",
+      "text": "m_lovat",
+      "full": "milovat",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "mc-n4",
+      "word_id": "_contrast",
+      "text": "M_mo hřiště je louka.",
+      "full": "Mimo hřiště je louka.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "mc-n5",
+      "word_id": "_contrast",
+      "text": "Dostal jsem m_nci do ruky.",
+      "full": "Dostal jsem minci do ruky.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "mc-n6",
+      "word_id": "_contrast",
+      "text": "Velký m_kroskop stojí na stole.",
+      "full": "Velký mikroskop stojí na stole.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "mc-n7",
+      "word_id": "_contrast",
+      "text": "Tahle m_sa je plná jahod.",
+      "full": "Tahle mísa je plná jahod.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "mc-n8",
+      "word_id": "_contrast",
+      "text": "Hra trvá devadesát m_nut.",
+      "full": "Hra trvá devadesát minut.",
+      "answer": "i",
+      "audio": null
+    }
+  ],
+  "extra_cards": [
+    {
+      "id": "m01-mi",
+      "for": "m01",
+      "label": "Pozor: mi",
+      "word": "mi",
+      "meaning_cs": "Mně nebo pro mě.",
+      "hook_cs": "Mi je maličké slovo – má maličké i s tečkou.",
+      "examples": [
+        "Dej mi vodu.",
+        "Zavolej mi večer.",
+        "Řekni mi pravdu.",
+        "Přines mi jablko."
+      ],
+      "tip_cs": "Dá se říct „mně“? Píšu mi s i. Dá se říct „my všichni“? Píšu my s y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly blocky shark handing a glass of water to a small blocky dinosaur who reaches out with open hands.",
+      "audio": "m01-mi.mp3",
+      "audio_text": "mi. Mně nebo pro mě. Mi je maličké slovo, má maličké i s tečkou. Dej mi vodu. Zavolej mi večer. Řekni mi pravdu. Dá se říct mně? Píšu mi s měkkým i. Dá se říct my všichni? Píšu my s ypsilonem."
+    },
+    {
+      "id": "m02-mit",
+      "for": "m02",
+      "label": "Pozor: mít",
+      "word": "mít (má, měl)",
+      "meaning_cs": "Vlastnit něco nebo něco dostat.",
+      "hook_cs": "Malé i drží tečku jako dárek: já ho mám.",
+      "examples": [
+        "Chci mít hodně kamarádů.",
+        "Dnes budu mít oslavu.",
+        "Můžu mít jeden bonbon?",
+        "Chceme mít hodně sněhu."
+      ],
+      "tip_cs": "Něco vlastním nebo dostanu? Píšu i (mít). Něco čistím vodou? Píšu y (mýt).",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A happy blocky dinosaur proudly holding a wrapped gift box with both hands.",
+      "audio": "m02-mit.mp3",
+      "audio_text": "mít. Vlastnit něco nebo něco dostat. Malé i drží tečku jako dárek: já ho mám. Chci mít hodně kamarádů. Dnes budu mít oslavu. Můžu mít jeden bonbon? Něco vlastním nebo dostanu? Píšu měkké i. Něco čistím vodou? Píšu ypsilon."
+    }
+  ]
+}

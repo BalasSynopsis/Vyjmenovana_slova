@@ -1,0 +1,1250 @@
+{
+  "letter": "V",
+  "island": {
+    "name": "Vysoký ostrov",
+    "biome": "tall rocky mountains with a blacksmith forge, a river and a waterfall",
+    "guardian": "Vytrvalý stegosaurus"
+  },
+  "words": [
+    {
+      "id": "v01",
+      "word": "vy",
+      "meaning_cs": "Oslovení pro více lidí. Zdvořile i pro jednoho.",
+      "gloss_en": "you (plural, polite)",
+      "hook_cs": "Y ukazuje oběma rukama na vás: vy!",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel teacher dinosaur pointing an open hand toward three small blocky dinosaur pupils in a sunny classroom.",
+      "related": [
+        "vykat",
+        "vykání",
+        "vykáme"
+      ],
+      "trap": null
+    },
+    {
+      "id": "v02",
+      "word": "vysoký",
+      "meaning_cs": "Jde daleko nahoru, třeba věž nebo žirafa.",
+      "gloss_en": "tall, high",
+      "hook_cs": "Y se tyčí vysoko jako žirafa s dlouhým krkem.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A very tall blocky giraffe standing next to a tiny blocky dinosaur that looks up at its head.",
+      "related": [
+        "vysoko",
+        "výška",
+        "výšina",
+        "vyšší"
+      ],
+      "trap": null
+    },
+    {
+      "id": "v03",
+      "word": "výt",
+      "meaning_cs": "Dlouze a hlasitě volat jako vlk v noci.",
+      "gloss_en": "to howl",
+      "hook_cs": "Hlava vlka zvednutá k měsíci tvoří Y: vlk vyje.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel wolf on a rocky hill at night, head raised, howling at a big full moon.",
+      "related": [
+        "vyje",
+        "vyl",
+        "vytí",
+        "zavýt"
+      ],
+      "trap": {
+        "word": "vít",
+        "meaning_cs": "splétat, třeba věnec"
+      }
+    },
+    {
+      "id": "v04",
+      "word": "výskat",
+      "meaning_cs": "Hlasitě se radovat a pištět radostí.",
+      "gloss_en": "to squeal with joy",
+      "hook_cs": "Y zvedá obě ruce nad hlavu a výská radostí.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. Blocky voxel football players jumping with joy, arms in the air, on a green pitch.",
+      "related": [
+        "výskot",
+        "zavýskat",
+        "výskání"
+      ],
+      "trap": null
+    },
+    {
+      "id": "v05",
+      "word": "zvykat",
+      "meaning_cs": "Dělat něco pořád, až je to normální.",
+      "gloss_en": "to get used to",
+      "hook_cs": "Pevný zvyk stojí pevně jako kmen písmene Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small blocky dinosaur sitting in a new cosy cave room, happily settled, with a bed, a toothbrush and a clock showing a daily routine.",
+      "related": [
+        "zvyk",
+        "zvyknout",
+        "zvyklý",
+        "navyknout"
+      ],
+      "trap": null
+    },
+    {
+      "id": "v06",
+      "word": "žvýkat",
+      "meaning_cs": "Pomalu drtit jídlo zuby a nepolknout.",
+      "gloss_en": "to chew",
+      "hook_cs": "Kráva žvýká a její rohy jsou jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel cow in a green meadow chewing slowly with a happy face.",
+      "related": [
+        "žvýkačka",
+        "žvýkání",
+        "žvýkací"
+      ],
+      "trap": null
+    },
+    {
+      "id": "v07",
+      "word": "vydra",
+      "meaning_cs": "Malé zvíře, plave a loví ryby.",
+      "gloss_en": "otter",
+      "hook_cs": "Vydra stojí na zadních nohách jako písmeno Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cute blocky voxel otter swimming in a river holding a fish.",
+      "related": [
+        "vydří"
+      ],
+      "trap": null
+    },
+    {
+      "id": "v08",
+      "word": "výr",
+      "meaning_cs": "Největší sova, má na hlavě chocholky.",
+      "gloss_en": "eagle-owl",
+      "hook_cs": "Y má nahoře dva rohy jako chocholky výra.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky eagle-owl with big ear tufts and orange eyes perched on a branch at dusk.",
+      "related": [
+        "výří",
+        "výreček"
+      ],
+      "trap": {
+        "word": "vír",
+        "meaning_cs": "točící se voda"
+      }
+    },
+    {
+      "id": "v09",
+      "word": "vyžle",
+      "meaning_cs": "Štíhlý lovecký pes s krátkou srstí.",
+      "gloss_en": "pointer (hunting dog)",
+      "hook_cs": "Vyžle stojí štíhlé a dlouhé jako písmeno Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A slim blocky short-haired hunting dog with long legs standing alert in a field, nose pointing forward.",
+      "related": [
+        "vyžlata"
+      ],
+      "trap": null
+    },
+    {
+      "id": "v10",
+      "word": "povyk",
+      "meaning_cs": "Velký hluk, křik a zmatek.",
+      "gloss_en": "uproar, racket",
+      "hook_cs": "Y zvedá ruce a dělá povyk: Haló!",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A noisy blocky scene: a parrot and small blocky dinosaurs shouting with open mouths in a crowded square, colourful sound waves drawn as simple shapes.",
+      "related": [
+        "povykovat"
+      ],
+      "trap": null
+    },
+    {
+      "id": "v11",
+      "word": "výheň",
+      "meaning_cs": "Ohniště kováře, kde se žhaví železo.",
+      "gloss_en": "blacksmith's forge",
+      "hook_cs": "Kleště kováře jsou jako Y nad žhavou výhní.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel blacksmith's open stone forge with glowing orange coals and a blocky smith holding a glowing iron bar with tongs.",
+      "related": [
+        "výhně"
+      ],
+      "trap": null
+    }
+  ],
+  "items": [
+    {
+      "id": "v01-s1",
+      "word_id": "v01",
+      "text": "v_",
+      "full": "vy",
+      "answer": "y",
+      "audio": "v01-s1.mp3"
+    },
+    {
+      "id": "v01-s2",
+      "word_id": "v01",
+      "text": "v_kat",
+      "full": "vykat",
+      "answer": "y",
+      "audio": "v01-s2.mp3"
+    },
+    {
+      "id": "v01-s3",
+      "word_id": "v01",
+      "text": "v_kání",
+      "full": "vykání",
+      "answer": "y",
+      "audio": "v01-s3.mp3"
+    },
+    {
+      "id": "v01-s4",
+      "word_id": "v01",
+      "text": "V_ jste skvělí.",
+      "full": "Vy jste skvělí.",
+      "answer": "y",
+      "audio": "v01-s4.mp3"
+    },
+    {
+      "id": "v01-s5",
+      "word_id": "v01",
+      "text": "Haló, v_ tam nahoře!",
+      "full": "Haló, vy tam nahoře!",
+      "answer": "y",
+      "audio": "v01-s5.mp3"
+    },
+    {
+      "id": "v01-n1",
+      "word_id": "v01",
+      "text": "V_ máte rychlé kolo.",
+      "full": "Vy máte rychlé kolo.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v01-n2",
+      "word_id": "v01",
+      "text": "Dnes jdete v_ do školy.",
+      "full": "Dnes jdete vy do školy.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v01-n3",
+      "word_id": "v01",
+      "text": "Haló, kdo jste v_?",
+      "full": "Haló, kdo jste vy?",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v01-n4",
+      "word_id": "v01",
+      "text": "V_ dva hrajete fotbal.",
+      "full": "Vy dva hrajete fotbal.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v02-s1",
+      "word_id": "v02",
+      "text": "v_soký",
+      "full": "vysoký",
+      "answer": "y",
+      "audio": "v02-s1.mp3"
+    },
+    {
+      "id": "v02-s2",
+      "word_id": "v02",
+      "text": "v_ška",
+      "full": "výška",
+      "answer": "y",
+      "audio": "v02-s2.mp3"
+    },
+    {
+      "id": "v02-s3",
+      "word_id": "v02",
+      "text": "v_soko",
+      "full": "vysoko",
+      "answer": "y",
+      "audio": "v02-s3.mp3"
+    },
+    {
+      "id": "v02-s4",
+      "word_id": "v02",
+      "text": "Žirafa je v_soká.",
+      "full": "Žirafa je vysoká.",
+      "answer": "y",
+      "audio": "v02-s4.mp3"
+    },
+    {
+      "id": "v02-s5",
+      "word_id": "v02",
+      "text": "Žralok skočil v_soko nad vodu.",
+      "full": "Žralok skočil vysoko nad vodu.",
+      "answer": "y",
+      "audio": "v02-s5.mp3"
+    },
+    {
+      "id": "v02-n1",
+      "word_id": "v02",
+      "text": "V_soký strom stojí u řeky.",
+      "full": "Vysoký strom stojí u řeky.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v02-n2",
+      "word_id": "v02",
+      "text": "Horský kozel šplhá v_soko.",
+      "full": "Horský kozel šplhá vysoko.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v02-n3",
+      "word_id": "v02",
+      "text": "Měřím svou v_šku.",
+      "full": "Měřím svou výšku.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v02-n4",
+      "word_id": "v02",
+      "text": "Brankář je v_soký a silný.",
+      "full": "Brankář je vysoký a silný.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v03-s1",
+      "word_id": "v03",
+      "text": "v_tí",
+      "full": "vytí",
+      "answer": "y",
+      "audio": "v03-s1.mp3"
+    },
+    {
+      "id": "v03-s2",
+      "word_id": "v03",
+      "text": "Vlk v_je v noci.",
+      "full": "Vlk vyje v noci.",
+      "answer": "y",
+      "audio": "v03-s2.mp3"
+    },
+    {
+      "id": "v03-s3",
+      "word_id": "v03",
+      "text": "Pes v_l celou noc.",
+      "full": "Pes vyl celou noc.",
+      "answer": "y",
+      "audio": "v03-s3.mp3"
+    },
+    {
+      "id": "v03-s4",
+      "word_id": "v03",
+      "text": "Vlk začal v_t.",
+      "full": "Vlk začal výt.",
+      "answer": "y",
+      "audio": "v03-s4.mp3"
+    },
+    {
+      "id": "v03-s5",
+      "word_id": "v03",
+      "text": "Máma v_je věnec.",
+      "full": "Máma vije věnec.",
+      "answer": "i",
+      "audio": "v03-s5.mp3"
+    },
+    {
+      "id": "v03-s6",
+      "word_id": "v03",
+      "text": "Holka v_la věnec z kopretin.",
+      "full": "Holka vila věnec z kopretin.",
+      "answer": "i",
+      "audio": "v03-s6.mp3"
+    },
+    {
+      "id": "v03-n1",
+      "word_id": "v03",
+      "text": "Vlčí smečka začala v_t.",
+      "full": "Vlčí smečka začala výt.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v03-n2",
+      "word_id": "v03",
+      "text": "Pes v_je, když je sám.",
+      "full": "Pes vyje, když je sám.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v03-n3",
+      "word_id": "v03",
+      "text": "Šakal v_je na kopci.",
+      "full": "Šakal vyje na kopci.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v03-n4",
+      "word_id": "v03",
+      "text": "Sestra v_je věnec z květin.",
+      "full": "Sestra vije věnec z květin.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "v04-s1",
+      "word_id": "v04",
+      "text": "v_skot",
+      "full": "výskot",
+      "answer": "y",
+      "audio": "v04-s1.mp3"
+    },
+    {
+      "id": "v04-s2",
+      "word_id": "v04",
+      "text": "zav_skat",
+      "full": "zavýskat",
+      "answer": "y",
+      "audio": "v04-s2.mp3"
+    },
+    {
+      "id": "v04-s3",
+      "word_id": "v04",
+      "text": "Fotbalisté v_skají po gólu.",
+      "full": "Fotbalisté výskají po gólu.",
+      "answer": "y",
+      "audio": "v04-s3.mp3"
+    },
+    {
+      "id": "v04-s4",
+      "word_id": "v04",
+      "text": "Brácha v_skal po gólu.",
+      "full": "Brácha výskal po gólu.",
+      "answer": "y",
+      "audio": "v04-s4.mp3"
+    },
+    {
+      "id": "v04-s5",
+      "word_id": "v04",
+      "text": "V_skají radostí.",
+      "full": "Výskají radostí.",
+      "answer": "y",
+      "audio": "v04-s5.mp3"
+    },
+    {
+      "id": "v04-n1",
+      "word_id": "v04",
+      "text": "Kluk v_ská na hřišti.",
+      "full": "Kluk výská na hřišti.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v04-n2",
+      "word_id": "v04",
+      "text": "Brácha v_ská u bazénu.",
+      "full": "Brácha výská u bazénu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v04-n3",
+      "word_id": "v04",
+      "text": "V_skot se nesl hřištěm.",
+      "full": "Výskot se nesl hřištěm.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v04-n4",
+      "word_id": "v04",
+      "text": "Malá sestra v_ská radostí.",
+      "full": "Malá sestra výská radostí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v05-s1",
+      "word_id": "v05",
+      "text": "zv_k",
+      "full": "zvyk",
+      "answer": "y",
+      "audio": "v05-s1.mp3"
+    },
+    {
+      "id": "v05-s2",
+      "word_id": "v05",
+      "text": "zv_knout",
+      "full": "zvyknout",
+      "answer": "y",
+      "audio": "v05-s2.mp3"
+    },
+    {
+      "id": "v05-s3",
+      "word_id": "v05",
+      "text": "Zv_kám si na novou školu.",
+      "full": "Zvykám si na novou školu.",
+      "answer": "y",
+      "audio": "v05-s3.mp3"
+    },
+    {
+      "id": "v05-s4",
+      "word_id": "v05",
+      "text": "Žralok si zv_ká na vodu.",
+      "full": "Žralok si zvyká na vodu.",
+      "answer": "y",
+      "audio": "v05-s4.mp3"
+    },
+    {
+      "id": "v05-s5",
+      "word_id": "v05",
+      "text": "Je to můj zv_k.",
+      "full": "Je to můj zvyk.",
+      "answer": "y",
+      "audio": "v05-s5.mp3"
+    },
+    {
+      "id": "v05-n1",
+      "word_id": "v05",
+      "text": "Pomalu si zv_kám na školu.",
+      "full": "Pomalu si zvykám na školu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v05-n2",
+      "word_id": "v05",
+      "text": "Je to starý zv_k.",
+      "full": "Je to starý zvyk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v05-n3",
+      "word_id": "v05",
+      "text": "Pes si zv_ká na boudu.",
+      "full": "Pes si zvyká na boudu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v05-n4",
+      "word_id": "v05",
+      "text": "Zv_knu si na to.",
+      "full": "Zvyknu si na to.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v06-s1",
+      "word_id": "v06",
+      "text": "žv_kačka",
+      "full": "žvýkačka",
+      "answer": "y",
+      "audio": "v06-s1.mp3"
+    },
+    {
+      "id": "v06-s2",
+      "word_id": "v06",
+      "text": "žv_kání",
+      "full": "žvýkání",
+      "answer": "y",
+      "audio": "v06-s2.mp3"
+    },
+    {
+      "id": "v06-s3",
+      "word_id": "v06",
+      "text": "Kráva žv_ká seno.",
+      "full": "Kráva žvýká seno.",
+      "answer": "y",
+      "audio": "v06-s3.mp3"
+    },
+    {
+      "id": "v06-s4",
+      "word_id": "v06",
+      "text": "Žv_kačka je sladká.",
+      "full": "Žvýkačka je sladká.",
+      "answer": "y",
+      "audio": "v06-s4.mp3"
+    },
+    {
+      "id": "v06-s5",
+      "word_id": "v06",
+      "text": "Dinosaurus žv_kal listí.",
+      "full": "Dinosaurus žvýkal listí.",
+      "answer": "y",
+      "audio": "v06-s5.mp3"
+    },
+    {
+      "id": "v06-n1",
+      "word_id": "v06",
+      "text": "Kůň žv_ká jablko.",
+      "full": "Kůň žvýká jablko.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v06-n2",
+      "word_id": "v06",
+      "text": "Ovce žv_ká na louce.",
+      "full": "Ovce žvýká na louce.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v06-n3",
+      "word_id": "v06",
+      "text": "Velbloud žv_ká suchou trávu.",
+      "full": "Velbloud žvýká suchou trávu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v06-n4",
+      "word_id": "v06",
+      "text": "Mamut žv_kal listí.",
+      "full": "Mamut žvýkal listí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v07-s1",
+      "word_id": "v07",
+      "text": "v_dra",
+      "full": "vydra",
+      "answer": "y",
+      "audio": "v07-s1.mp3"
+    },
+    {
+      "id": "v07-s2",
+      "word_id": "v07",
+      "text": "v_dří",
+      "full": "vydří",
+      "answer": "y",
+      "audio": "v07-s2.mp3"
+    },
+    {
+      "id": "v07-s3",
+      "word_id": "v07",
+      "text": "V_dra chytila rybu.",
+      "full": "Vydra chytila rybu.",
+      "answer": "y",
+      "audio": "v07-s3.mp3"
+    },
+    {
+      "id": "v07-s4",
+      "word_id": "v07",
+      "text": "V_dra plave v potoce.",
+      "full": "Vydra plave v potoce.",
+      "answer": "y",
+      "audio": "v07-s4.mp3"
+    },
+    {
+      "id": "v07-s5",
+      "word_id": "v07",
+      "text": "V_dra spí u řeky.",
+      "full": "Vydra spí u řeky.",
+      "answer": "y",
+      "audio": "v07-s5.mp3"
+    },
+    {
+      "id": "v07-n1",
+      "word_id": "v07",
+      "text": "Malá v_dra se potápí.",
+      "full": "Malá vydra se potápí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v07-n2",
+      "word_id": "v07",
+      "text": "Na břehu sedí v_dra.",
+      "full": "Na břehu sedí vydra.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v07-n3",
+      "word_id": "v07",
+      "text": "V_dra si hraje ve vodě.",
+      "full": "Vydra si hraje ve vodě.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v07-n4",
+      "word_id": "v07",
+      "text": "V_dra má hustou srst.",
+      "full": "Vydra má hustou srst.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v08-s1",
+      "word_id": "v08",
+      "text": "v_reček",
+      "full": "výreček",
+      "answer": "y",
+      "audio": "v08-s1.mp3"
+    },
+    {
+      "id": "v08-s2",
+      "word_id": "v08",
+      "text": "V_r je velká sova.",
+      "full": "Výr je velká sova.",
+      "answer": "y",
+      "audio": "v08-s2.mp3"
+    },
+    {
+      "id": "v08-s3",
+      "word_id": "v08",
+      "text": "V noci houká v_r.",
+      "full": "V noci houká výr.",
+      "answer": "y",
+      "audio": "v08-s3.mp3"
+    },
+    {
+      "id": "v08-s4",
+      "word_id": "v08",
+      "text": "Ve vodě se tvoří v_r.",
+      "full": "Ve vodě se tvoří vír.",
+      "answer": "i",
+      "audio": "v08-s4.mp3"
+    },
+    {
+      "id": "v08-s5",
+      "word_id": "v08",
+      "text": "Kajak se točí ve v_ru.",
+      "full": "Kajak se točí ve víru.",
+      "answer": "i",
+      "audio": "v08-s5.mp3"
+    },
+    {
+      "id": "v08-s6",
+      "word_id": "v08",
+      "text": "V_r sedí na větvi.",
+      "full": "Výr sedí na větvi.",
+      "answer": "y",
+      "audio": "v08-s6.mp3"
+    },
+    {
+      "id": "v08-n1",
+      "word_id": "v08",
+      "text": "V_r má velké oči.",
+      "full": "Výr má velké oči.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v08-n2",
+      "word_id": "v08",
+      "text": "Na stromě sedí v_r.",
+      "full": "Na stromě sedí výr.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v08-n3",
+      "word_id": "v08",
+      "text": "V_r spí ve dne.",
+      "full": "Výr spí ve dne.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v08-n4",
+      "word_id": "v08",
+      "text": "Listí se točí ve v_ru.",
+      "full": "Listí se točí ve víru.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "v09-s1",
+      "word_id": "v09",
+      "text": "v_žle",
+      "full": "vyžle",
+      "answer": "y",
+      "audio": "v09-s1.mp3"
+    },
+    {
+      "id": "v09-s2",
+      "word_id": "v09",
+      "text": "v_žlata",
+      "full": "vyžlata",
+      "answer": "y",
+      "audio": "v09-s2.mp3"
+    },
+    {
+      "id": "v09-s3",
+      "word_id": "v09",
+      "text": "V_žle je štíhlý pes.",
+      "full": "Vyžle je štíhlý pes.",
+      "answer": "y",
+      "audio": "v09-s3.mp3"
+    },
+    {
+      "id": "v09-s4",
+      "word_id": "v09",
+      "text": "V_žle běží polem.",
+      "full": "Vyžle běží polem.",
+      "answer": "y",
+      "audio": "v09-s4.mp3"
+    },
+    {
+      "id": "v09-s5",
+      "word_id": "v09",
+      "text": "Soused má v_žle.",
+      "full": "Soused má vyžle.",
+      "answer": "y",
+      "audio": "v09-s5.mp3"
+    },
+    {
+      "id": "v09-n1",
+      "word_id": "v09",
+      "text": "V_žle hledá kachnu v poli.",
+      "full": "Vyžle hledá kachnu v poli.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v09-n2",
+      "word_id": "v09",
+      "text": "Štíhlé v_žle skáče přes plot.",
+      "full": "Štíhlé vyžle skáče přes plot.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v09-n3",
+      "word_id": "v09",
+      "text": "Malé v_žle spí v košíku.",
+      "full": "Malé vyžle spí v košíku.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v09-n4",
+      "word_id": "v09",
+      "text": "Naše v_žle rádo běhá.",
+      "full": "Naše vyžle rádo běhá.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v10-s1",
+      "word_id": "v10",
+      "text": "pov_k",
+      "full": "povyk",
+      "answer": "y",
+      "audio": "v10-s1.mp3"
+    },
+    {
+      "id": "v10-s2",
+      "word_id": "v10",
+      "text": "pov_kovat",
+      "full": "povykovat",
+      "answer": "y",
+      "audio": "v10-s2.mp3"
+    },
+    {
+      "id": "v10-s3",
+      "word_id": "v10",
+      "text": "Ve třídě je velký pov_k.",
+      "full": "Ve třídě je velký povyk.",
+      "answer": "y",
+      "audio": "v10-s3.mp3"
+    },
+    {
+      "id": "v10-s4",
+      "word_id": "v10",
+      "text": "Co je to za pov_k?",
+      "full": "Co je to za povyk?",
+      "answer": "y",
+      "audio": "v10-s4.mp3"
+    },
+    {
+      "id": "v10-s5",
+      "word_id": "v10",
+      "text": "Pes dělá velký pov_k.",
+      "full": "Pes dělá velký povyk.",
+      "answer": "y",
+      "audio": "v10-s5.mp3"
+    },
+    {
+      "id": "v10-n1",
+      "word_id": "v10",
+      "text": "Po gólu je v hale pov_k.",
+      "full": "Po gólu je v hale povyk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v10-n2",
+      "word_id": "v10",
+      "text": "Papoušek dělá velký pov_k.",
+      "full": "Papoušek dělá velký povyk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v10-n3",
+      "word_id": "v10",
+      "text": "Kvůli čemu ten pov_k?",
+      "full": "Kvůli čemu ten povyk?",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v10-n4",
+      "word_id": "v10",
+      "text": "Na hřišti je pov_k.",
+      "full": "Na hřišti je povyk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v11-s1",
+      "word_id": "v11",
+      "text": "v_heň",
+      "full": "výheň",
+      "answer": "y",
+      "audio": "v11-s1.mp3"
+    },
+    {
+      "id": "v11-s2",
+      "word_id": "v11",
+      "text": "v_hně",
+      "full": "výhně",
+      "answer": "y",
+      "audio": "v11-s2.mp3"
+    },
+    {
+      "id": "v11-s3",
+      "word_id": "v11",
+      "text": "V_heň je žhavá.",
+      "full": "Výheň je žhavá.",
+      "answer": "y",
+      "audio": "v11-s3.mp3"
+    },
+    {
+      "id": "v11-s4",
+      "word_id": "v11",
+      "text": "Kovář stojí u v_hně.",
+      "full": "Kovář stojí u výhně.",
+      "answer": "y",
+      "audio": "v11-s4.mp3"
+    },
+    {
+      "id": "v11-s5",
+      "word_id": "v11",
+      "text": "Kovář dává železo do v_hně.",
+      "full": "Kovář dává železo do výhně.",
+      "answer": "y",
+      "audio": "v11-s5.mp3"
+    },
+    {
+      "id": "v11-n1",
+      "word_id": "v11",
+      "text": "V_heň hřeje kovárnu.",
+      "full": "Výheň hřeje kovárnu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v11-n2",
+      "word_id": "v11",
+      "text": "V kovárně hoří v_heň.",
+      "full": "V kovárně hoří výheň.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v11-n3",
+      "word_id": "v11",
+      "text": "Z v_hně šlehá plamen.",
+      "full": "Z výhně šlehá plamen.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "v11-n4",
+      "word_id": "v11",
+      "text": "Pomocník fouká do v_hně.",
+      "full": "Pomocník fouká do výhně.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "vc-s1",
+      "word_id": "_contrast",
+      "text": "v_dět",
+      "full": "vidět",
+      "answer": "i",
+      "audio": "vc-s1.mp3"
+    },
+    {
+      "id": "vc-s2",
+      "word_id": "_contrast",
+      "text": "Chci v_dět lva.",
+      "full": "Chci vidět lva.",
+      "answer": "i",
+      "audio": "vc-s2.mp3"
+    },
+    {
+      "id": "vc-s3",
+      "word_id": "_contrast",
+      "text": "v_tr",
+      "full": "vítr",
+      "answer": "i",
+      "audio": "vc-s3.mp3"
+    },
+    {
+      "id": "vc-s4",
+      "word_id": "_contrast",
+      "text": "Foukal studený v_tr.",
+      "full": "Foukal studený vítr.",
+      "answer": "i",
+      "audio": "vc-s4.mp3"
+    },
+    {
+      "id": "vc-s5",
+      "word_id": "_contrast",
+      "text": "v_la",
+      "full": "víla",
+      "answer": "i",
+      "audio": "vc-s5.mp3"
+    },
+    {
+      "id": "vc-s6",
+      "word_id": "_contrast",
+      "text": "V pohádce je dobrá v_la.",
+      "full": "V pohádce je dobrá víla.",
+      "answer": "i",
+      "audio": "vc-s6.mp3"
+    },
+    {
+      "id": "vc-s7",
+      "word_id": "_contrast",
+      "text": "v_dlička",
+      "full": "vidlička",
+      "answer": "i",
+      "audio": "vc-s7.mp3"
+    },
+    {
+      "id": "vc-s8",
+      "word_id": "_contrast",
+      "text": "V_dlička leží na stole.",
+      "full": "Vidlička leží na stole.",
+      "answer": "i",
+      "audio": "vc-s8.mp3"
+    },
+    {
+      "id": "vc-s9",
+      "word_id": "_contrast",
+      "text": "v_čko",
+      "full": "víčko",
+      "answer": "i",
+      "audio": "vc-s9.mp3"
+    },
+    {
+      "id": "vc-s10",
+      "word_id": "_contrast",
+      "text": "Zavři v_čko od lahve.",
+      "full": "Zavři víčko od lahve.",
+      "answer": "i",
+      "audio": "vc-s10.mp3"
+    },
+    {
+      "id": "vc-s11",
+      "word_id": "_contrast",
+      "text": "sv_čka",
+      "full": "svíčka",
+      "answer": "i",
+      "audio": "vc-s11.mp3"
+    },
+    {
+      "id": "vc-s12",
+      "word_id": "_contrast",
+      "text": "Na dortu hoří sv_čka.",
+      "full": "Na dortu hoří svíčka.",
+      "answer": "i",
+      "audio": "vc-s12.mp3"
+    },
+    {
+      "id": "vc-s13",
+      "word_id": "_contrast",
+      "text": "slav_k",
+      "full": "slavík",
+      "answer": "i",
+      "audio": "vc-s13.mp3"
+    },
+    {
+      "id": "vc-s14",
+      "word_id": "_contrast",
+      "text": "Slav_k zpívá na stromě.",
+      "full": "Slavík zpívá na stromě.",
+      "answer": "i",
+      "audio": "vc-s14.mp3"
+    },
+    {
+      "id": "vc-s15",
+      "word_id": "_contrast",
+      "text": "zv_ře",
+      "full": "zvíře",
+      "answer": "i",
+      "audio": "vc-s15.mp3"
+    },
+    {
+      "id": "vc-s16",
+      "word_id": "_contrast",
+      "text": "Slon je velké zv_ře.",
+      "full": "Slon je velké zvíře.",
+      "answer": "i",
+      "audio": "vc-s16.mp3"
+    },
+    {
+      "id": "vc-s17",
+      "word_id": "_contrast",
+      "text": "v_tat",
+      "full": "vítat",
+      "answer": "i",
+      "audio": "vc-s17.mp3"
+    },
+    {
+      "id": "vc-s18",
+      "word_id": "_contrast",
+      "text": "Rád v_tám babičku.",
+      "full": "Rád vítám babičku.",
+      "answer": "i",
+      "audio": "vc-s18.mp3"
+    },
+    {
+      "id": "vc-s19",
+      "word_id": "_contrast",
+      "text": "hv_zdat",
+      "full": "hvízdat",
+      "answer": "i",
+      "audio": "vc-s19.mp3"
+    },
+    {
+      "id": "vc-s20",
+      "word_id": "_contrast",
+      "text": "Kluk hv_zdá na kopci.",
+      "full": "Kluk hvízdá na kopci.",
+      "answer": "i",
+      "audio": "vc-s20.mp3"
+    },
+    {
+      "id": "vc-s21",
+      "word_id": "_contrast",
+      "text": "cv_čit",
+      "full": "cvičit",
+      "answer": "i",
+      "audio": "vc-s21.mp3"
+    },
+    {
+      "id": "vc-s22",
+      "word_id": "_contrast",
+      "text": "Cv_číme na hřišti.",
+      "full": "Cvičíme na hřišti.",
+      "answer": "i",
+      "audio": "vc-s22.mp3"
+    },
+    {
+      "id": "vc-n1",
+      "word_id": "_contrast",
+      "text": "Dnes fouká silný v_tr.",
+      "full": "Dnes fouká silný vítr.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "vc-n2",
+      "word_id": "_contrast",
+      "text": "Chci v_dět velrybu.",
+      "full": "Chci vidět velrybu.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "vc-n3",
+      "word_id": "_contrast",
+      "text": "Zlatá v_la létá nad loukou.",
+      "full": "Zlatá víla létá nad loukou.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "vc-n4",
+      "word_id": "_contrast",
+      "text": "Rád v_tám hosty.",
+      "full": "Rád vítám hosty.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "vc-n5",
+      "word_id": "_contrast",
+      "text": "Zv_řata jdou k vodě.",
+      "full": "Zvířata jdou k vodě.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "vc-n6",
+      "word_id": "_contrast",
+      "text": "V_těz drží velký pohár.",
+      "full": "Vítěz drží velký pohár.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "vc-n7",
+      "word_id": "_contrast",
+      "text": "Cv_čím na hřišti každý den.",
+      "full": "Cvičím na hřišti každý den.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "vc-n8",
+      "word_id": "_contrast",
+      "text": "Brácha hv_zdá na psa.",
+      "full": "Brácha hvízdá na psa.",
+      "answer": "i",
+      "audio": null
+    }
+  ],
+  "extra_cards": [
+    {
+      "id": "v03-vit",
+      "for": "v03",
+      "label": "Pozor: vít",
+      "word": "vít (vije, vil)",
+      "meaning_cs": "Splétat, třeba věnec z květin nebo hnízdo.",
+      "hook_cs": "Malé i je tenký proutek, ze kterého se vije věnec.",
+      "examples": [
+        "Máma vije věnec.",
+        "Holka vila věnec z kopretin.",
+        "Ptáček vije hnízdo."
+      ],
+      "tip_cs": "Někdo plete věnec nebo hnízdo? Píšu i. Vlk volá na celé kolo? Píšu y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel girl weaving a wreath of daisies in a sunny meadow, a small wolf sitting calmly beside her.",
+      "audio": "v03-vit.mp3",
+      "audio_text": "vít. Splétat, třeba věnec z květin nebo hnízdo. Malé i je tenký proutek, ze kterého se vije věnec. Máma vije věnec. Holka vila věnec z kopretin. Ptáček vije hnízdo. Někdo plete věnec nebo hnízdo? Píšu měkké i. Vlk volá na celé kolo? Píšu ypsilon."
+    },
+    {
+      "id": "v08-vir",
+      "for": "v08",
+      "label": "Pozor: vír",
+      "word": "vír (víru)",
+      "meaning_cs": "Voda nebo vzduch, které se rychle točí dokola.",
+      "hook_cs": "Malé i je tenká čárka, kolem které se voda točí.",
+      "examples": [
+        "Ve vodě je vír.",
+        "Kajak se točí ve víru.",
+        "Vítr dělá vír z listí."
+      ],
+      "tip_cs": "Točí se voda nebo vítr? Píšu i. Je to velká sova s chocholky? Píšu y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small blocky kayak spinning in a blue whirlpool in a river, simple swirling water.",
+      "audio": "v08-vir.mp3",
+      "audio_text": "vír. Voda nebo vzduch, které se rychle točí dokola. Malé i je tenká čárka, kolem které se voda točí. Ve vodě je vír. Kajak se točí ve víru. Vítr dělá vír z listí. Točí se voda nebo vítr? Píšu měkké i. Je to velká sova s chocholky? Píšu ypsilon."
+    }
+  ]
+}

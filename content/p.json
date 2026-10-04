@@ -1,0 +1,1548 @@
+{
+  "letter": "P",
+  "island": {
+    "name": "Pyšný ostrov",
+    "biome": "rocky seaside cliffs with caves, tide pools and sparkling crystals",
+    "guardian": "Pyšný triceratops"
+  },
+  "words": [
+    {
+      "id": "p01",
+      "word": "pýcha",
+      "meaning_cs": "Pocit, že jsem lepší než ostatní.",
+      "gloss_en": "pride, arrogance",
+      "hook_cs": "Pyšný páv roztáhne ocas jako velké Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A proud blocky voxel peacock with a spread tail and lifted beak, strutting in front of small plain birds.",
+      "related": [
+        "pyšný",
+        "pyšně",
+        "pyšnit se",
+        "zpyšnět"
+      ],
+      "trap": {
+        "word": "píchá",
+        "meaning_cs": "bodá, třeba jehlou nebo ostnem"
+      }
+    },
+    {
+      "id": "p02",
+      "word": "pytel",
+      "meaning_cs": "Velká měkká taška na brambory nebo mouku.",
+      "gloss_en": "sack, bag",
+      "hook_cs": "Pytel s provázkem nahoře vypadá jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A rough blocky voxel burlap sack tied at the top with rope, full of potatoes, a few potatoes spilled beside it.",
+      "related": [
+        "pytlík",
+        "pytlovina",
+        "pytlák",
+        "pytlíček"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p03",
+      "word": "pysk",
+      "meaning_cs": "Ústa a čumák zvířete, třeba psa nebo koně.",
+      "gloss_en": "muzzle, snout",
+      "hook_cs": "Psí pysk a dvě uši nahoře tvoří Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A close-up of a friendly blocky voxel dog face with a clearly visible brown snout.",
+      "related": [
+        "pyskatý",
+        "pyskovat"
+      ],
+      "trap": {
+        "word": "pisk",
+        "meaning_cs": "ostrý, vysoký zvuk"
+      }
+    },
+    {
+      "id": "p04",
+      "word": "netopýr",
+      "meaning_cs": "Malé zvíře, které v noci létá a spí hlavou dolů.",
+      "gloss_en": "bat",
+      "hook_cs": "Netopýr roztáhne křídla a vypadá jako velké Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small blocky voxel bat hanging upside down from a cave ceiling with folded wings, soft moonlight.",
+      "related": [
+        "netopýří",
+        "netopýrek",
+        "netopýři"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p05",
+      "word": "slepýš",
+      "meaning_cs": "Ještěrka bez nohou, vypadá jako malý had.",
+      "gloss_en": "slow worm",
+      "hook_cs": "Slepýš se v trávě stočí do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A smooth shiny blocky voxel slow worm, a legless lizard, lying on green grass between flowers.",
+      "related": [
+        "slepýši",
+        "slepý"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p06",
+      "word": "pyl",
+      "meaning_cs": "Žlutý prášek z květů, který sbírají včely.",
+      "gloss_en": "pollen",
+      "hook_cs": "Včela v květu stojí rozkročená jako Y – sbírá pyl.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly blocky voxel bee sitting on a big flower, its legs covered with yellow pollen dust.",
+      "related": [
+        "pylový",
+        "opylovat",
+        "opylení"
+      ],
+      "trap": {
+        "word": "pil",
+        "meaning_cs": "od slovesa pít: pil vodu nebo čaj"
+      }
+    },
+    {
+      "id": "p07",
+      "word": "kopyto",
+      "meaning_cs": "Tvrdá noha koně nebo krávy.",
+      "gloss_en": "hoof",
+      "hook_cs": "Kravské kopyto je dole rozdělené jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A strong blocky voxel horse standing on a path with one front hoof raised, dark hooves clearly visible.",
+      "related": [
+        "kopyta",
+        "kopytnatec"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p08",
+      "word": "klopýtat",
+      "meaning_cs": "Nešikovně šlapat a málem upadnout.",
+      "gloss_en": "to stumble",
+      "hook_cs": "Klopýtám o větev ve tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cheerful small blocky voxel dinosaur tripping over a rock on a forest path, arms out for balance, harmless and funny.",
+      "related": [
+        "klopýtnout",
+        "klopýtnutí"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p09",
+      "word": "třpytit se",
+      "meaning_cs": "Lesknout se a blikat jako hvězdičky.",
+      "gloss_en": "to glitter, sparkle",
+      "hook_cs": "Ledová větvička se třpytí – vypadá jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A treasure chest full of glittering blocky voxel gems and coins, sparkling with little stars of light.",
+      "related": [
+        "třpyt",
+        "třpytivý",
+        "třpytky"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p10",
+      "word": "zpytovat",
+      "meaning_cs": "Uvažovat, jestli jsme něco neudělali špatně.",
+      "gloss_en": "to search one's conscience",
+      "hook_cs": "Zpytuji svědomí a ruce mám nad hlavou jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel dinosaur sitting alone on a rock at sunset, thinking quietly with an empty thought bubble above it.",
+      "related": [
+        "zpytování"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p11",
+      "word": "pykat",
+      "meaning_cs": "Litovat a nést trest za špatný skutek.",
+      "gloss_en": "to atone, pay the price",
+      "hook_cs": "Kdo pyká, stojí v koutě s rukama jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small blocky voxel dinosaur sitting in a corner of a room looking sorry, a broken flowerpot on the floor next to it.",
+      "related": [
+        "pykání",
+        "odpykat"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p12",
+      "word": "pýr",
+      "meaning_cs": "Tráva s dlouhými kořeny, roste jako plevel.",
+      "gloss_en": "couch grass",
+      "hook_cs": "Pýr se plazí zemí a větví se jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A grassy voxel garden bed with long white creeping grass roots pulled up, a small garden trowel next to it.",
+      "related": [],
+      "trap": null
+    },
+    {
+      "id": "p13",
+      "word": "pýřit se",
+      "meaning_cs": "Červenat se, když se stydím.",
+      "gloss_en": "to blush",
+      "hook_cs": "Kdo se pýří, má červené tváře a ruce zvedne k obličeji jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A shy blocky child character with bright red blushing cheeks, hands near face.",
+      "related": [
+        "zapýřit se",
+        "pýří se"
+      ],
+      "trap": null
+    },
+    {
+      "id": "p14",
+      "word": "čepýřit se",
+      "meaning_cs": "Zježit peří nebo vlasy, a roztáhnout je.",
+      "gloss_en": "to bristle, ruffle up",
+      "hook_cs": "Čepýřím vlasy a ty trčí jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel rooster with ruffled, puffed-up feathers sticking out in all directions, looking cross but cute.",
+      "related": [
+        "načepýřený",
+        "načepýřit se"
+      ],
+      "trap": null
+    }
+  ],
+  "items": [
+    {
+      "id": "p01-s1",
+      "word_id": "p01",
+      "text": "p_šný",
+      "full": "pyšný",
+      "answer": "y",
+      "audio": "p01-s1.mp3"
+    },
+    {
+      "id": "p01-s2",
+      "word_id": "p01",
+      "text": "p_šně",
+      "full": "pyšně",
+      "answer": "y",
+      "audio": "p01-s2.mp3"
+    },
+    {
+      "id": "p01-s3",
+      "word_id": "p01",
+      "text": "Páv je plný p_chy.",
+      "full": "Páv je plný pýchy.",
+      "answer": "y",
+      "audio": "p01-s3.mp3"
+    },
+    {
+      "id": "p01-s4",
+      "word_id": "p01",
+      "text": "Fotbalista nemá žádnou p_chu.",
+      "full": "Fotbalista nemá žádnou pýchu.",
+      "answer": "y",
+      "audio": "p01-s4.mp3"
+    },
+    {
+      "id": "p01-s5",
+      "word_id": "p01",
+      "text": "Dikobraz mě p_chá ostny.",
+      "full": "Dikobraz mě píchá ostny.",
+      "answer": "i",
+      "audio": "p01-s5.mp3"
+    },
+    {
+      "id": "p01-s6",
+      "word_id": "p01",
+      "text": "Jehla p_chá do prstu.",
+      "full": "Jehla píchá do prstu.",
+      "answer": "i",
+      "audio": "p01-s6.mp3"
+    },
+    {
+      "id": "p02-s1",
+      "word_id": "p02",
+      "text": "p_tlík",
+      "full": "pytlík",
+      "answer": "y",
+      "audio": "p02-s1.mp3"
+    },
+    {
+      "id": "p02-s2",
+      "word_id": "p02",
+      "text": "p_tlák",
+      "full": "pytlák",
+      "answer": "y",
+      "audio": "p02-s2.mp3"
+    },
+    {
+      "id": "p02-s3",
+      "word_id": "p02",
+      "text": "Kluk nese p_tel brambor.",
+      "full": "Kluk nese pytel brambor.",
+      "answer": "y",
+      "audio": "p02-s3.mp3"
+    },
+    {
+      "id": "p02-s4",
+      "word_id": "p02",
+      "text": "V p_tli jsou hrušky.",
+      "full": "V pytli jsou hrušky.",
+      "answer": "y",
+      "audio": "p02-s4.mp3"
+    },
+    {
+      "id": "p02-s5",
+      "word_id": "p02",
+      "text": "Mám v batohu p_tlík bonbonů.",
+      "full": "Mám v batohu pytlík bonbonů.",
+      "answer": "y",
+      "audio": "p02-s5.mp3"
+    },
+    {
+      "id": "p03-s1",
+      "word_id": "p03",
+      "text": "p_skatý",
+      "full": "pyskatý",
+      "answer": "y",
+      "audio": "p03-s1.mp3"
+    },
+    {
+      "id": "p03-s2",
+      "word_id": "p03",
+      "text": "p_skovat",
+      "full": "pyskovat",
+      "answer": "y",
+      "audio": "p03-s2.mp3"
+    },
+    {
+      "id": "p03-s3",
+      "word_id": "p03",
+      "text": "Pes má černý p_sk.",
+      "full": "Pes má černý pysk.",
+      "answer": "y",
+      "audio": "p03-s3.mp3"
+    },
+    {
+      "id": "p03-s4",
+      "word_id": "p03",
+      "text": "Kůň strčil p_sk do kbelíku.",
+      "full": "Kůň strčil pysk do kbelíku.",
+      "answer": "y",
+      "audio": "p03-s4.mp3"
+    },
+    {
+      "id": "p03-s5",
+      "word_id": "p03",
+      "text": "Z klece se ozval p_sk.",
+      "full": "Z klece se ozval pisk.",
+      "answer": "i",
+      "audio": "p03-s5.mp3"
+    },
+    {
+      "id": "p03-s6",
+      "word_id": "p03",
+      "text": "Ozval se p_sk brzd.",
+      "full": "Ozval se pisk brzd.",
+      "answer": "i",
+      "audio": "p03-s6.mp3"
+    },
+    {
+      "id": "p04-s1",
+      "word_id": "p04",
+      "text": "netop_r",
+      "full": "netopýr",
+      "answer": "y",
+      "audio": "p04-s1.mp3"
+    },
+    {
+      "id": "p04-s2",
+      "word_id": "p04",
+      "text": "netop_rek",
+      "full": "netopýrek",
+      "answer": "y",
+      "audio": "p04-s2.mp3"
+    },
+    {
+      "id": "p04-s3",
+      "word_id": "p04",
+      "text": "Netop_r má dlouhá křídla.",
+      "full": "Netopýr má dlouhá křídla.",
+      "answer": "y",
+      "audio": "p04-s3.mp3"
+    },
+    {
+      "id": "p04-s4",
+      "word_id": "p04",
+      "text": "V jeskyni žijí netop_ři.",
+      "full": "V jeskyni žijí netopýři.",
+      "answer": "y",
+      "audio": "p04-s4.mp3"
+    },
+    {
+      "id": "p04-s5",
+      "word_id": "p04",
+      "text": "Netop_r létá v noci.",
+      "full": "Netopýr létá v noci.",
+      "answer": "y",
+      "audio": "p04-s5.mp3"
+    },
+    {
+      "id": "p05-s1",
+      "word_id": "p05",
+      "text": "slep_š",
+      "full": "slepýš",
+      "answer": "y",
+      "audio": "p05-s1.mp3"
+    },
+    {
+      "id": "p05-s2",
+      "word_id": "p05",
+      "text": "slep_ši",
+      "full": "slepýši",
+      "answer": "y",
+      "audio": "p05-s2.mp3"
+    },
+    {
+      "id": "p05-s3",
+      "word_id": "p05",
+      "text": "Slep_š leze v trávě.",
+      "full": "Slepýš leze v trávě.",
+      "answer": "y",
+      "audio": "p05-s3.mp3"
+    },
+    {
+      "id": "p05-s4",
+      "word_id": "p05",
+      "text": "Slep_š není had.",
+      "full": "Slepýš není had.",
+      "answer": "y",
+      "audio": "p05-s4.mp3"
+    },
+    {
+      "id": "p05-s5",
+      "word_id": "p05",
+      "text": "Našli jsme slep_še na zahradě.",
+      "full": "Našli jsme slepýše na zahradě.",
+      "answer": "y",
+      "audio": "p05-s5.mp3"
+    },
+    {
+      "id": "p06-s1",
+      "word_id": "p06",
+      "text": "op_lovat",
+      "full": "opylovat",
+      "answer": "y",
+      "audio": "p06-s1.mp3"
+    },
+    {
+      "id": "p06-s2",
+      "word_id": "p06",
+      "text": "op_lení",
+      "full": "opylení",
+      "answer": "y",
+      "audio": "p06-s2.mp3"
+    },
+    {
+      "id": "p06-s3",
+      "word_id": "p06",
+      "text": "Včela nese p_l na nohách.",
+      "full": "Včela nese pyl na nohách.",
+      "answer": "y",
+      "audio": "p06-s3.mp3"
+    },
+    {
+      "id": "p06-s4",
+      "word_id": "p06",
+      "text": "Květiny mají žlutý p_l.",
+      "full": "Květiny mají žlutý pyl.",
+      "answer": "y",
+      "audio": "p06-s4.mp3"
+    },
+    {
+      "id": "p06-s5",
+      "word_id": "p06",
+      "text": "Pes p_l vodu z misky.",
+      "full": "Pes pil vodu z misky.",
+      "answer": "i",
+      "audio": "p06-s5.mp3"
+    },
+    {
+      "id": "p06-s6",
+      "word_id": "p06",
+      "text": "Včera jsem p_l čaj.",
+      "full": "Včera jsem pil čaj.",
+      "answer": "i",
+      "audio": "p06-s6.mp3"
+    },
+    {
+      "id": "p07-s1",
+      "word_id": "p07",
+      "text": "kop_to",
+      "full": "kopyto",
+      "answer": "y",
+      "audio": "p07-s1.mp3"
+    },
+    {
+      "id": "p07-s2",
+      "word_id": "p07",
+      "text": "kop_ta",
+      "full": "kopyta",
+      "answer": "y",
+      "audio": "p07-s2.mp3"
+    },
+    {
+      "id": "p07-s3",
+      "word_id": "p07",
+      "text": "Kůň zvedl kop_to.",
+      "full": "Kůň zvedl kopyto.",
+      "answer": "y",
+      "audio": "p07-s3.mp3"
+    },
+    {
+      "id": "p07-s4",
+      "word_id": "p07",
+      "text": "Podkova je na kop_tě.",
+      "full": "Podkova je na kopytě.",
+      "answer": "y",
+      "audio": "p07-s4.mp3"
+    },
+    {
+      "id": "p07-s5",
+      "word_id": "p07",
+      "text": "Kůň cvakal kop_ty o dlažbu.",
+      "full": "Kůň cvakal kopyty o dlažbu.",
+      "answer": "y",
+      "audio": "p07-s5.mp3"
+    },
+    {
+      "id": "p08-s1",
+      "word_id": "p08",
+      "text": "klop_tnout",
+      "full": "klopýtnout",
+      "answer": "y",
+      "audio": "p08-s1.mp3"
+    },
+    {
+      "id": "p08-s2",
+      "word_id": "p08",
+      "text": "klop_tnutí",
+      "full": "klopýtnutí",
+      "answer": "y",
+      "audio": "p08-s2.mp3"
+    },
+    {
+      "id": "p08-s3",
+      "word_id": "p08",
+      "text": "Dinosaurus klop_tá přes kámen.",
+      "full": "Dinosaurus klopýtá přes kámen.",
+      "answer": "y",
+      "audio": "p08-s3.mp3"
+    },
+    {
+      "id": "p08-s4",
+      "word_id": "p08",
+      "text": "Hráč klop_tl před brankou.",
+      "full": "Hráč klopýtl před brankou.",
+      "answer": "y",
+      "audio": "p08-s4.mp3"
+    },
+    {
+      "id": "p08-s5",
+      "word_id": "p08",
+      "text": "Malé mládě klop_tá po trávě.",
+      "full": "Malé mládě klopýtá po trávě.",
+      "answer": "y",
+      "audio": "p08-s5.mp3"
+    },
+    {
+      "id": "p09-s1",
+      "word_id": "p09",
+      "text": "třp_t",
+      "full": "třpyt",
+      "answer": "y",
+      "audio": "p09-s1.mp3"
+    },
+    {
+      "id": "p09-s2",
+      "word_id": "p09",
+      "text": "třp_tivý",
+      "full": "třpytivý",
+      "answer": "y",
+      "audio": "p09-s2.mp3"
+    },
+    {
+      "id": "p09-s3",
+      "word_id": "p09",
+      "text": "Sníh se třp_tí na slunci.",
+      "full": "Sníh se třpytí na slunci.",
+      "answer": "y",
+      "audio": "p09-s3.mp3"
+    },
+    {
+      "id": "p09-s4",
+      "word_id": "p09",
+      "text": "Mořská voda se třp_tí.",
+      "full": "Mořská voda se třpytí.",
+      "answer": "y",
+      "audio": "p09-s4.mp3"
+    },
+    {
+      "id": "p09-s5",
+      "word_id": "p09",
+      "text": "Poklad se třp_tí v jeskyni.",
+      "full": "Poklad se třpytí v jeskyni.",
+      "answer": "y",
+      "audio": "p09-s5.mp3"
+    },
+    {
+      "id": "p10-s1",
+      "word_id": "p10",
+      "text": "zp_tování",
+      "full": "zpytování",
+      "answer": "y",
+      "audio": "p10-s1.mp3"
+    },
+    {
+      "id": "p10-s2",
+      "word_id": "p10",
+      "text": "zp_tovat",
+      "full": "zpytovat",
+      "answer": "y",
+      "audio": "p10-s2.mp3"
+    },
+    {
+      "id": "p10-s3",
+      "word_id": "p10",
+      "text": "Večer zp_tuji své svědomí.",
+      "full": "Večer zpytuji své svědomí.",
+      "answer": "y",
+      "audio": "p10-s3.mp3"
+    },
+    {
+      "id": "p10-s4",
+      "word_id": "p10",
+      "text": "Žák zp_tuje své svědomí.",
+      "full": "Žák zpytuje své svědomí.",
+      "answer": "y",
+      "audio": "p10-s4.mp3"
+    },
+    {
+      "id": "p10-s5",
+      "word_id": "p10",
+      "text": "Po hádce zp_tuje svědomí.",
+      "full": "Po hádce zpytuje svědomí.",
+      "answer": "y",
+      "audio": "p10-s5.mp3"
+    },
+    {
+      "id": "p11-s1",
+      "word_id": "p11",
+      "text": "p_kat",
+      "full": "pykat",
+      "answer": "y",
+      "audio": "p11-s1.mp3"
+    },
+    {
+      "id": "p11-s2",
+      "word_id": "p11",
+      "text": "odp_kat",
+      "full": "odpykat",
+      "answer": "y",
+      "audio": "p11-s2.mp3"
+    },
+    {
+      "id": "p11-s3",
+      "word_id": "p11",
+      "text": "Za zlobení musí p_kat.",
+      "full": "Za zlobení musí pykat.",
+      "answer": "y",
+      "audio": "p11-s3.mp3"
+    },
+    {
+      "id": "p11-s4",
+      "word_id": "p11",
+      "text": "Žák p_ká za rozbité okno.",
+      "full": "Žák pyká za rozbité okno.",
+      "answer": "y",
+      "audio": "p11-s4.mp3"
+    },
+    {
+      "id": "p11-s5",
+      "word_id": "p11",
+      "text": "Hráč musí p_kat za faul.",
+      "full": "Hráč musí pykat za faul.",
+      "answer": "y",
+      "audio": "p11-s5.mp3"
+    },
+    {
+      "id": "p12-s1",
+      "word_id": "p12",
+      "text": "Tatínek trhá p_r na zahradě.",
+      "full": "Tatínek trhá pýr na zahradě.",
+      "answer": "y",
+      "audio": "p12-s1.mp3"
+    },
+    {
+      "id": "p12-s2",
+      "word_id": "p12",
+      "text": "Na trávníku roste p_r.",
+      "full": "Na trávníku roste pýr.",
+      "answer": "y",
+      "audio": "p12-s2.mp3"
+    },
+    {
+      "id": "p12-s3",
+      "word_id": "p12",
+      "text": "P_r má dlouhé kořeny.",
+      "full": "Pýr má dlouhé kořeny.",
+      "answer": "y",
+      "audio": "p12-s3.mp3"
+    },
+    {
+      "id": "p12-s4",
+      "word_id": "p12",
+      "text": "Sousedka plela p_r v záhoně.",
+      "full": "Sousedka plela pýr v záhoně.",
+      "answer": "y",
+      "audio": "p12-s4.mp3"
+    },
+    {
+      "id": "p12-s5",
+      "word_id": "p12",
+      "text": "Kořeny p_ru jsou dlouhé.",
+      "full": "Kořeny pýru jsou dlouhé.",
+      "answer": "y",
+      "audio": "p12-s5.mp3"
+    },
+    {
+      "id": "p13-s1",
+      "word_id": "p13",
+      "text": "zap_řit se",
+      "full": "zapýřit se",
+      "answer": "y",
+      "audio": "p13-s1.mp3"
+    },
+    {
+      "id": "p13-s2",
+      "word_id": "p13",
+      "text": "Holka se p_řila studem.",
+      "full": "Holka se pýřila studem.",
+      "answer": "y",
+      "audio": "p13-s2.mp3"
+    },
+    {
+      "id": "p13-s3",
+      "word_id": "p13",
+      "text": "Ze studu se zap_řil.",
+      "full": "Ze studu se zapýřil.",
+      "answer": "y",
+      "audio": "p13-s3.mp3"
+    },
+    {
+      "id": "p13-s4",
+      "word_id": "p13",
+      "text": "Proč se tak p_říš?",
+      "full": "Proč se tak pýříš?",
+      "answer": "y",
+      "audio": "p13-s4.mp3"
+    },
+    {
+      "id": "p13-s5",
+      "word_id": "p13",
+      "text": "Kluk se p_ří, když ho chválí.",
+      "full": "Kluk se pýří, když ho chválí.",
+      "answer": "y",
+      "audio": "p13-s5.mp3"
+    },
+    {
+      "id": "p14-s1",
+      "word_id": "p14",
+      "text": "načep_řený",
+      "full": "načepýřený",
+      "answer": "y",
+      "audio": "p14-s1.mp3"
+    },
+    {
+      "id": "p14-s2",
+      "word_id": "p14",
+      "text": "načep_řit",
+      "full": "načepýřit",
+      "answer": "y",
+      "audio": "p14-s2.mp3"
+    },
+    {
+      "id": "p14-s3",
+      "word_id": "p14",
+      "text": "Kohout se čep_ří na plotě.",
+      "full": "Kohout se čepýří na plotě.",
+      "answer": "y",
+      "audio": "p14-s3.mp3"
+    },
+    {
+      "id": "p14-s4",
+      "word_id": "p14",
+      "text": "Sova se čep_ří na větvi.",
+      "full": "Sova se čepýří na větvi.",
+      "answer": "y",
+      "audio": "p14-s4.mp3"
+    },
+    {
+      "id": "p14-s5",
+      "word_id": "p14",
+      "text": "Papoušek se čep_ří před zrcadlem.",
+      "full": "Papoušek se čepýří před zrcadlem.",
+      "answer": "y",
+      "audio": "p14-s5.mp3"
+    },
+    {
+      "id": "pc-s1",
+      "word_id": "_contrast",
+      "text": "p_sek",
+      "full": "písek",
+      "answer": "i",
+      "audio": "pc-s1.mp3"
+    },
+    {
+      "id": "pc-s2",
+      "word_id": "_contrast",
+      "text": "Na pláži je žlutý p_sek.",
+      "full": "Na pláži je žlutý písek.",
+      "answer": "i",
+      "audio": "pc-s2.mp3"
+    },
+    {
+      "id": "pc-s3",
+      "word_id": "_contrast",
+      "text": "p_la",
+      "full": "pila",
+      "answer": "i",
+      "audio": "pc-s3.mp3"
+    },
+    {
+      "id": "pc-s4",
+      "word_id": "_contrast",
+      "text": "Táta řeže dřevo p_lou.",
+      "full": "Táta řeže dřevo pilou.",
+      "answer": "i",
+      "audio": "pc-s4.mp3"
+    },
+    {
+      "id": "pc-s5",
+      "word_id": "_contrast",
+      "text": "p_rát",
+      "full": "pirát",
+      "answer": "i",
+      "audio": "pc-s5.mp3"
+    },
+    {
+      "id": "pc-s6",
+      "word_id": "_contrast",
+      "text": "P_rát hledá poklad.",
+      "full": "Pirát hledá poklad.",
+      "answer": "i",
+      "audio": "pc-s6.mp3"
+    },
+    {
+      "id": "pc-s7",
+      "word_id": "_contrast",
+      "text": "p_t",
+      "full": "pít",
+      "answer": "i",
+      "audio": "pc-s7.mp3"
+    },
+    {
+      "id": "pc-s8",
+      "word_id": "_contrast",
+      "text": "Chci p_t studenou vodu.",
+      "full": "Chci pít studenou vodu.",
+      "answer": "i",
+      "audio": "pc-s8.mp3"
+    },
+    {
+      "id": "pc-s9",
+      "word_id": "_contrast",
+      "text": "p_snička",
+      "full": "písnička",
+      "answer": "i",
+      "audio": "pc-s9.mp3"
+    },
+    {
+      "id": "pc-s10",
+      "word_id": "_contrast",
+      "text": "Máme rádi tuhle p_sničku.",
+      "full": "Máme rádi tuhle písničku.",
+      "answer": "i",
+      "audio": "pc-s10.mp3"
+    },
+    {
+      "id": "pc-s11",
+      "word_id": "_contrast",
+      "text": "op_ce",
+      "full": "opice",
+      "answer": "i",
+      "audio": "pc-s11.mp3"
+    },
+    {
+      "id": "pc-s12",
+      "word_id": "_contrast",
+      "text": "Op_ce skáče po stromech.",
+      "full": "Opice skáče po stromech.",
+      "answer": "i",
+      "audio": "pc-s12.mp3"
+    },
+    {
+      "id": "pc-s13",
+      "word_id": "_contrast",
+      "text": "kap_tán",
+      "full": "kapitán",
+      "answer": "i",
+      "audio": "pc-s13.mp3"
+    },
+    {
+      "id": "pc-s14",
+      "word_id": "_contrast",
+      "text": "Kap_tán řídí velkou loď.",
+      "full": "Kapitán řídí velkou loď.",
+      "answer": "i",
+      "audio": "pc-s14.mp3"
+    },
+    {
+      "id": "pc-s15",
+      "word_id": "_contrast",
+      "text": "sp_nkat",
+      "full": "spinkat",
+      "answer": "i",
+      "audio": "pc-s15.mp3"
+    },
+    {
+      "id": "pc-s16",
+      "word_id": "_contrast",
+      "text": "Medvěd sp_nká v noře.",
+      "full": "Medvěd spinká v noře.",
+      "answer": "i",
+      "audio": "pc-s16.mp3"
+    },
+    {
+      "id": "pc-s17",
+      "word_id": "_contrast",
+      "text": "p_lný",
+      "full": "pilný",
+      "answer": "i",
+      "audio": "pc-s17.mp3"
+    },
+    {
+      "id": "pc-s18",
+      "word_id": "_contrast",
+      "text": "Kluk je velmi p_lný.",
+      "full": "Kluk je velmi pilný.",
+      "answer": "i",
+      "audio": "pc-s18.mp3"
+    },
+    {
+      "id": "pc-s19",
+      "word_id": "_contrast",
+      "text": "P_voňky kvetou na zahradě.",
+      "full": "Pivoňky kvetou na zahradě.",
+      "answer": "i",
+      "audio": "pc-s19.mp3"
+    },
+    {
+      "id": "pc-s20",
+      "word_id": "_contrast",
+      "text": "P_lot letí nad mraky.",
+      "full": "Pilot letí nad mraky.",
+      "answer": "i",
+      "audio": "pc-s20.mp3"
+    },
+    {
+      "id": "pc-s21",
+      "word_id": "_contrast",
+      "text": "Dáme si p_zzu.",
+      "full": "Dáme si pizzu.",
+      "answer": "i",
+      "audio": "pc-s21.mp3"
+    },
+    {
+      "id": "pc-s22",
+      "word_id": "_contrast",
+      "text": "Jedeme na p_knik do lesa.",
+      "full": "Jedeme na piknik do lesa.",
+      "answer": "i",
+      "audio": "pc-s22.mp3"
+    },
+    {
+      "id": "pc-s23",
+      "word_id": "_contrast",
+      "text": "p_skoviště",
+      "full": "pískoviště",
+      "answer": "i",
+      "audio": "pc-s23.mp3"
+    },
+    {
+      "id": "pc-s24",
+      "word_id": "_contrast",
+      "text": "Děti si hrají na p_skovišti.",
+      "full": "Děti si hrají na pískovišti.",
+      "answer": "i",
+      "audio": "pc-s24.mp3"
+    },
+    {
+      "id": "p01-n1",
+      "word_id": "p01",
+      "text": "p_šnit se",
+      "full": "pyšnit se",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p01-n2",
+      "word_id": "p01",
+      "text": "zp_šnět",
+      "full": "zpyšnět",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p01-n3",
+      "word_id": "p01",
+      "text": "P_cha je špatný rádce.",
+      "full": "Pýcha je špatný rádce.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p01-n4",
+      "word_id": "p01",
+      "text": "Kaktus p_chá do dlaně.",
+      "full": "Kaktus píchá do dlaně.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "p02-n1",
+      "word_id": "p02",
+      "text": "p_tlíček",
+      "full": "pytlíček",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p02-n2",
+      "word_id": "p02",
+      "text": "p_tle",
+      "full": "pytle",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p02-n3",
+      "word_id": "p02",
+      "text": "Dědeček nese p_tel sena.",
+      "full": "Dědeček nese pytel sena.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p02-n4",
+      "word_id": "p02",
+      "text": "Ve skladu leží těžké p_tle.",
+      "full": "Ve skladu leží těžké pytle.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p03-n1",
+      "word_id": "p03",
+      "text": "Pes olizuje svůj p_sk.",
+      "full": "Pes olizuje svůj pysk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p03-n2",
+      "word_id": "p03",
+      "text": "Kůň má měkký p_sk.",
+      "full": "Kůň má měkký pysk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p03-n3",
+      "word_id": "p03",
+      "text": "Kráva má teplý p_sk.",
+      "full": "Kráva má teplý pysk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p03-n4",
+      "word_id": "p03",
+      "text": "Na dvoře se ozval p_sk.",
+      "full": "Na dvoře se ozval pisk.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "p04-n1",
+      "word_id": "p04",
+      "text": "netop_ří",
+      "full": "netopýří",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p04-n2",
+      "word_id": "p04",
+      "text": "Netop_ři létají večer.",
+      "full": "Netopýři létají večer.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p04-n3",
+      "word_id": "p04",
+      "text": "Dinosaurus se bál netop_ra.",
+      "full": "Dinosaurus se bál netopýra.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p04-n4",
+      "word_id": "p04",
+      "text": "Malý netop_r sedí v jeskyni.",
+      "full": "Malý netopýr sedí v jeskyni.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p05-n1",
+      "word_id": "p05",
+      "text": "Slep_š je ještěrka bez nohou.",
+      "full": "Slepýš je ještěrka bez nohou.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p05-n2",
+      "word_id": "p05",
+      "text": "Maminka se bála slep_še.",
+      "full": "Maminka se bála slepýše.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p05-n3",
+      "word_id": "p05",
+      "text": "Slep_š se schovává pod kamenem.",
+      "full": "Slepýš se schovává pod kamenem.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p05-n4",
+      "word_id": "p05",
+      "text": "Hladký slep_š leží na slunci.",
+      "full": "Hladký slepýš leží na slunci.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p06-n1",
+      "word_id": "p06",
+      "text": "Včela op_luje každý květ.",
+      "full": "Včela opyluje každý květ.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p06-n2",
+      "word_id": "p06",
+      "text": "Včela má na nožkách p_l.",
+      "full": "Včela má na nožkách pyl.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p06-n3",
+      "word_id": "p06",
+      "text": "Včela roznáší p_l po louce.",
+      "full": "Včela roznáší pyl po louce.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p06-n4",
+      "word_id": "p06",
+      "text": "Dinosaurus p_l z řeky.",
+      "full": "Dinosaurus pil z řeky.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "p07-n1",
+      "word_id": "p07",
+      "text": "kop_tnatec",
+      "full": "kopytnatec",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p07-n2",
+      "word_id": "p07",
+      "text": "kop_ty",
+      "full": "kopyty",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p07-n3",
+      "word_id": "p07",
+      "text": "Kráva zvedla zadní kop_to.",
+      "full": "Kráva zvedla zadní kopyto.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p07-n4",
+      "word_id": "p07",
+      "text": "Ve stopě je otisk kop_ta.",
+      "full": "Ve stopě je otisk kopyta.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p08-n1",
+      "word_id": "p08",
+      "text": "klop_tám",
+      "full": "klopýtám",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p08-n2",
+      "word_id": "p08",
+      "text": "Klop_tl jsem o práh.",
+      "full": "Klopýtl jsem o práh.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p08-n3",
+      "word_id": "p08",
+      "text": "Ve tmě klop_táme o kořeny.",
+      "full": "Ve tmě klopýtáme o kořeny.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p08-n4",
+      "word_id": "p08",
+      "text": "Pozor, ať neklop_tneš!",
+      "full": "Pozor, ať neklopýtneš!",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p09-n1",
+      "word_id": "p09",
+      "text": "třp_tky",
+      "full": "třpytky",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p09-n2",
+      "word_id": "p09",
+      "text": "Hvězda se třp_tí na nebi.",
+      "full": "Hvězda se třpytí na nebi.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p09-n3",
+      "word_id": "p09",
+      "text": "Ledová větvička se třp_tí.",
+      "full": "Ledová větvička se třpytí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p09-n4",
+      "word_id": "p09",
+      "text": "Diamant se třp_tí jako hvězda.",
+      "full": "Diamant se třpytí jako hvězda.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p10-n1",
+      "word_id": "p10",
+      "text": "zp_tuje",
+      "full": "zpytuje",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p10-n2",
+      "word_id": "p10",
+      "text": "zp_tovala",
+      "full": "zpytovala",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p10-n3",
+      "word_id": "p10",
+      "text": "Před spaním zp_tuji svědomí.",
+      "full": "Před spaním zpytuji svědomí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p10-n4",
+      "word_id": "p10",
+      "text": "Král zp_toval své svědomí.",
+      "full": "Král zpytoval své svědomí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p11-n1",
+      "word_id": "p11",
+      "text": "p_kání",
+      "full": "pykání",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p11-n2",
+      "word_id": "p11",
+      "text": "odp_kal",
+      "full": "odpykal",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p11-n3",
+      "word_id": "p11",
+      "text": "Žák p_kal za pozdní příchod.",
+      "full": "Žák pykal za pozdní příchod.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p11-n4",
+      "word_id": "p11",
+      "text": "Dinosaurus p_kal za hloupost.",
+      "full": "Dinosaurus pykal za hloupost.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p12-n1",
+      "word_id": "p12",
+      "text": "Zahrada je plná p_ru.",
+      "full": "Zahrada je plná pýru.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p12-n2",
+      "word_id": "p12",
+      "text": "Dědeček hází p_r do kompostu.",
+      "full": "Dědeček hází pýr do kompostu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p12-n3",
+      "word_id": "p12",
+      "text": "Zahradník ničí p_r na záhoně.",
+      "full": "Zahradník ničí pýr na záhoně.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p12-n4",
+      "word_id": "p12",
+      "text": "Hustý p_r roste u plotu.",
+      "full": "Hustý pýr roste u plotu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p13-n1",
+      "word_id": "p13",
+      "text": "p_řit se",
+      "full": "pýřit se",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p13-n2",
+      "word_id": "p13",
+      "text": "Když ji chválí, p_ří se.",
+      "full": "Když ji chválí, pýří se.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p13-n3",
+      "word_id": "p13",
+      "text": "Zap_řila se jako rajče.",
+      "full": "Zapýřila se jako rajče.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p13-n4",
+      "word_id": "p13",
+      "text": "Při básničce se p_řil.",
+      "full": "Při básničce se pýřil.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p14-n1",
+      "word_id": "p14",
+      "text": "čep_řit se",
+      "full": "čepýřit se",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p14-n2",
+      "word_id": "p14",
+      "text": "Vrána se čep_ří v dešti.",
+      "full": "Vrána se čepýří v dešti.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p14-n3",
+      "word_id": "p14",
+      "text": "Kluk si čep_ří vlasy.",
+      "full": "Kluk si čepýří vlasy.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "p14-n4",
+      "word_id": "p14",
+      "text": "Sokol se čep_ří na skále.",
+      "full": "Sokol se čepýří na skále.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "pc-n1",
+      "word_id": "_contrast",
+      "text": "p_lulka",
+      "full": "pilulka",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "pc-n2",
+      "word_id": "_contrast",
+      "text": "p_nzeta",
+      "full": "pinzeta",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "pc-n3",
+      "word_id": "_contrast",
+      "text": "Hrajeme si v p_sku.",
+      "full": "Hrajeme si v písku.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "pc-n4",
+      "word_id": "_contrast",
+      "text": "Skřítek hraje na p_ano.",
+      "full": "Skřítek hraje na piano.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "pc-n5",
+      "word_id": "_contrast",
+      "text": "p_rátský",
+      "full": "pirátský",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "pc-n6",
+      "word_id": "_contrast",
+      "text": "Rozhodčí p_ská na hřišti.",
+      "full": "Rozhodčí píská na hřišti.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "pc-n7",
+      "word_id": "_contrast",
+      "text": "Mám p_lku na dřevo.",
+      "full": "Mám pilku na dřevo.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "pc-n8",
+      "word_id": "_contrast",
+      "text": "P_raňa má ostré zuby.",
+      "full": "Piraňa má ostré zuby.",
+      "answer": "i",
+      "audio": null
+    }
+  ],
+  "extra_cards": [
+    {
+      "id": "p01-pichat",
+      "for": "p01",
+      "label": "Pozor: píchá",
+      "word": "píchat (píchá)",
+      "meaning_cs": "Bodat něčím špičatým, třeba jehlou nebo ostnem.",
+      "hook_cs": "Malé i je tenká jehla: píchá a píchá.",
+      "examples": [
+        "Dikobraz mě píchá ostny.",
+        "Jehla píchá do prstu.",
+        "Kaktus píchá do dlaně.",
+        "V boku mě píchá."
+      ],
+      "tip_cs": "Něco bodá jako jehla? Píšu i. Někdo je na sebe hrdý? Píšu y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly blocky voxel porcupine with sharp quills standing next to a voxel cactus and a sewing needle with thread.",
+      "audio": "p01-pichat.mp3",
+      "audio_text": "píchá. Bodat něčím špičatým, třeba jehlou nebo ostnem. Měkké i je tenká jehla: píchá a píchá. Dikobraz mě píchá ostny. Jehla píchá do prstu. Kaktus píchá do dlaně."
+    },
+    {
+      "id": "p03-pisk",
+      "for": "p03",
+      "label": "Pozor: pisk",
+      "word": "pisk",
+      "meaning_cs": "Ostrý, vysoký zvuk, třeba od brzd nebo od ptáčka.",
+      "hook_cs": "Malé i je tenká čárka jako ostrý pisk.",
+      "examples": [
+        "Z klece se ozval pisk.",
+        "Ozval se pisk brzd.",
+        "Na dvoře se ozval pisk."
+      ],
+      "tip_cs": "Je to ostrý vysoký zvuk? Píšu i. Je to čumák psa nebo koně? Píšu y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A tiny blocky voxel bird chick on a branch with its beak wide open, chirping loudly, small colourful rings around it showing the sound.",
+      "audio": "p03-pisk.mp3",
+      "audio_text": "pisk. Ostrý, vysoký zvuk, třeba od brzd nebo od ptáčka. Měkké i je tenká čárka jako ostrý pisk. Z klece se ozval pisk. Ozval se pisk brzd. Na dvoře se ozval pisk."
+    },
+    {
+      "id": "p06-pil",
+      "for": "p06",
+      "label": "Pozor: pil",
+      "word": "pít (pije, pil)",
+      "meaning_cs": "Brát tekutinu do pusy a polykat ji.",
+      "hook_cs": "Malé i je rovné brčko: pít, pije, pil.",
+      "examples": [
+        "Pes pije vodu z misky.",
+        "Včera jsem pil čaj.",
+        "Kůň pil z potoka."
+      ],
+      "tip_cs": "Někdo pije vodu? Píšu i. Žlutý prášek z květů? Píšu y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cheerful blocky voxel horse drinking water from a clear stream, a small blocky dinosaur drinking next to it.",
+      "audio": "p06-pil.mp3",
+      "audio_text": "pít. Brát tekutinu do pusy a polykat ji. Měkké i je rovné brčko: pít, pije, pil. Pes pije vodu z misky. Včera jsem pil čaj. Kůň pil z potoka."
+    }
+  ]
+}

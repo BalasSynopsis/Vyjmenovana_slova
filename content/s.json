@@ -1,0 +1,1239 @@
+{
+  "letter": "S",
+  "island": {
+    "name": "Syslí ostrov",
+    "biome": "windswept grassy steppe with burrows, scattered rocks and bare trees",
+    "guardian": "Syčivý raptor"
+  },
+  "words": [
+    {
+      "id": "s01",
+      "word": "syn",
+      "meaning_cs": "Kluk, dítě svých rodičů.",
+      "gloss_en": "son",
+      "hook_cs": "Syn zvedne obě ruce nahoru do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A happy small blocky voxel dinosaur holding hands with its bigger parent dinosaur.",
+      "related": [
+        "synek",
+        "synovec"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s02",
+      "word": "sytý",
+      "meaning_cs": "Najedený, už nemá vůbec hlad.",
+      "gloss_en": "full, well-fed",
+      "hook_cs": "Po jídle položíš vidličku na talíř do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A satisfied blocky voxel dinosaur patting its round full belly after a meal.",
+      "related": [
+        "sytost",
+        "nasytit se"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s03",
+      "word": "sýr",
+      "meaning_cs": "Mléčný výrobek, dělá se z mléka.",
+      "gloss_en": "cheese",
+      "hook_cs": "Nožem uděláš do kola sýra zářez ve tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A round wheel of yellow blocky voxel cheese with holes, on a wooden board.",
+      "related": [
+        "sýrový",
+        "sýrárna",
+        "sýreček"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s04",
+      "word": "syrový",
+      "meaning_cs": "Ještě neuvařené nebo neupečené jídlo.",
+      "gloss_en": "raw, uncooked",
+      "hook_cs": "Vidlička zapíchnutá do syrového masa má tvar Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A piece of raw red blocky voxel meat on a plate with a fork stuck in it.",
+      "related": [
+        "syrovost"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s05",
+      "word": "sychravý",
+      "meaning_cs": "Studené, vlhké a nepříjemné počasí.",
+      "gloss_en": "damp and chilly (weather)",
+      "hook_cs": "Prochladlý poutník zkříží ruce do tvaru Y, aby se zahřál.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small blocky voxel dinosaur wrapped in a scarf under a gray drizzly sky.",
+      "related": [
+        "sychravo"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s06",
+      "word": "usychat",
+      "meaning_cs": "Pomalu vadnout a ztrácet vodu, o rostlině.",
+      "gloss_en": "to wither, to dry out",
+      "hook_cs": "Zvadlá kytka svěsí listy dolů do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A wilting blocky voxel potted plant with drooping brown leaves on a windowsill.",
+      "related": [
+        "vysychat"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s07",
+      "word": "sýkora",
+      "meaning_cs": "Malý pestrobarevný pták u krmítka.",
+      "gloss_en": "great tit (bird)",
+      "hook_cs": "Sýkora sedí na větvičce rozdvojené do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small colorful blocky voxel tit bird sitting on a snowy branch by a bird feeder.",
+      "related": [
+        "sýkorka",
+        "sýkorčí"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s08",
+      "word": "sýček",
+      "meaning_cs": "Malá sova, co v noci houká.",
+      "gloss_en": "little owl",
+      "hook_cs": "Sýček sedí na větvi rozdvojené jako Y a houká.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small round blocky voxel owl perched on a tree branch at night.",
+      "related": [
+        "sýčci"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s09",
+      "word": "sysel",
+      "meaning_cs": "Malé zvíře, žije v norách na louce.",
+      "gloss_en": "ground squirrel",
+      "hook_cs": "Sysel se posadí a zvedne packy do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small blocky voxel ground squirrel standing upright on its hind legs in a meadow.",
+      "related": [
+        "syslí"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s10",
+      "word": "syčet",
+      "meaning_cs": "Vydávat zvuk sssss, jako had.",
+      "gloss_en": "to hiss",
+      "hook_cs": "Had syčí a rozdvojeným jazykem udělá tvar Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly green blocky voxel snake with its tongue flicking out, hissing.",
+      "related": [
+        "sykot",
+        "zasyčet"
+      ],
+      "trap": null
+    },
+    {
+      "id": "s11",
+      "word": "sypat",
+      "meaning_cs": "Nechat něco padat v malých kouscích.",
+      "gloss_en": "to pour, to sprinkle",
+      "hook_cs": "Písek padá z pytle a udělá hromádku jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel hand pouring sand from a bag into a small pile.",
+      "related": [
+        "nasypat",
+        "vysypat",
+        "sypký"
+      ],
+      "trap": {
+        "word": "sípat",
+        "meaning_cs": "Chraptivě a namáhavě dýchat, jako nemocný."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "s01-s1",
+      "word_id": "s01",
+      "text": "s_n",
+      "full": "syn",
+      "answer": "y",
+      "audio": "s01-s1.mp3"
+    },
+    {
+      "id": "s01-s2",
+      "word_id": "s01",
+      "text": "s_nek",
+      "full": "synek",
+      "answer": "y",
+      "audio": "s01-s2.mp3"
+    },
+    {
+      "id": "s01-s3",
+      "word_id": "s01",
+      "text": "s_novec",
+      "full": "synovec",
+      "answer": "y",
+      "audio": "s01-s3.mp3"
+    },
+    {
+      "id": "s01-s4",
+      "word_id": "s01",
+      "text": "Mám malého s_na.",
+      "full": "Mám malého syna.",
+      "answer": "y",
+      "audio": "s01-s4.mp3"
+    },
+    {
+      "id": "s01-s5",
+      "word_id": "s01",
+      "text": "S_n pomáhá tátovi.",
+      "full": "Syn pomáhá tátovi.",
+      "answer": "y",
+      "audio": "s01-s5.mp3"
+    },
+    {
+      "id": "s02-s1",
+      "word_id": "s02",
+      "text": "s_tý",
+      "full": "sytý",
+      "answer": "y",
+      "audio": "s02-s1.mp3"
+    },
+    {
+      "id": "s02-s2",
+      "word_id": "s02",
+      "text": "s_tost",
+      "full": "sytost",
+      "answer": "y",
+      "audio": "s02-s2.mp3"
+    },
+    {
+      "id": "s02-s3",
+      "word_id": "s02",
+      "text": "Po obědě jsem s_tý.",
+      "full": "Po obědě jsem sytý.",
+      "answer": "y",
+      "audio": "s02-s3.mp3"
+    },
+    {
+      "id": "s02-s4",
+      "word_id": "s02",
+      "text": "Žralok je konečně s_tý.",
+      "full": "Žralok je konečně sytý.",
+      "answer": "y",
+      "audio": "s02-s4.mp3"
+    },
+    {
+      "id": "s02-s5",
+      "word_id": "s02",
+      "text": "Kočka je s_tá a spí.",
+      "full": "Kočka je sytá a spí.",
+      "answer": "y",
+      "audio": "s02-s5.mp3"
+    },
+    {
+      "id": "s03-s1",
+      "word_id": "s03",
+      "text": "s_r",
+      "full": "sýr",
+      "answer": "y",
+      "audio": "s03-s1.mp3"
+    },
+    {
+      "id": "s03-s2",
+      "word_id": "s03",
+      "text": "s_rový",
+      "full": "sýrový",
+      "answer": "y",
+      "audio": "s03-s2.mp3"
+    },
+    {
+      "id": "s03-s3",
+      "word_id": "s03",
+      "text": "s_rárna",
+      "full": "sýrárna",
+      "answer": "y",
+      "audio": "s03-s3.mp3"
+    },
+    {
+      "id": "s03-s4",
+      "word_id": "s03",
+      "text": "Mám rád žlutý s_r.",
+      "full": "Mám rád žlutý sýr.",
+      "answer": "y",
+      "audio": "s03-s4.mp3"
+    },
+    {
+      "id": "s03-s5",
+      "word_id": "s03",
+      "text": "Myš ukousla kousek s_ra.",
+      "full": "Myš ukousla kousek sýra.",
+      "answer": "y",
+      "audio": "s03-s5.mp3"
+    },
+    {
+      "id": "s04-s1",
+      "word_id": "s04",
+      "text": "s_rový",
+      "full": "syrový",
+      "answer": "y",
+      "audio": "s04-s1.mp3"
+    },
+    {
+      "id": "s04-s2",
+      "word_id": "s04",
+      "text": "s_rovost",
+      "full": "syrovost",
+      "answer": "y",
+      "audio": "s04-s2.mp3"
+    },
+    {
+      "id": "s04-s3",
+      "word_id": "s04",
+      "text": "Maso je ještě s_rové.",
+      "full": "Maso je ještě syrové.",
+      "answer": "y",
+      "audio": "s04-s3.mp3"
+    },
+    {
+      "id": "s04-s4",
+      "word_id": "s04",
+      "text": "Nejez s_rové vejce.",
+      "full": "Nejez syrové vejce.",
+      "answer": "y",
+      "audio": "s04-s4.mp3"
+    },
+    {
+      "id": "s04-s5",
+      "word_id": "s04",
+      "text": "Ryba byla úplně s_rová.",
+      "full": "Ryba byla úplně syrová.",
+      "answer": "y",
+      "audio": "s04-s5.mp3"
+    },
+    {
+      "id": "s05-s1",
+      "word_id": "s05",
+      "text": "s_chravý",
+      "full": "sychravý",
+      "answer": "y",
+      "audio": "s05-s1.mp3"
+    },
+    {
+      "id": "s05-s2",
+      "word_id": "s05",
+      "text": "s_chravo",
+      "full": "sychravo",
+      "answer": "y",
+      "audio": "s05-s2.mp3"
+    },
+    {
+      "id": "s05-s3",
+      "word_id": "s05",
+      "text": "Venku je dnes s_chravo.",
+      "full": "Venku je dnes sychravo.",
+      "answer": "y",
+      "audio": "s05-s3.mp3"
+    },
+    {
+      "id": "s05-s4",
+      "word_id": "s05",
+      "text": "Byl s_chravý podzimní den.",
+      "full": "Byl sychravý podzimní den.",
+      "answer": "y",
+      "audio": "s05-s4.mp3"
+    },
+    {
+      "id": "s05-s5",
+      "word_id": "s05",
+      "text": "V s_chravém počasí mrzneme.",
+      "full": "V sychravém počasí mrzneme.",
+      "answer": "y",
+      "audio": "s05-s5.mp3"
+    },
+    {
+      "id": "s06-s1",
+      "word_id": "s06",
+      "text": "us_chat",
+      "full": "usychat",
+      "answer": "y",
+      "audio": "s06-s1.mp3"
+    },
+    {
+      "id": "s06-s2",
+      "word_id": "s06",
+      "text": "vys_chat",
+      "full": "vysychat",
+      "answer": "y",
+      "audio": "s06-s2.mp3"
+    },
+    {
+      "id": "s06-s3",
+      "word_id": "s06",
+      "text": "Rostlina začala us_chat.",
+      "full": "Rostlina začala usychat.",
+      "answer": "y",
+      "audio": "s06-s3.mp3"
+    },
+    {
+      "id": "s06-s4",
+      "word_id": "s06",
+      "text": "Bez vody kytka us_chá.",
+      "full": "Bez vody kytka usychá.",
+      "answer": "y",
+      "audio": "s06-s4.mp3"
+    },
+    {
+      "id": "s06-s5",
+      "word_id": "s06",
+      "text": "Tráva na sluníčku us_chá.",
+      "full": "Tráva na sluníčku usychá.",
+      "answer": "y",
+      "audio": "s06-s5.mp3"
+    },
+    {
+      "id": "s07-s1",
+      "word_id": "s07",
+      "text": "s_kora",
+      "full": "sýkora",
+      "answer": "y",
+      "audio": "s07-s1.mp3"
+    },
+    {
+      "id": "s07-s2",
+      "word_id": "s07",
+      "text": "s_korka",
+      "full": "sýkorka",
+      "answer": "y",
+      "audio": "s07-s2.mp3"
+    },
+    {
+      "id": "s07-s3",
+      "word_id": "s07",
+      "text": "Na krmítku sedí s_kora.",
+      "full": "Na krmítku sedí sýkora.",
+      "answer": "y",
+      "audio": "s07-s3.mp3"
+    },
+    {
+      "id": "s07-s4",
+      "word_id": "s07",
+      "text": "S_kora klove semínka.",
+      "full": "Sýkora klove semínka.",
+      "answer": "y",
+      "audio": "s07-s4.mp3"
+    },
+    {
+      "id": "s07-s5",
+      "word_id": "s07",
+      "text": "Viděl jsem pestrou s_korku.",
+      "full": "Viděl jsem pestrou sýkorku.",
+      "answer": "y",
+      "audio": "s07-s5.mp3"
+    },
+    {
+      "id": "s08-s1",
+      "word_id": "s08",
+      "text": "s_ček",
+      "full": "sýček",
+      "answer": "y",
+      "audio": "s08-s1.mp3"
+    },
+    {
+      "id": "s08-s2",
+      "word_id": "s08",
+      "text": "S_ček loví myši.",
+      "full": "Sýček loví myši.",
+      "answer": "y",
+      "audio": "s08-s2.mp3"
+    },
+    {
+      "id": "s08-s3",
+      "word_id": "s08",
+      "text": "V noci houká s_ček.",
+      "full": "V noci houká sýček.",
+      "answer": "y",
+      "audio": "s08-s3.mp3"
+    },
+    {
+      "id": "s08-s4",
+      "word_id": "s08",
+      "text": "S_ček má velké oči.",
+      "full": "Sýček má velké oči.",
+      "answer": "y",
+      "audio": "s08-s4.mp3"
+    },
+    {
+      "id": "s08-s5",
+      "word_id": "s08",
+      "text": "Malý s_ček sedí na stromě.",
+      "full": "Malý sýček sedí na stromě.",
+      "answer": "y",
+      "audio": "s08-s5.mp3"
+    },
+    {
+      "id": "s09-s1",
+      "word_id": "s09",
+      "text": "s_sel",
+      "full": "sysel",
+      "answer": "y",
+      "audio": "s09-s1.mp3"
+    },
+    {
+      "id": "s09-s2",
+      "word_id": "s09",
+      "text": "s_slí",
+      "full": "syslí",
+      "answer": "y",
+      "audio": "s09-s2.mp3"
+    },
+    {
+      "id": "s09-s3",
+      "word_id": "s09",
+      "text": "S_sel vykoukl z nory.",
+      "full": "Sysel vykoukl z nory.",
+      "answer": "y",
+      "audio": "s09-s3.mp3"
+    },
+    {
+      "id": "s09-s4",
+      "word_id": "s09",
+      "text": "Na louce žije s_sel.",
+      "full": "Na louce žije sysel.",
+      "answer": "y",
+      "audio": "s09-s4.mp3"
+    },
+    {
+      "id": "s09-s5",
+      "word_id": "s09",
+      "text": "S_sel hlídá svou noru.",
+      "full": "Sysel hlídá svou noru.",
+      "answer": "y",
+      "audio": "s09-s5.mp3"
+    },
+    {
+      "id": "s10-s1",
+      "word_id": "s10",
+      "text": "s_čet",
+      "full": "syčet",
+      "answer": "y",
+      "audio": "s10-s1.mp3"
+    },
+    {
+      "id": "s10-s2",
+      "word_id": "s10",
+      "text": "s_kot",
+      "full": "sykot",
+      "answer": "y",
+      "audio": "s10-s2.mp3"
+    },
+    {
+      "id": "s10-s3",
+      "word_id": "s10",
+      "text": "Had umí hlasitě s_čet.",
+      "full": "Had umí hlasitě syčet.",
+      "answer": "y",
+      "audio": "s10-s3.mp3"
+    },
+    {
+      "id": "s10-s4",
+      "word_id": "s10",
+      "text": "Had zas_čel na žraloka.",
+      "full": "Had zasyčel na žraloka.",
+      "answer": "y",
+      "audio": "s10-s4.mp3"
+    },
+    {
+      "id": "s10-s5",
+      "word_id": "s10",
+      "text": "Uslyšeli jsme tichý s_kot.",
+      "full": "Uslyšeli jsme tichý sykot.",
+      "answer": "y",
+      "audio": "s10-s5.mp3"
+    },
+    {
+      "id": "s11-s1",
+      "word_id": "s11",
+      "text": "s_pat",
+      "full": "sypat",
+      "answer": "y",
+      "audio": "s11-s1.mp3"
+    },
+    {
+      "id": "s11-s2",
+      "word_id": "s11",
+      "text": "nas_pat",
+      "full": "nasypat",
+      "answer": "y",
+      "audio": "s11-s2.mp3"
+    },
+    {
+      "id": "s11-s3",
+      "word_id": "s11",
+      "text": "s_pký",
+      "full": "sypký",
+      "answer": "y",
+      "audio": "s11-s3.mp3"
+    },
+    {
+      "id": "s11-s4",
+      "word_id": "s11",
+      "text": "S_pu písek do kbelíku.",
+      "full": "Sypu písek do kbelíku.",
+      "answer": "y",
+      "audio": "s11-s4.mp3"
+    },
+    {
+      "id": "s11-s5",
+      "word_id": "s11",
+      "text": "Máma s_pe mouku do mísy.",
+      "full": "Máma sype mouku do mísy.",
+      "answer": "y",
+      "audio": "s11-s5.mp3"
+    },
+    {
+      "id": "s11-s6",
+      "word_id": "s11",
+      "text": "Nemocný pes s_pe.",
+      "full": "Nemocný pes sípe.",
+      "answer": "i",
+      "audio": "s11-s6.mp3"
+    },
+    {
+      "id": "s11-s7",
+      "word_id": "s11",
+      "text": "Dědeček při chůzi s_pe.",
+      "full": "Dědeček při chůzi sípe.",
+      "answer": "i",
+      "audio": "s11-s7.mp3"
+    },
+    {
+      "id": "sc-s1",
+      "word_id": "_contrast",
+      "text": "s_la",
+      "full": "síla",
+      "answer": "i",
+      "audio": "sc-s1.mp3"
+    },
+    {
+      "id": "sc-s2",
+      "word_id": "_contrast",
+      "text": "Žralok má obrovskou s_lu.",
+      "full": "Žralok má obrovskou sílu.",
+      "answer": "i",
+      "audio": "sc-s2.mp3"
+    },
+    {
+      "id": "sc-s3",
+      "word_id": "_contrast",
+      "text": "s_lný",
+      "full": "silný",
+      "answer": "i",
+      "audio": "sc-s3.mp3"
+    },
+    {
+      "id": "sc-s4",
+      "word_id": "_contrast",
+      "text": "Dinosaurus je velmi s_lný.",
+      "full": "Dinosaurus je velmi silný.",
+      "answer": "i",
+      "audio": "sc-s4.mp3"
+    },
+    {
+      "id": "sc-s5",
+      "word_id": "_contrast",
+      "text": "s_lnice",
+      "full": "silnice",
+      "answer": "i",
+      "audio": "sc-s5.mp3"
+    },
+    {
+      "id": "sc-s6",
+      "word_id": "_contrast",
+      "text": "Auta jedou po s_lnici.",
+      "full": "Auta jedou po silnici.",
+      "answer": "i",
+      "audio": "sc-s6.mp3"
+    },
+    {
+      "id": "sc-s7",
+      "word_id": "_contrast",
+      "text": "s_rka",
+      "full": "sirka",
+      "answer": "i",
+      "audio": "sc-s7.mp3"
+    },
+    {
+      "id": "sc-s8",
+      "word_id": "_contrast",
+      "text": "Zapálil oheň s_rkou.",
+      "full": "Zapálil oheň sirkou.",
+      "answer": "i",
+      "audio": "sc-s8.mp3"
+    },
+    {
+      "id": "sc-s9",
+      "word_id": "_contrast",
+      "text": "s_to",
+      "full": "síto",
+      "answer": "i",
+      "audio": "sc-s9.mp3"
+    },
+    {
+      "id": "sc-s10",
+      "word_id": "_contrast",
+      "text": "Prosej mouku přes s_to.",
+      "full": "Prosej mouku přes síto.",
+      "answer": "i",
+      "audio": "sc-s10.mp3"
+    },
+    {
+      "id": "sc-s11",
+      "word_id": "_contrast",
+      "text": "os_ka",
+      "full": "osika",
+      "answer": "i",
+      "audio": "sc-s11.mp3"
+    },
+    {
+      "id": "sc-s12",
+      "word_id": "_contrast",
+      "text": "Os_ka roste u rybníka.",
+      "full": "Osika roste u rybníka.",
+      "answer": "i",
+      "audio": "sc-s12.mp3"
+    },
+    {
+      "id": "sc-s13",
+      "word_id": "_contrast",
+      "text": "pros_t",
+      "full": "prosit",
+      "answer": "i",
+      "audio": "sc-s13.mp3"
+    },
+    {
+      "id": "sc-s14",
+      "word_id": "_contrast",
+      "text": "Chci tě o něco pros_t.",
+      "full": "Chci tě o něco prosit.",
+      "answer": "i",
+      "audio": "sc-s14.mp3"
+    },
+    {
+      "id": "sc-s15",
+      "word_id": "_contrast",
+      "text": "s_tko",
+      "full": "sítko",
+      "answer": "i",
+      "audio": "sc-s15.mp3"
+    },
+    {
+      "id": "sc-s16",
+      "word_id": "_contrast",
+      "text": "Čaj sceď přes s_tko.",
+      "full": "Čaj sceď přes sítko.",
+      "answer": "i",
+      "audio": "sc-s16.mp3"
+    },
+    {
+      "id": "sc-s17",
+      "word_id": "_contrast",
+      "text": "s_dlo",
+      "full": "sídlo",
+      "answer": "i",
+      "audio": "sc-s17.mp3"
+    },
+    {
+      "id": "sc-s18",
+      "word_id": "_contrast",
+      "text": "Firma má s_dlo v Praze.",
+      "full": "Firma má sídlo v Praze.",
+      "answer": "i",
+      "audio": "sc-s18.mp3"
+    },
+    {
+      "id": "sc-s19",
+      "word_id": "_contrast",
+      "text": "us_nat",
+      "full": "usínat",
+      "answer": "i",
+      "audio": "sc-s19.mp3"
+    },
+    {
+      "id": "sc-s20",
+      "word_id": "_contrast",
+      "text": "Večer rád us_nám brzy.",
+      "full": "Večer rád usínám brzy.",
+      "answer": "i",
+      "audio": "sc-s20.mp3"
+    },
+    {
+      "id": "sc-s21",
+      "word_id": "_contrast",
+      "text": "s_l",
+      "full": "sil",
+      "answer": "i",
+      "audio": "sc-s21.mp3"
+    },
+    {
+      "id": "sc-s22",
+      "word_id": "_contrast",
+      "text": "Byl úplně bez s_l.",
+      "full": "Byl úplně bez sil.",
+      "answer": "i",
+      "audio": "sc-s22.mp3"
+    },
+    {
+      "id": "sc-s23",
+      "word_id": "_contrast",
+      "text": "s_rotek",
+      "full": "sirotek",
+      "answer": "i",
+      "audio": "sc-s23.mp3"
+    },
+    {
+      "id": "sc-s24",
+      "word_id": "_contrast",
+      "text": "Malý dinosaurus byl s_rotek.",
+      "full": "Malý dinosaurus byl sirotek.",
+      "answer": "i",
+      "audio": "sc-s24.mp3"
+    },
+    {
+      "id": "s01-n1",
+      "word_id": "s01",
+      "text": "Můj s_n hraje fotbal.",
+      "full": "Můj syn hraje fotbal.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s01-n2",
+      "word_id": "s01",
+      "text": "Máme dva s_ny.",
+      "full": "Máme dva syny.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s01-n3",
+      "word_id": "s01",
+      "text": "Táta vzal s_na na ryby.",
+      "full": "Táta vzal syna na ryby.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s01-n4",
+      "word_id": "s01",
+      "text": "S_nek už spí.",
+      "full": "Synek už spí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s02-n1",
+      "word_id": "s02",
+      "text": "Ještě nejsem s_tý.",
+      "full": "Ještě nejsem sytý.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s02-n2",
+      "word_id": "s02",
+      "text": "Dědeček se nas_til.",
+      "full": "Dědeček se nasytil.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s02-n3",
+      "word_id": "s02",
+      "text": "Je to s_tá polévka.",
+      "full": "Je to sytá polévka.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s02-n4",
+      "word_id": "s02",
+      "text": "Dnes jsme s_tí.",
+      "full": "Dnes jsme sytí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s03-n1",
+      "word_id": "s03",
+      "text": "Pizza má hodně s_ra.",
+      "full": "Pizza má hodně sýra.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s03-n2",
+      "word_id": "s03",
+      "text": "Myš miluje s_r.",
+      "full": "Myš miluje sýr.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s03-n3",
+      "word_id": "s03",
+      "text": "Koupím s_r v obchodě.",
+      "full": "Koupím sýr v obchodě.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s03-n4",
+      "word_id": "s03",
+      "text": "S_rový dort je dobrý.",
+      "full": "Sýrový dort je dobrý.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s04-n1",
+      "word_id": "s04",
+      "text": "Ryba je s_rová.",
+      "full": "Ryba je syrová.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s04-n2",
+      "word_id": "s04",
+      "text": "Žralok jí s_rové ryby.",
+      "full": "Žralok jí syrové ryby.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s04-n3",
+      "word_id": "s04",
+      "text": "Tohle těsto je s_rové.",
+      "full": "Tohle těsto je syrové.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s04-n4",
+      "word_id": "s04",
+      "text": "Mrkev je s_rová a křupavá.",
+      "full": "Mrkev je syrová a křupavá.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s05-n1",
+      "word_id": "s05",
+      "text": "S_chravé ráno je studené.",
+      "full": "Sychravé ráno je studené.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s05-n2",
+      "word_id": "s05",
+      "text": "Bylo s_chravo a mlha.",
+      "full": "Bylo sychravo a mlha.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s05-n3",
+      "word_id": "s05",
+      "text": "Dnes je s_chravý den.",
+      "full": "Dnes je sychravý den.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s05-n4",
+      "word_id": "s05",
+      "text": "Za s_chravého počasí nosím čepici.",
+      "full": "Za sychravého počasí nosím čepici.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s06-n1",
+      "word_id": "s06",
+      "text": "Květina us_chá.",
+      "full": "Květina usychá.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s06-n2",
+      "word_id": "s06",
+      "text": "Rybník v létě vys_chá.",
+      "full": "Rybník v létě vysychá.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s06-n3",
+      "word_id": "s06",
+      "text": "Prádlo rychle us_chá.",
+      "full": "Prádlo rychle usychá.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s06-n4",
+      "word_id": "s06",
+      "text": "Louže na slunci vys_chá.",
+      "full": "Louže na slunci vysychá.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s07-n1",
+      "word_id": "s07",
+      "text": "S_kora má žluté bříško.",
+      "full": "Sýkora má žluté bříško.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s07-n2",
+      "word_id": "s07",
+      "text": "S_korka skáče po větvi.",
+      "full": "Sýkorka skáče po větvi.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s07-n3",
+      "word_id": "s07",
+      "text": "Do budky letí s_kora.",
+      "full": "Do budky letí sýkora.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s07-n4",
+      "word_id": "s07",
+      "text": "Hnízdo má s_kora v budce.",
+      "full": "Hnízdo má sýkora v budce.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s08-n1",
+      "word_id": "s08",
+      "text": "S_ček sedí na skále.",
+      "full": "Sýček sedí na skále.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s08-n2",
+      "word_id": "s08",
+      "text": "S_ček je malá sova.",
+      "full": "Sýček je malá sova.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s08-n3",
+      "word_id": "s08",
+      "text": "Ve tmě houká s_ček.",
+      "full": "Ve tmě houká sýček.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s08-n4",
+      "word_id": "s08",
+      "text": "S_ček loví brouky.",
+      "full": "Sýček loví brouky.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s09-n1",
+      "word_id": "s09",
+      "text": "S_sel stojí na zadních.",
+      "full": "Sysel stojí na zadních.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s09-n2",
+      "word_id": "s09",
+      "text": "S_sel si dělá zásoby.",
+      "full": "Sysel si dělá zásoby.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s09-n3",
+      "word_id": "s09",
+      "text": "S_sel se schoval do nory.",
+      "full": "Sysel se schoval do nory.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s09-n4",
+      "word_id": "s09",
+      "text": "S_slí mládě je maličké.",
+      "full": "Syslí mládě je maličké.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s10-n1",
+      "word_id": "s10",
+      "text": "Kočka s_čí na psa.",
+      "full": "Kočka syčí na psa.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s10-n2",
+      "word_id": "s10",
+      "text": "Had s_čí v trávě.",
+      "full": "Had syčí v trávě.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s10-n3",
+      "word_id": "s10",
+      "text": "Pára zas_čela z hrnce.",
+      "full": "Pára zasyčela z hrnce.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s10-n4",
+      "word_id": "s10",
+      "text": "Slyším s_kot hada.",
+      "full": "Slyším sykot hada.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s11-n1",
+      "word_id": "s11",
+      "text": "Táta s_pe sůl do polévky.",
+      "full": "Táta sype sůl do polévky.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s11-n2",
+      "word_id": "s11",
+      "text": "Pekař s_pe cukr na koláč.",
+      "full": "Pekař sype cukr na koláč.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s11-n3",
+      "word_id": "s11",
+      "text": "Nas_pu zrní slepicím.",
+      "full": "Nasypu zrní slepicím.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "s11-n4",
+      "word_id": "s11",
+      "text": "Pes s_pe a kašle.",
+      "full": "Pes sípe a kašle.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "sc-n1",
+      "word_id": "_contrast",
+      "text": "s_rup",
+      "full": "sirup",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "sc-n2",
+      "word_id": "_contrast",
+      "text": "Houká s_réna.",
+      "full": "Houká siréna.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "sc-n3",
+      "word_id": "_contrast",
+      "text": "Postavili nové s_dliště.",
+      "full": "Postavili nové sídliště.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "sc-n4",
+      "word_id": "_contrast",
+      "text": "Rybáři opravují s_tě.",
+      "full": "Rybáři opravují sítě.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "sc-n5",
+      "word_id": "_contrast",
+      "text": "Slyšíme s_gnál rádia.",
+      "full": "Slyšíme signál rádia.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "sc-n6",
+      "word_id": "_contrast",
+      "text": "S_ce jsem unavený, ale půjdu.",
+      "full": "Sice jsem unavený, ale půjdu.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "sc-n7",
+      "word_id": "_contrast",
+      "text": "Fotbalový s_mulátor je zábavný.",
+      "full": "Fotbalový simulátor je zábavný.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "sc-n8",
+      "word_id": "_contrast",
+      "text": "Do čaje dám s_rup.",
+      "full": "Do čaje dám sirup.",
+      "answer": "i",
+      "audio": null
+    }
+  ],
+  "extra_cards": [
+    {
+      "id": "s11-sipat",
+      "for": "s11",
+      "label": "Pozor: sípat",
+      "word": "sípat (sípe, sípal)",
+      "meaning_cs": "Chraptivě a namáhavě dýchat, jako nemocný.",
+      "hook_cs": "Malé i je tenká píšťalka: sípe, sípat, slyšíš tenký zvuk.",
+      "examples": [
+        "Nemocný pes sípe.",
+        "Dědeček při chůzi sípe.",
+        "Po běhu jsem sípal.",
+        "Starý dinosaurus sípe do kopce."
+      ],
+      "tip_cs": "Někdo chraptivě dýchá? Píšu i. Sype se písek, mouka nebo cukr? Píšu y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A tired blocky dinosaur puffing small clouds of breath, resting on a rock after a long climb.",
+      "audio": "s11-sipat.mp3",
+      "audio_text": "sípat. Chraptivě a namáhavě dýchat, jako nemocný. Malé i je tenká píšťalka: sípe, sípat, slyšíš tenký zvuk. Nemocný pes sípe. Dědeček při chůzi sípe. Po běhu jsem sípal. Pozor: sypat písek nebo mouku se píše s ypsilon."
+    }
+  ]
+}

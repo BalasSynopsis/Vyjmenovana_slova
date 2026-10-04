@@ -1,0 +1,1433 @@
+{
+  "letter": "L",
+  "island": {
+    "name": "Lyžařský ostrov",
+    "biome": "snowy mountain slopes with pine forest and a frozen lake",
+    "guardian": "Blyštivý žralok"
+  },
+  "words": [
+    {
+      "id": "l01",
+      "word": "slyšet",
+      "meaning_cs": "Vnímat zvuky ušima.",
+      "gloss_en": "to hear",
+      "hook_cs": "Ucho se nakloní na stranu a udělá tvar Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky voxel dinosaur with a big raised ear, tilting its head to listen to a bird singing on a branch.",
+      "related": [
+        "uslyšet",
+        "slyšení",
+        "slyšitelný",
+        "neslyšící"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l02",
+      "word": "mlýn",
+      "meaning_cs": "Budova, kde se mele mouka.",
+      "gloss_en": "mill",
+      "hook_cs": "Lopatky mlýna se nahoře kříží do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cozy blocky voxel windmill on a green hill with turning wooden sails.",
+      "related": [
+        "mlynář",
+        "mlýnský"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l03",
+      "word": "blýskat se",
+      "meaning_cs": "Na obloze svítí blesk.",
+      "gloss_en": "to flash (lightning)",
+      "hook_cs": "Blesk na obloze se klikatí přesně jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A bright zigzag lightning bolt flashing in a dark sky above blocky voxel hills.",
+      "related": [
+        "blýsknout",
+        "zablýsknout se",
+        "blýskavý"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l04",
+      "word": "polykat",
+      "meaning_cs": "Posílat sousto z krku do žaludku.",
+      "gloss_en": "to swallow",
+      "hook_cs": "Krk se při polykání protáhne do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly blocky voxel shark swallowing a small fish whole.",
+      "related": [
+        "polykání",
+        "polykat"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l05",
+      "word": "plynout",
+      "meaning_cs": "Pomalu téct nebo ubíhat, třeba o čase.",
+      "gloss_en": "to flow, to pass",
+      "hook_cs": "Řeka se před soutokem rozdvojí do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A calm blocky voxel river flowing gently through a green meadow.",
+      "related": [
+        "plyn",
+        "plynulý",
+        "uplynout",
+        "plynulost"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l06",
+      "word": "plýtvat",
+      "meaning_cs": "Zbytečně něco utrácet nebo ztrácet.",
+      "gloss_en": "to waste",
+      "hook_cs": "Z kohoutku zbytečně teče voda do tvaru Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A dripping blocky voxel water tap with water running wastefully into a drain.",
+      "related": [
+        "plýtvání",
+        "vyplýtvat"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l07",
+      "word": "vzlykat",
+      "meaning_cs": "Plakat a přitom prudce oddechovat.",
+      "gloss_en": "to sob",
+      "hook_cs": "Slzy na tváři stečou dolů a rozdvojí se do Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small sad blocky voxel dinosaur with a tear rolling down its cheek.",
+      "related": [
+        "vzlyk",
+        "vzlykot",
+        "zavzlykat"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l08",
+      "word": "lysý",
+      "meaning_cs": "Bez vlasů na hlavě.",
+      "gloss_en": "bald",
+      "hook_cs": "Na lysé hlavě trčí poslední vlasy jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A friendly blocky voxel grandpa dinosaur with a completely bald, shiny head.",
+      "related": [
+        "lysina",
+        "olysat"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l09",
+      "word": "lýtko",
+      "meaning_cs": "Zadní část nohy pod kolenem.",
+      "gloss_en": "calf (of the leg)",
+      "hook_cs": "Lýtkový sval má nahoře dvě hlavy jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A close-up of a blocky voxel leg showing a strong rounded calf muscle.",
+      "related": [
+        "lýtkový"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l10",
+      "word": "lýko",
+      "meaning_cs": "Vlákna pod kůrou stromu.",
+      "gloss_en": "bast (tree fiber)",
+      "hook_cs": "Vlákno lýka se na konci rozdvojí jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. Thin strips of tree bark fiber being peeled from a blocky voxel tree branch.",
+      "related": [
+        "lýkový"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l11",
+      "word": "lyže",
+      "meaning_cs": "Dlouhé úzké prkno na jízdu po sněhu.",
+      "gloss_en": "ski",
+      "hook_cs": "Dvě zkřížené lyžařské hole vytvoří tvar Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A pair of colorful blocky voxel skis standing upright in fresh snow.",
+      "related": [
+        "lyžař",
+        "lyžování",
+        "lyžovat",
+        "lyžařský"
+      ],
+      "trap": {
+        "word": "líže",
+        "meaning_cs": "Olizuje něco jazykem, třeba zmrzlinu."
+      }
+    },
+    {
+      "id": "l12",
+      "word": "pelyněk",
+      "meaning_cs": "Hořká bylina se šedozelenými lístky.",
+      "gloss_en": "wormwood (bitter herb)",
+      "hook_cs": "Lístek pelyňku se na špičce rozdvojí do Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small bunch of grayish-green blocky voxel herb growing in a sunny meadow.",
+      "related": [
+        "pelyňkový"
+      ],
+      "trap": null
+    },
+    {
+      "id": "l13",
+      "word": "plyš",
+      "meaning_cs": "Měkká huňatá látka na hračky.",
+      "gloss_en": "plush fabric",
+      "hook_cs": "Plyšový medvídek má ouška nastražená jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A soft blocky voxel plush teddy bear sitting on a bed.",
+      "related": [
+        "plyšák",
+        "plyšový"
+      ],
+      "trap": null
+    }
+  ],
+  "items": [
+    {
+      "id": "l01-s1",
+      "word_id": "l01",
+      "text": "usl_šet",
+      "full": "uslyšet",
+      "answer": "y",
+      "audio": "l01-s1.mp3"
+    },
+    {
+      "id": "l01-s2",
+      "word_id": "l01",
+      "text": "sl_šení",
+      "full": "slyšení",
+      "answer": "y",
+      "audio": "l01-s2.mp3"
+    },
+    {
+      "id": "l01-s3",
+      "word_id": "l01",
+      "text": "Dobře sl_ším ptáky.",
+      "full": "Dobře slyším ptáky.",
+      "answer": "y",
+      "audio": "l01-s3.mp3"
+    },
+    {
+      "id": "l01-s4",
+      "word_id": "l01",
+      "text": "Sl_ším dinosaura v lese.",
+      "full": "Slyším dinosaura v lese.",
+      "answer": "y",
+      "audio": "l01-s4.mp3"
+    },
+    {
+      "id": "l01-s5",
+      "word_id": "l01",
+      "text": "Sl_šíš ten hrom?",
+      "full": "Slyšíš ten hrom?",
+      "answer": "y",
+      "audio": "l01-s5.mp3"
+    },
+    {
+      "id": "l02-s1",
+      "word_id": "l02",
+      "text": "ml_nář",
+      "full": "mlynář",
+      "answer": "y",
+      "audio": "l02-s1.mp3"
+    },
+    {
+      "id": "l02-s2",
+      "word_id": "l02",
+      "text": "ml_nský",
+      "full": "mlýnský",
+      "answer": "y",
+      "audio": "l02-s2.mp3"
+    },
+    {
+      "id": "l02-s3",
+      "word_id": "l02",
+      "text": "Na kopci stojí starý ml_n.",
+      "full": "Na kopci stojí starý mlýn.",
+      "answer": "y",
+      "audio": "l02-s3.mp3"
+    },
+    {
+      "id": "l02-s4",
+      "word_id": "l02",
+      "text": "Ml_nář mele mouku.",
+      "full": "Mlynář mele mouku.",
+      "answer": "y",
+      "audio": "l02-s4.mp3"
+    },
+    {
+      "id": "l02-s5",
+      "word_id": "l02",
+      "text": "Vítr točí lopatkami ml_na.",
+      "full": "Vítr točí lopatkami mlýna.",
+      "answer": "y",
+      "audio": "l02-s5.mp3"
+    },
+    {
+      "id": "l03-s1",
+      "word_id": "l03",
+      "text": "bl_sknout",
+      "full": "blýsknout",
+      "answer": "y",
+      "audio": "l03-s1.mp3"
+    },
+    {
+      "id": "l03-s2",
+      "word_id": "l03",
+      "text": "zabl_sknout se",
+      "full": "zablýsknout se",
+      "answer": "y",
+      "audio": "l03-s2.mp3"
+    },
+    {
+      "id": "l03-s3",
+      "word_id": "l03",
+      "text": "Na obloze se bl_ská.",
+      "full": "Na obloze se blýská.",
+      "answer": "y",
+      "audio": "l03-s3.mp3"
+    },
+    {
+      "id": "l03-s4",
+      "word_id": "l03",
+      "text": "Před bouří se bl_skalo.",
+      "full": "Před bouří se blýskalo.",
+      "answer": "y",
+      "audio": "l03-s4.mp3"
+    },
+    {
+      "id": "l03-s5",
+      "word_id": "l03",
+      "text": "Žralok viděl, jak se bl_ská.",
+      "full": "Žralok viděl, jak se blýská.",
+      "answer": "y",
+      "audio": "l03-s5.mp3"
+    },
+    {
+      "id": "l04-s1",
+      "word_id": "l04",
+      "text": "pol_kání",
+      "full": "polykání",
+      "answer": "y",
+      "audio": "l04-s1.mp3"
+    },
+    {
+      "id": "l04-s2",
+      "word_id": "l04",
+      "text": "pol_kat",
+      "full": "polykat",
+      "answer": "y",
+      "audio": "l04-s2.mp3"
+    },
+    {
+      "id": "l04-s3",
+      "word_id": "l04",
+      "text": "Musím pol_kat prášky.",
+      "full": "Musím polykat prášky.",
+      "answer": "y",
+      "audio": "l04-s3.mp3"
+    },
+    {
+      "id": "l04-s4",
+      "word_id": "l04",
+      "text": "Had dokáže pol_kat myš.",
+      "full": "Had dokáže polykat myš.",
+      "answer": "y",
+      "audio": "l04-s4.mp3"
+    },
+    {
+      "id": "l04-s5",
+      "word_id": "l04",
+      "text": "Žralok pol_ká rybu vcelku.",
+      "full": "Žralok polyká rybu vcelku.",
+      "answer": "y",
+      "audio": "l04-s5.mp3"
+    },
+    {
+      "id": "l05-s1",
+      "word_id": "l05",
+      "text": "pl_n",
+      "full": "plyn",
+      "answer": "y",
+      "audio": "l05-s1.mp3"
+    },
+    {
+      "id": "l05-s2",
+      "word_id": "l05",
+      "text": "pl_nulý",
+      "full": "plynulý",
+      "answer": "y",
+      "audio": "l05-s2.mp3"
+    },
+    {
+      "id": "l05-s3",
+      "word_id": "l05",
+      "text": "Čas rychle pl_ne.",
+      "full": "Čas rychle plyne.",
+      "answer": "y",
+      "audio": "l05-s3.mp3"
+    },
+    {
+      "id": "l05-s4",
+      "word_id": "l05",
+      "text": "Řeka pomalu pl_ne loukou.",
+      "full": "Řeka pomalu plyne loukou.",
+      "answer": "y",
+      "audio": "l05-s4.mp3"
+    },
+    {
+      "id": "l05-s5",
+      "word_id": "l05",
+      "text": "Prázdniny nám rychle upl_nuly.",
+      "full": "Prázdniny nám rychle uplynuly.",
+      "answer": "y",
+      "audio": "l05-s5.mp3"
+    },
+    {
+      "id": "l06-s1",
+      "word_id": "l06",
+      "text": "pl_tvat",
+      "full": "plýtvat",
+      "answer": "y",
+      "audio": "l06-s1.mp3"
+    },
+    {
+      "id": "l06-s2",
+      "word_id": "l06",
+      "text": "pl_tvání",
+      "full": "plýtvání",
+      "answer": "y",
+      "audio": "l06-s2.mp3"
+    },
+    {
+      "id": "l06-s3",
+      "word_id": "l06",
+      "text": "Nesmíme pl_tvat vodou.",
+      "full": "Nesmíme plýtvat vodou.",
+      "answer": "y",
+      "audio": "l06-s3.mp3"
+    },
+    {
+      "id": "l06-s4",
+      "word_id": "l06",
+      "text": "Škoda pl_tvat jídlem.",
+      "full": "Škoda plýtvat jídlem.",
+      "answer": "y",
+      "audio": "l06-s4.mp3"
+    },
+    {
+      "id": "l06-s5",
+      "word_id": "l06",
+      "text": "Doma nepl_tváme energií.",
+      "full": "Doma neplýtváme energií.",
+      "answer": "y",
+      "audio": "l06-s5.mp3"
+    },
+    {
+      "id": "l07-s1",
+      "word_id": "l07",
+      "text": "vzl_kat",
+      "full": "vzlykat",
+      "answer": "y",
+      "audio": "l07-s1.mp3"
+    },
+    {
+      "id": "l07-s2",
+      "word_id": "l07",
+      "text": "vzl_k",
+      "full": "vzlyk",
+      "answer": "y",
+      "audio": "l07-s2.mp3"
+    },
+    {
+      "id": "l07-s3",
+      "word_id": "l07",
+      "text": "Miminko potichu vzl_ká.",
+      "full": "Miminko potichu vzlyká.",
+      "answer": "y",
+      "audio": "l07-s3.mp3"
+    },
+    {
+      "id": "l07-s4",
+      "word_id": "l07",
+      "text": "Chlapec smutně vzl_kal.",
+      "full": "Chlapec smutně vzlykal.",
+      "answer": "y",
+      "audio": "l07-s4.mp3"
+    },
+    {
+      "id": "l07-s5",
+      "word_id": "l07",
+      "text": "Slyšel jsem tichý vzl_k.",
+      "full": "Slyšel jsem tichý vzlyk.",
+      "answer": "y",
+      "audio": "l07-s5.mp3"
+    },
+    {
+      "id": "l08-s1",
+      "word_id": "l08",
+      "text": "l_sý",
+      "full": "lysý",
+      "answer": "y",
+      "audio": "l08-s1.mp3"
+    },
+    {
+      "id": "l08-s2",
+      "word_id": "l08",
+      "text": "l_sina",
+      "full": "lysina",
+      "answer": "y",
+      "audio": "l08-s2.mp3"
+    },
+    {
+      "id": "l08-s3",
+      "word_id": "l08",
+      "text": "Dědeček má l_sou hlavu.",
+      "full": "Dědeček má lysou hlavu.",
+      "answer": "y",
+      "audio": "l08-s3.mp3"
+    },
+    {
+      "id": "l08-s4",
+      "word_id": "l08",
+      "text": "Sup má l_sý krk.",
+      "full": "Sup má lysý krk.",
+      "answer": "y",
+      "audio": "l08-s4.mp3"
+    },
+    {
+      "id": "l08-s5",
+      "word_id": "l08",
+      "text": "Kopec byl úplně l_sý.",
+      "full": "Kopec byl úplně lysý.",
+      "answer": "y",
+      "audio": "l08-s5.mp3"
+    },
+    {
+      "id": "l09-s1",
+      "word_id": "l09",
+      "text": "l_tko",
+      "full": "lýtko",
+      "answer": "y",
+      "audio": "l09-s1.mp3"
+    },
+    {
+      "id": "l09-s2",
+      "word_id": "l09",
+      "text": "l_tkový",
+      "full": "lýtkový",
+      "answer": "y",
+      "audio": "l09-s2.mp3"
+    },
+    {
+      "id": "l09-s3",
+      "word_id": "l09",
+      "text": "Bolí mě l_tko.",
+      "full": "Bolí mě lýtko.",
+      "answer": "y",
+      "audio": "l09-s3.mp3"
+    },
+    {
+      "id": "l09-s4",
+      "word_id": "l09",
+      "text": "Po běhu mám tuhé l_tko.",
+      "full": "Po běhu mám tuhé lýtko.",
+      "answer": "y",
+      "audio": "l09-s4.mp3"
+    },
+    {
+      "id": "l09-s5",
+      "word_id": "l09",
+      "text": "Komár mě štípl do l_tka.",
+      "full": "Komár mě štípl do lýtka.",
+      "answer": "y",
+      "audio": "l09-s5.mp3"
+    },
+    {
+      "id": "l10-s1",
+      "word_id": "l10",
+      "text": "l_ko",
+      "full": "lýko",
+      "answer": "y",
+      "audio": "l10-s1.mp3"
+    },
+    {
+      "id": "l10-s2",
+      "word_id": "l10",
+      "text": "l_kožrout",
+      "full": "lýkožrout",
+      "answer": "y",
+      "audio": "l10-s2.mp3"
+    },
+    {
+      "id": "l10-s3",
+      "word_id": "l10",
+      "text": "Loupeme l_ko z větve.",
+      "full": "Loupeme lýko z větve.",
+      "answer": "y",
+      "audio": "l10-s3.mp3"
+    },
+    {
+      "id": "l10-s4",
+      "word_id": "l10",
+      "text": "Košík je upletený z l_ka.",
+      "full": "Košík je upletený z lýka.",
+      "answer": "y",
+      "audio": "l10-s4.mp3"
+    },
+    {
+      "id": "l10-s5",
+      "word_id": "l10",
+      "text": "Provaz uděláme z l_ka.",
+      "full": "Provaz uděláme z lýka.",
+      "answer": "y",
+      "audio": "l10-s5.mp3"
+    },
+    {
+      "id": "l11-s1",
+      "word_id": "l11",
+      "text": "l_že",
+      "full": "lyže",
+      "answer": "y",
+      "audio": "l11-s1.mp3"
+    },
+    {
+      "id": "l11-s2",
+      "word_id": "l11",
+      "text": "l_žař",
+      "full": "lyžař",
+      "answer": "y",
+      "audio": "l11-s2.mp3"
+    },
+    {
+      "id": "l11-s3",
+      "word_id": "l11",
+      "text": "l_žování",
+      "full": "lyžování",
+      "answer": "y",
+      "audio": "l11-s3.mp3"
+    },
+    {
+      "id": "l11-s4",
+      "word_id": "l11",
+      "text": "Mám nové l_že.",
+      "full": "Mám nové lyže.",
+      "answer": "y",
+      "audio": "l11-s4.mp3"
+    },
+    {
+      "id": "l11-s5",
+      "word_id": "l11",
+      "text": "Jedeme na hory l_žovat.",
+      "full": "Jedeme na hory lyžovat.",
+      "answer": "y",
+      "audio": "l11-s5.mp3"
+    },
+    {
+      "id": "l11-s6",
+      "word_id": "l11",
+      "text": "Pes rád l_že zmrzlinu.",
+      "full": "Pes rád líže zmrzlinu.",
+      "answer": "i",
+      "audio": "l11-s6.mp3"
+    },
+    {
+      "id": "l11-s7",
+      "word_id": "l11",
+      "text": "Kočka si l_že packu.",
+      "full": "Kočka si líže packu.",
+      "answer": "i",
+      "audio": "l11-s7.mp3"
+    },
+    {
+      "id": "l12-s1",
+      "word_id": "l12",
+      "text": "pel_něk",
+      "full": "pelyněk",
+      "answer": "y",
+      "audio": "l12-s1.mp3"
+    },
+    {
+      "id": "l12-s2",
+      "word_id": "l12",
+      "text": "pel_ňkový",
+      "full": "pelyňkový",
+      "answer": "y",
+      "audio": "l12-s2.mp3"
+    },
+    {
+      "id": "l12-s3",
+      "word_id": "l12",
+      "text": "Pel_něk voní hořce.",
+      "full": "Pelyněk voní hořce.",
+      "answer": "y",
+      "audio": "l12-s3.mp3"
+    },
+    {
+      "id": "l12-s4",
+      "word_id": "l12",
+      "text": "Na louce roste pel_něk.",
+      "full": "Na louce roste pelyněk.",
+      "answer": "y",
+      "audio": "l12-s4.mp3"
+    },
+    {
+      "id": "l12-s5",
+      "word_id": "l12",
+      "text": "Babička sbírá pel_něk.",
+      "full": "Babička sbírá pelyněk.",
+      "answer": "y",
+      "audio": "l12-s5.mp3"
+    },
+    {
+      "id": "l13-s1",
+      "word_id": "l13",
+      "text": "pl_š",
+      "full": "plyš",
+      "answer": "y",
+      "audio": "l13-s1.mp3"
+    },
+    {
+      "id": "l13-s2",
+      "word_id": "l13",
+      "text": "pl_šák",
+      "full": "plyšák",
+      "answer": "y",
+      "audio": "l13-s2.mp3"
+    },
+    {
+      "id": "l13-s3",
+      "word_id": "l13",
+      "text": "Mám měkkého pl_šáka.",
+      "full": "Mám měkkého plyšáka.",
+      "answer": "y",
+      "audio": "l13-s3.mp3"
+    },
+    {
+      "id": "l13-s4",
+      "word_id": "l13",
+      "text": "Medvídek je z pl_še.",
+      "full": "Medvídek je z plyše.",
+      "answer": "y",
+      "audio": "l13-s4.mp3"
+    },
+    {
+      "id": "l13-s5",
+      "word_id": "l13",
+      "text": "Polštář je pl_šový.",
+      "full": "Polštář je plyšový.",
+      "answer": "y",
+      "audio": "l13-s5.mp3"
+    },
+    {
+      "id": "lc-s1",
+      "word_id": "_contrast",
+      "text": "l_ný",
+      "full": "líný",
+      "answer": "i",
+      "audio": "lc-s1.mp3"
+    },
+    {
+      "id": "lc-s2",
+      "word_id": "_contrast",
+      "text": "Lenochod je hrozně l_ný.",
+      "full": "Lenochod je hrozně líný.",
+      "answer": "i",
+      "audio": "lc-s2.mp3"
+    },
+    {
+      "id": "lc-s3",
+      "word_id": "_contrast",
+      "text": "l_zat",
+      "full": "lízat",
+      "answer": "i",
+      "audio": "lc-s3.mp3"
+    },
+    {
+      "id": "lc-s4",
+      "word_id": "_contrast",
+      "text": "Žralok rád l_zá led.",
+      "full": "Žralok rád lízá led.",
+      "answer": "i",
+      "audio": "lc-s4.mp3"
+    },
+    {
+      "id": "lc-s5",
+      "word_id": "_contrast",
+      "text": "l_pa",
+      "full": "lípa",
+      "answer": "i",
+      "audio": "lc-s5.mp3"
+    },
+    {
+      "id": "lc-s6",
+      "word_id": "_contrast",
+      "text": "Před domem roste l_pa.",
+      "full": "Před domem roste lípa.",
+      "answer": "i",
+      "audio": "lc-s6.mp3"
+    },
+    {
+      "id": "lc-s7",
+      "word_id": "_contrast",
+      "text": "l_st",
+      "full": "list",
+      "answer": "i",
+      "audio": "lc-s7.mp3"
+    },
+    {
+      "id": "lc-s8",
+      "word_id": "_contrast",
+      "text": "Spadl mi ze stromu l_st.",
+      "full": "Spadl mi ze stromu list.",
+      "answer": "i",
+      "audio": "lc-s8.mp3"
+    },
+    {
+      "id": "lc-s9",
+      "word_id": "_contrast",
+      "text": "kl_d",
+      "full": "klid",
+      "answer": "i",
+      "audio": "lc-s9.mp3"
+    },
+    {
+      "id": "lc-s10",
+      "word_id": "_contrast",
+      "text": "V lese je krásný kl_d.",
+      "full": "V lese je krásný klid.",
+      "answer": "i",
+      "audio": "lc-s10.mp3"
+    },
+    {
+      "id": "lc-s11",
+      "word_id": "_contrast",
+      "text": "sl_b",
+      "full": "slib",
+      "answer": "i",
+      "audio": "lc-s11.mp3"
+    },
+    {
+      "id": "lc-s12",
+      "word_id": "_contrast",
+      "text": "Dodržel jsem svůj sl_b.",
+      "full": "Dodržel jsem svůj slib.",
+      "answer": "i",
+      "audio": "lc-s12.mp3"
+    },
+    {
+      "id": "lc-s13",
+      "word_id": "_contrast",
+      "text": "l_dé",
+      "full": "lidé",
+      "answer": "i",
+      "audio": "lc-s13.mp3"
+    },
+    {
+      "id": "lc-s14",
+      "word_id": "_contrast",
+      "text": "Na ostrově žijí l_dé.",
+      "full": "Na ostrově žijí lidé.",
+      "answer": "i",
+      "audio": "lc-s14.mp3"
+    },
+    {
+      "id": "lc-s15",
+      "word_id": "_contrast",
+      "text": "kl_č",
+      "full": "klíč",
+      "answer": "i",
+      "audio": "lc-s15.mp3"
+    },
+    {
+      "id": "lc-s16",
+      "word_id": "_contrast",
+      "text": "Ztratil jsem svůj kl_č.",
+      "full": "Ztratil jsem svůj klíč.",
+      "answer": "i",
+      "audio": "lc-s16.mp3"
+    },
+    {
+      "id": "lc-s17",
+      "word_id": "_contrast",
+      "text": "l_ška",
+      "full": "liška",
+      "answer": "i",
+      "audio": "lc-s17.mp3"
+    },
+    {
+      "id": "lc-s18",
+      "word_id": "_contrast",
+      "text": "L_ška běží přes pole.",
+      "full": "Liška běží přes pole.",
+      "answer": "i",
+      "audio": "lc-s18.mp3"
+    },
+    {
+      "id": "lc-s19",
+      "word_id": "_contrast",
+      "text": "pol_bek",
+      "full": "polibek",
+      "answer": "i",
+      "audio": "lc-s19.mp3"
+    },
+    {
+      "id": "lc-s20",
+      "word_id": "_contrast",
+      "text": "Dal mámě pol_bek na tvář.",
+      "full": "Dal mámě polibek na tvář.",
+      "answer": "i",
+      "audio": "lc-s20.mp3"
+    },
+    {
+      "id": "lc-s21",
+      "word_id": "_contrast",
+      "text": "bl_zko",
+      "full": "blízko",
+      "answer": "i",
+      "audio": "lc-s21.mp3"
+    },
+    {
+      "id": "lc-s22",
+      "word_id": "_contrast",
+      "text": "Škola je bl_zko domova.",
+      "full": "Škola je blízko domova.",
+      "answer": "i",
+      "audio": "lc-s22.mp3"
+    },
+    {
+      "id": "lc-s23",
+      "word_id": "_contrast",
+      "text": "sl_dit",
+      "full": "slídit",
+      "answer": "i",
+      "audio": "lc-s23.mp3"
+    },
+    {
+      "id": "lc-s24",
+      "word_id": "_contrast",
+      "text": "Pes rád sl_dí v lese.",
+      "full": "Pes rád slídí v lese.",
+      "answer": "i",
+      "audio": "lc-s24.mp3"
+    },
+    {
+      "id": "lc-s25",
+      "word_id": "_contrast",
+      "text": "skl_zet",
+      "full": "sklízet",
+      "answer": "i",
+      "audio": "lc-s25.mp3"
+    },
+    {
+      "id": "lc-s26",
+      "word_id": "_contrast",
+      "text": "Musíme skl_zet úrodu.",
+      "full": "Musíme sklízet úrodu.",
+      "answer": "i",
+      "audio": "lc-s26.mp3"
+    },
+    {
+      "id": "l01-n1",
+      "word_id": "l01",
+      "text": "Slon dobře sl_ší.",
+      "full": "Slon dobře slyší.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l01-n2",
+      "word_id": "l01",
+      "text": "Bez sluchátek nesl_ším.",
+      "full": "Bez sluchátek neslyším.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l01-n3",
+      "word_id": "l01",
+      "text": "Sl_šel jsem zvonek.",
+      "full": "Slyšel jsem zvonek.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l01-n4",
+      "word_id": "l01",
+      "text": "Ve tmě sl_ším kroky.",
+      "full": "Ve tmě slyším kroky.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l02-n1",
+      "word_id": "l02",
+      "text": "Ml_n mele obilí.",
+      "full": "Mlýn mele obilí.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l02-n2",
+      "word_id": "l02",
+      "text": "Ve ml_ně je mouka.",
+      "full": "Ve mlýně je mouka.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l02-n3",
+      "word_id": "l02",
+      "text": "Do ml_na jede traktor.",
+      "full": "Do mlýna jede traktor.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l02-n4",
+      "word_id": "l02",
+      "text": "Ml_nský kámen drtí zrno.",
+      "full": "Mlýnský kámen drtí zrno.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l03-n1",
+      "word_id": "l03",
+      "text": "Venku se bl_ská.",
+      "full": "Venku se blýská.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l03-n2",
+      "word_id": "l03",
+      "text": "Zub žraloka se bl_ská.",
+      "full": "Zub žraloka se blýská.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l03-n3",
+      "word_id": "l03",
+      "text": "Zabl_sklo se nad lesem.",
+      "full": "Zablýsklo se nad lesem.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l03-n4",
+      "word_id": "l03",
+      "text": "Ve tmě se bl_skají světla.",
+      "full": "Ve tmě se blýskají světla.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l04-n1",
+      "word_id": "l04",
+      "text": "Racek pol_ká rybu.",
+      "full": "Racek polyká rybu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l04-n2",
+      "word_id": "l04",
+      "text": "Nepol_kej žvýkačku.",
+      "full": "Nepolykej žvýkačku.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l04-n3",
+      "word_id": "l04",
+      "text": "Bolí mě pol_kat.",
+      "full": "Bolí mě polykat.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l04-n4",
+      "word_id": "l04",
+      "text": "Pol_ká tabletu s vodou.",
+      "full": "Polyká tabletu s vodou.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l05-n1",
+      "word_id": "l05",
+      "text": "Voda pl_ne potokem.",
+      "full": "Voda plyne potokem.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l05-n2",
+      "word_id": "l05",
+      "text": "Pl_n v kamnech hoří.",
+      "full": "Plyn v kamnech hoří.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l05-n3",
+      "word_id": "l05",
+      "text": "Upl_nul týden od výletu.",
+      "full": "Uplynul týden od výletu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l05-n4",
+      "word_id": "l05",
+      "text": "Pl_nulá řeč je příjemná.",
+      "full": "Plynulá řeč je příjemná.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l06-n1",
+      "word_id": "l06",
+      "text": "Nepl_tvej papírem.",
+      "full": "Neplýtvej papírem.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l06-n2",
+      "word_id": "l06",
+      "text": "Pl_tvání jídlem je škoda.",
+      "full": "Plýtvání jídlem je škoda.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l06-n3",
+      "word_id": "l06",
+      "text": "Pl_tvali jsme časem.",
+      "full": "Plýtvali jsme časem.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l06-n4",
+      "word_id": "l06",
+      "text": "Nechci vypl_tvat peníze.",
+      "full": "Nechci vyplýtvat peníze.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l07-n1",
+      "word_id": "l07",
+      "text": "Holčička zavzl_kala.",
+      "full": "Holčička zavzlykala.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l07-n2",
+      "word_id": "l07",
+      "text": "Slyšel jsem vzl_kot.",
+      "full": "Slyšel jsem vzlykot.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l07-n3",
+      "word_id": "l07",
+      "text": "Vzl_kal a utíral si oči.",
+      "full": "Vzlykal a utíral si oči.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l07-n4",
+      "word_id": "l07",
+      "text": "Nevzl_kej, bude líp.",
+      "full": "Nevzlykej, bude líp.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l08-n1",
+      "word_id": "l08",
+      "text": "Kámen byl l_sý.",
+      "full": "Kámen byl lysý.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l08-n2",
+      "word_id": "l08",
+      "text": "Na hlavě má l_sinu.",
+      "full": "Na hlavě má lysinu.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l08-n3",
+      "word_id": "l08",
+      "text": "Táta začíná ol_sat.",
+      "full": "Táta začíná olysat.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l08-n4",
+      "word_id": "l08",
+      "text": "L_sý pán nosí čepici.",
+      "full": "Lysý pán nosí čepici.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l09-n1",
+      "word_id": "l09",
+      "text": "Fotbalista si zranil l_tko.",
+      "full": "Fotbalista si zranil lýtko.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l09-n2",
+      "word_id": "l09",
+      "text": "Natáhl jsem si l_tko.",
+      "full": "Natáhl jsem si lýtko.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l09-n3",
+      "word_id": "l09",
+      "text": "Kopačka tlačí na l_tko.",
+      "full": "Kopačka tlačí na lýtko.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l09-n4",
+      "word_id": "l09",
+      "text": "Mám pevná l_tka.",
+      "full": "Mám pevná lýtka.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l10-n1",
+      "word_id": "l10",
+      "text": "Z l_ka se plete košík.",
+      "full": "Z lýka se plete košík.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l10-n2",
+      "word_id": "l10",
+      "text": "Brouk žere l_ko pod kůrou.",
+      "full": "Brouk žere lýko pod kůrou.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l10-n3",
+      "word_id": "l10",
+      "text": "Kůra a l_ko jsou na stromě.",
+      "full": "Kůra a lýko jsou na stromě.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l10-n4",
+      "word_id": "l10",
+      "text": "Košík z l_kových proužků je lehký.",
+      "full": "Košík z lýkových proužků je lehký.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l11-n1",
+      "word_id": "l11",
+      "text": "Opřel jsem l_že o zeď.",
+      "full": "Opřel jsem lyže o zeď.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l11-n2",
+      "word_id": "l11",
+      "text": "Sjíždím svah na l_žích.",
+      "full": "Sjíždím svah na lyžích.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l11-n3",
+      "word_id": "l11",
+      "text": "L_žař sjíždí kopec.",
+      "full": "Lyžař sjíždí kopec.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l11-n4",
+      "word_id": "l11",
+      "text": "Štěně l_že vodu.",
+      "full": "Štěně líže vodu.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "l12-n1",
+      "word_id": "l12",
+      "text": "Pel_něk je hořká rostlina.",
+      "full": "Pelyněk je hořká rostlina.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l12-n2",
+      "word_id": "l12",
+      "text": "Čaj z pel_ňku nemám rád.",
+      "full": "Čaj z pelyňku nemám rád.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l12-n3",
+      "word_id": "l12",
+      "text": "Pel_něk má šedé listy.",
+      "full": "Pelyněk má šedé listy.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l12-n4",
+      "word_id": "l12",
+      "text": "Ovce nežere pel_něk.",
+      "full": "Ovce nežere pelyněk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l13-n1",
+      "word_id": "l13",
+      "text": "Pl_šový medvěd sedí na posteli.",
+      "full": "Plyšový medvěd sedí na posteli.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l13-n2",
+      "word_id": "l13",
+      "text": "Pl_šák spí se mnou.",
+      "full": "Plyšák spí se mnou.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l13-n3",
+      "word_id": "l13",
+      "text": "Mám pl_šového žraloka.",
+      "full": "Mám plyšového žraloka.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "l13-n4",
+      "word_id": "l13",
+      "text": "Pl_šová hračka je měkká.",
+      "full": "Plyšová hračka je měkká.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "lc-n1",
+      "word_id": "_contrast",
+      "text": "l_monáda",
+      "full": "limonáda",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "lc-n2",
+      "word_id": "_contrast",
+      "text": "Hrajeme fotbalovou l_gu.",
+      "full": "Hrajeme fotbalovou ligu.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "lc-n3",
+      "word_id": "_contrast",
+      "text": "V l_stopadu padá sníh.",
+      "full": "V listopadu padá sníh.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "lc-n4",
+      "word_id": "_contrast",
+      "text": "Bl_ží se bouřka.",
+      "full": "Blíží se bouřka.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "lc-n5",
+      "word_id": "_contrast",
+      "text": "Na ostrově je chladná kl_ma.",
+      "full": "Na ostrově je chladná klima.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "lc-n6",
+      "word_id": "_contrast",
+      "text": "Sl_mák leze po kameni.",
+      "full": "Slimák leze po kameni.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "lc-n7",
+      "word_id": "_contrast",
+      "text": "Je tu kl_dné ráno.",
+      "full": "Je tu klidné ráno.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "lc-n8",
+      "word_id": "_contrast",
+      "text": "Zavolám na l_nku pomoci.",
+      "full": "Zavolám na linku pomoci.",
+      "answer": "i",
+      "audio": null
+    }
+  ],
+  "extra_cards": [
+    {
+      "id": "l11-lize",
+      "for": "l11",
+      "label": "Pozor: líže",
+      "word": "líže (lízat, lízal)",
+      "meaning_cs": "Olizuje něco jazykem, třeba zmrzlinu.",
+      "hook_cs": "Malé i má tečku jako kapku zmrzliny: líže, lízat, lízátko.",
+      "examples": [
+        "Pes líže misku.",
+        "Kočka si líže packu.",
+        "Dítě líže lízátko.",
+        "Olízl si prsty od čokolády."
+      ],
+      "tip_cs": "Jazyk, zmrzlina, lízátko? Píšu i. Sníh, svah, sjezdovka? Píšu y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A happy blocky dinosaur licking a big ice cream cone, a small ski in the snow behind.",
+      "audio": "l11-lize.mp3",
+      "audio_text": "líže. Olizuje něco jazykem, třeba zmrzlinu. Malé i má tečku jako kapku zmrzliny: líže, lízat, lízátko. Pes líže misku. Kočka si líže packu. Dítě líže lízátko. Pozor: lyže na sníh se píšou s ypsilon."
+    }
+  ]
+}

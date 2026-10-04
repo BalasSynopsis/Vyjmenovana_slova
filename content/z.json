@@ -1,0 +1,550 @@
+{
+  "letter": "Z",
+  "island": {
+    "name": "Zubatý ostrov",
+    "biome": "sunny rocky coast with a lagoon, palm trees and grassy dunes",
+    "guardian": "Zubatý žralok"
+  },
+  "words": [
+    {
+      "id": "z01",
+      "word": "brzy",
+      "meaning_cs": "Za chvíli, v blízké době.",
+      "gloss_en": "soon, early",
+      "hook_cs": "Y utíká na dvou nohách – brzy bude v cíli.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A small blocky dinosaur runner almost reaching a finish line at sunrise, a plain round clock without numbers beside it.",
+      "related": [],
+      "trap": null
+    },
+    {
+      "id": "z02",
+      "word": "jazyk",
+      "meaning_cs": "Sval v puse. Taky řeč, kterou mluvíme.",
+      "gloss_en": "tongue, language",
+      "hook_cs": "Had má jazyk rozdvojený jako Y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cheeky friendly blocky dinosaur sticking out a long pink tongue in a sunny meadow.",
+      "related": [
+        "jazýček",
+        "jazykový",
+        "jazyková",
+        "jazykolam",
+        "jazyku"
+      ],
+      "trap": null
+    },
+    {
+      "id": "z03",
+      "word": "nazývat (se)",
+      "meaning_cs": "Dávat něčemu jméno, říkat tomu nějak.",
+      "gloss_en": "to call, to be called",
+      "hook_cs": "Y jsou dvě ruce, které ukazují na jméno.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A blocky explorer dinosaur pointing at a strange new friendly blocky creature, as if giving it a name, other small dinosaurs cheering.",
+      "related": [
+        "nazývání",
+        "nazývaný",
+        "nazývám",
+        "nazýval"
+      ],
+      "trap": null
+    }
+  ],
+  "items": [
+    {
+      "id": "z01-s1",
+      "word_id": "z01",
+      "text": "brz_",
+      "full": "brzy",
+      "answer": "y",
+      "audio": "z01-s1.mp3"
+    },
+    {
+      "id": "z01-s2",
+      "word_id": "z01",
+      "text": "Brz_ bude jaro.",
+      "full": "Brzy bude jaro.",
+      "answer": "y",
+      "audio": "z01-s2.mp3"
+    },
+    {
+      "id": "z01-s3",
+      "word_id": "z01",
+      "text": "Brz_ půjdeme do školy.",
+      "full": "Brzy půjdeme do školy.",
+      "answer": "y",
+      "audio": "z01-s3.mp3"
+    },
+    {
+      "id": "z01-s4",
+      "word_id": "z01",
+      "text": "Dinosaurus brz_ přijde k jezeru.",
+      "full": "Dinosaurus brzy přijde k jezeru.",
+      "answer": "y",
+      "audio": "z01-s4.mp3"
+    },
+    {
+      "id": "z01-s5",
+      "word_id": "z01",
+      "text": "Máma přijde brz_ domů.",
+      "full": "Máma přijde brzy domů.",
+      "answer": "y",
+      "audio": "z01-s5.mp3"
+    },
+    {
+      "id": "z01-s6",
+      "word_id": "z01",
+      "text": "Žralok se brz_ nají.",
+      "full": "Žralok se brzy nají.",
+      "answer": "y",
+      "audio": "z01-s6.mp3"
+    },
+    {
+      "id": "z01-s7",
+      "word_id": "z01",
+      "text": "Zápas začne brz_.",
+      "full": "Zápas začne brzy.",
+      "answer": "y",
+      "audio": "z01-s7.mp3"
+    },
+    {
+      "id": "z01-s8",
+      "word_id": "z01",
+      "text": "Brz_ ráno vstaneme.",
+      "full": "Brzy ráno vstaneme.",
+      "answer": "y",
+      "audio": "z01-s8.mp3"
+    },
+    {
+      "id": "z02-s1",
+      "word_id": "z02",
+      "text": "jaz_k",
+      "full": "jazyk",
+      "answer": "y",
+      "audio": "z02-s1.mp3"
+    },
+    {
+      "id": "z02-s2",
+      "word_id": "z02",
+      "text": "jaz_ček",
+      "full": "jazýček",
+      "answer": "y",
+      "audio": "z02-s2.mp3"
+    },
+    {
+      "id": "z02-s3",
+      "word_id": "z02",
+      "text": "jaz_kový",
+      "full": "jazykový",
+      "answer": "y",
+      "audio": "z02-s3.mp3"
+    },
+    {
+      "id": "z02-s4",
+      "word_id": "z02",
+      "text": "Had má dlouhý jaz_k.",
+      "full": "Had má dlouhý jazyk.",
+      "answer": "y",
+      "audio": "z02-s4.mp3"
+    },
+    {
+      "id": "z02-s5",
+      "word_id": "z02",
+      "text": "Žába chytá mouchu jaz_kem.",
+      "full": "Žába chytá mouchu jazykem.",
+      "answer": "y",
+      "audio": "z02-s5.mp3"
+    },
+    {
+      "id": "z02-s6",
+      "word_id": "z02",
+      "text": "Učím se další jaz_k.",
+      "full": "Učím se další jazyk.",
+      "answer": "y",
+      "audio": "z02-s6.mp3"
+    },
+    {
+      "id": "z02-s7",
+      "word_id": "z02",
+      "text": "Ukaž jaz_k, řekl doktor.",
+      "full": "Ukaž jazyk, řekl doktor.",
+      "answer": "y",
+      "audio": "z02-s7.mp3"
+    },
+    {
+      "id": "z02-s8",
+      "word_id": "z02",
+      "text": "Nekousni se do jaz_ka.",
+      "full": "Nekousni se do jazyka.",
+      "answer": "y",
+      "audio": "z02-s8.mp3"
+    },
+    {
+      "id": "z03-s1",
+      "word_id": "z03",
+      "text": "naz_vat",
+      "full": "nazývat",
+      "answer": "y",
+      "audio": "z03-s1.mp3"
+    },
+    {
+      "id": "z03-s2",
+      "word_id": "z03",
+      "text": "naz_vání",
+      "full": "nazývání",
+      "answer": "y",
+      "audio": "z03-s2.mp3"
+    },
+    {
+      "id": "z03-s3",
+      "word_id": "z03",
+      "text": "naz_vaný",
+      "full": "nazývaný",
+      "answer": "y",
+      "audio": "z03-s3.mp3"
+    },
+    {
+      "id": "z03-s4",
+      "word_id": "z03",
+      "text": "Jak se naz_vá ten ostrov?",
+      "full": "Jak se nazývá ten ostrov?",
+      "answer": "y",
+      "audio": "z03-s4.mp3"
+    },
+    {
+      "id": "z03-s5",
+      "word_id": "z03",
+      "text": "Tahle ryba se naz_vá žralok.",
+      "full": "Tahle ryba se nazývá žralok.",
+      "answer": "y",
+      "audio": "z03-s5.mp3"
+    },
+    {
+      "id": "z03-s6",
+      "word_id": "z03",
+      "text": "Jak naz_váš svého psa?",
+      "full": "Jak nazýváš svého psa?",
+      "answer": "y",
+      "audio": "z03-s6.mp3"
+    },
+    {
+      "id": "z03-s7",
+      "word_id": "z03",
+      "text": "Naz_váme ho Zubatý žralok.",
+      "full": "Nazýváme ho Zubatý žralok.",
+      "answer": "y",
+      "audio": "z03-s7.mp3"
+    },
+    {
+      "id": "z03-s8",
+      "word_id": "z03",
+      "text": "Jak se naz_vá tvoje škola?",
+      "full": "Jak se nazývá tvoje škola?",
+      "answer": "y",
+      "audio": "z03-s8.mp3"
+    },
+    {
+      "id": "zc-s1",
+      "word_id": "_contrast",
+      "text": "z_ma",
+      "full": "zima",
+      "answer": "i",
+      "audio": "zc-s1.mp3"
+    },
+    {
+      "id": "zc-s2",
+      "word_id": "_contrast",
+      "text": "z_tra",
+      "full": "zítra",
+      "answer": "i",
+      "audio": "zc-s2.mp3"
+    },
+    {
+      "id": "zc-s3",
+      "word_id": "_contrast",
+      "text": "z_sk",
+      "full": "zisk",
+      "answer": "i",
+      "audio": "zc-s3.mp3"
+    },
+    {
+      "id": "zc-s4",
+      "word_id": "_contrast",
+      "text": "naz_tří",
+      "full": "nazítří",
+      "answer": "i",
+      "audio": "zc-s4.mp3"
+    },
+    {
+      "id": "zc-s5",
+      "word_id": "_contrast",
+      "text": "Venku je velká z_ma.",
+      "full": "Venku je velká zima.",
+      "answer": "i",
+      "audio": "zc-s5.mp3"
+    },
+    {
+      "id": "zc-s6",
+      "word_id": "_contrast",
+      "text": "Z_tra máme fotbal.",
+      "full": "Zítra máme fotbal.",
+      "answer": "i",
+      "audio": "zc-s6.mp3"
+    },
+    {
+      "id": "zc-s7",
+      "word_id": "_contrast",
+      "text": "Medvěd z_mu přečká v noře.",
+      "full": "Medvěd zimu přečká v noře.",
+      "answer": "i",
+      "audio": "zc-s7.mp3"
+    },
+    {
+      "id": "zc-s8",
+      "word_id": "_contrast",
+      "text": "Pes z_vá na gauči.",
+      "full": "Pes zívá na gauči.",
+      "answer": "i",
+      "audio": "zc-s8.mp3"
+    },
+    {
+      "id": "zc-s9",
+      "word_id": "_contrast",
+      "text": "Mám z_mní bundu.",
+      "full": "Mám zimní bundu.",
+      "answer": "i",
+      "audio": "zc-s9.mp3"
+    },
+    {
+      "id": "zc-s10",
+      "word_id": "_contrast",
+      "text": "Prodej přinesl velký z_sk.",
+      "full": "Prodej přinesl velký zisk.",
+      "answer": "i",
+      "audio": "zc-s10.mp3"
+    },
+    {
+      "id": "zc-s11",
+      "word_id": "_contrast",
+      "text": "Z_nek je šedý kov.",
+      "full": "Zinek je šedý kov.",
+      "answer": "i",
+      "audio": "zc-s11.mp3"
+    },
+    {
+      "id": "zc-s12",
+      "word_id": "_contrast",
+      "text": "Ježek z_muje pod keřem.",
+      "full": "Ježek zimuje pod keřem.",
+      "answer": "i",
+      "audio": "zc-s12.mp3"
+    },
+    {
+      "id": "z01-n1",
+      "word_id": "z01",
+      "text": "Táta se vrátí brz_.",
+      "full": "Táta se vrátí brzy.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z01-n2",
+      "word_id": "z01",
+      "text": "Přijdu brz_ ze školy.",
+      "full": "Přijdu brzy ze školy.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z01-n3",
+      "word_id": "z01",
+      "text": "Brz_ nás čeká test.",
+      "full": "Brzy nás čeká test.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z01-n4",
+      "word_id": "z01",
+      "text": "Brz_ ráno štěká pes.",
+      "full": "Brzy ráno štěká pes.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z01-n5",
+      "word_id": "z01",
+      "text": "Sloni přijdou brz_ k vodě.",
+      "full": "Sloni přijdou brzy k vodě.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z01-n6",
+      "word_id": "z01",
+      "text": "Kamarád brz_ přijede.",
+      "full": "Kamarád brzy přijede.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z02-n1",
+      "word_id": "z02",
+      "text": "jaz_ková",
+      "full": "jazyková",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z02-n2",
+      "word_id": "z02",
+      "text": "jaz_kolam",
+      "full": "jazykolam",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z02-n3",
+      "word_id": "z02",
+      "text": "Mrož má velký jaz_k.",
+      "full": "Mrož má velký jazyk.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z02-n4",
+      "word_id": "z02",
+      "text": "Kočičí jaz_k je drsný.",
+      "full": "Kočičí jazyk je drsný.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z02-n5",
+      "word_id": "z02",
+      "text": "Zkus říct jaz_kolam rychle.",
+      "full": "Zkus říct jazykolam rychle.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z02-n6",
+      "word_id": "z02",
+      "text": "Jaz_k je mokrý od vody.",
+      "full": "Jazyk je mokrý od vody.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z03-n1",
+      "word_id": "z03",
+      "text": "naz_vám",
+      "full": "nazývám",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z03-n2",
+      "word_id": "z03",
+      "text": "naz_val",
+      "full": "nazýval",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z03-n3",
+      "word_id": "z03",
+      "text": "Jak se naz_vá tahle hra?",
+      "full": "Jak se nazývá tahle hra?",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z03-n4",
+      "word_id": "z03",
+      "text": "Náš tým se naz_vá Jaguáři.",
+      "full": "Náš tým se nazývá Jaguáři.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z03-n5",
+      "word_id": "z03",
+      "text": "Ten strom se naz_vá dub.",
+      "full": "Ten strom se nazývá dub.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "z03-n6",
+      "word_id": "z03",
+      "text": "Naz_vají ho králem lesa.",
+      "full": "Nazývají ho králem lesa.",
+      "answer": "y",
+      "audio": null
+    },
+    {
+      "id": "zc-n1",
+      "word_id": "_contrast",
+      "text": "z_mní",
+      "full": "zimní",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "zc-n2",
+      "word_id": "_contrast",
+      "text": "z_třek",
+      "full": "zítřek",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "zc-n3",
+      "word_id": "_contrast",
+      "text": "z_vnout",
+      "full": "zívnout",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "zc-n4",
+      "word_id": "_contrast",
+      "text": "z_nek",
+      "full": "zinek",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "zc-n5",
+      "word_id": "_contrast",
+      "text": "Z_tra jdeme do školy.",
+      "full": "Zítra jdeme do školy.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "zc-n6",
+      "word_id": "_contrast",
+      "text": "Na horách je z_ma.",
+      "full": "Na horách je zima.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "zc-n7",
+      "word_id": "_contrast",
+      "text": "Žába z_vá u rybníka.",
+      "full": "Žába zívá u rybníka.",
+      "answer": "i",
+      "audio": null
+    },
+    {
+      "id": "zc-n8",
+      "word_id": "_contrast",
+      "text": "Naz_tří odjel domů.",
+      "full": "Nazítří odjel domů.",
+      "answer": "i",
+      "audio": null
+    }
+  ],
+  "extra_cards": []
+}
