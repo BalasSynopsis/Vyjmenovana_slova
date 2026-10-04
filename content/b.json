@@ -1592,5 +1592,42 @@
       "answer": "i",
       "audio": null
     }
+  ],
+  "extra_cards": [
+    {
+      "id": "b01-bit",
+      "for": "b01",
+      "label": "Pozor: bít",
+      "word": "bít (bije, bil)",
+      "meaning_cs": "Udeřit, tlouct. Taky když hodiny nebo zvon zvoní.",
+      "hook_cs": "Malé i je rovná palička na buben: bít, bije, bil.",
+      "examples": [
+        "Bubeník bije na buben.",
+        "Hodiny bijí poledne.",
+        "Srdce mi rychle bilo.",
+        "Dinosaurus bil ocasem o zem."
+      ],
+      "tip_cs": "Někdo bouchá, tluče nebo zvoní? Píšu i. Někdo nebo něco je? Píšu y.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. A cheerful blocky dinosaur drummer hitting a big drum with a stick, a small clock tower behind.",
+      "audio": "b01-bit.mp3",
+      "audio_text": "bít. Udeřit, tlouct. Taky když hodiny nebo zvon zvoní. Malé i je rovná palička na buben: bít, bije, bil. Bubeník bije na buben. Hodiny bijí poledne. Srdce mi rychle bilo."
+    },
+    {
+      "id": "b01-dobyt",
+      "for": "b01",
+      "label": "dobýt, nabýt",
+      "word": "dobýt, nabýt",
+      "meaning_cs": "Dobýt = získat bojem, třeba hrad. Nabýt = získat, třeba odvahu.",
+      "hook_cs": "Patří do rodiny slova být, proto ypsilon. Rytíři dobyli hrad a byli na něj hrdí.",
+      "examples": [
+        "Rytíři dobyli hrad.",
+        "Pomalu nabyl odvahy.",
+        "Pozor: dobít mobil, nabít baterku – tam je i (bít)."
+      ],
+      "tip_cs": "Získat něco = dobýt, nabýt (y). Nabít, dobít baterku = i.",
+      "image_prompt": "Original blocky voxel-art illustration, bright saturated colours, soft lighting, plain light background, single clear subject, no text, no letters, no logos. Blocky voxel knights raising a flag on top of a castle they have just won.",
+      "audio": "b01-dobyt.mp3",
+      "audio_text": "dobýt, nabýt. Dobýt znamená získat bojem, třeba hrad. Nabýt znamená získat, třeba odvahu. Patří do rodiny slova být, proto ypsilon. Rytíři dobyli hrad. Pomalu nabyl odvahy. Pozor: nabít baterku nebo dobít mobil se píše s měkkým i."
+    }
   ]
 }
