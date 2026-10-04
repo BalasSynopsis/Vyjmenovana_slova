@@ -3,9 +3,9 @@
    Content lives in content/<letter>.json; nothing here hard-codes a word. */
 'use strict';
 
-const APP_VERSION = '2026-10-04 v5';
+const APP_VERSION = '2026-10-04 v6';
 const ISLANDS = ['b', 'l', 'm', 'p', 's', 'v', 'z'];
-const ACTIVE = ['b'];               // v0.1: only B is playable
+const ACTIVE = ['b', 'l', 'm', 'p', 's', 'v', 'z'];
 const $app = document.getElementById('app');
 const $crumb = document.getElementById('crumb');
 
@@ -135,7 +135,7 @@ async function viewMap() {
   const tiles = await Promise.all(ISLANDS.map(async L => {
     const active = ACTIVE.includes(L);
     let pct = 0;
-    if (active) { const c = await loadIsland(L); pct = Math.round(100 * c.words.filter(w => wordMastered(p, c, w.id)).length / c.words.length); }
+    if (active) { const c = await loadIsland(L); const dots = c.words.reduce((a, w) => a + Math.min(4, (p.words[w.id] || {}).box || 0), 0); pct = Math.round(100 * dots / (4 * c.words.length)); }
     return `<button class="isle ${active ? 'active' : 'locked'}" ${active ? `data-go="#/island/${L}"` : 'disabled'} aria-label="Ostrov ${L.toUpperCase()}">
       <span class="letter">${L.toUpperCase()}</span>${active ? `<span class="bar"><i style="width:${pct}%"></i></span>` : ''}</button>`;
   }));
